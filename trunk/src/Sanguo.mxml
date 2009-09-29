@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" width="800" height="600" creationComplete="init()">
+	<mx:Script>
+		<![CDATA[
+			import com.map.MapController;
+			import com.display.time.EnterFrameManager;
+			import com.display.time.TimeManager;
+			import com.avater.AvaterController;
+			import com.avater.SanguoHeroVO;
+			import com.avater.SanguoHero;
+			import flash.utils.getTimer;
+			import com.map.MapDataVO;
+			import flash.utils.setTimeout;
+			import com.map.MapDataBase;
+			import com.sanguomap.SanguomapData;
+			import com.map.MapBase;
+			import com.display.Box;
+			import com.avater.AvaterBase;
+			import asgl.math.Color;
+			import com.edit.ColorUtils;
+			import mx.utils.ColorUtil;
+			import com.edit.EditColorImage;
+			import mx.core.UIComponent;
+			
+			private var container:UIComponent
+			
+			private var mapdata:MapDataBase
+			private var map:MapBase ;
+			private var mapController:MapController;
+			
+			private function init():void{
+				container = new UIComponent()
+				this.addChild(container);
+//				var editImage:EditColorImage = new EditColorImage()
+//				editImage.setGifPath("assets/sanguo/bubing.gif");
+				var vo:SanguoHeroVO = new SanguoHeroVO()
+				vo.url = "assets/sanguo/walk/太史慈.png"
+				vo.guid = "whh"
+				vo.level = 80;
+				vo.nickname ="Script"
+				vo.title = "圣者无敌"
+
+				var avater:SanguoHero = AvaterController.getInstance().getAvaterBase(vo,SanguoHero) as SanguoHero
+				avater.direction = 1;
+//				avater.addEventListener(Event.CHANGE,function ():void{
+//					avater.direction = 3
+//					avater.DefaultedStop(1);
+//				});
+
+				mapdata = new SanguomapData(getMap())
+
+				map= new MapBase(mapdata,null,"assets/sanguo/map/maptest.png");
+				
+				mapController = MapController.getInstance();
+				mapController.avaterContaroller = AvaterController.getInstance();
+				mapController.map = map;
+//				map.setShowArea(15,10);
+				map.addChild(avater.getView(),5,6)
+//				map.addChild(avater2.getView(),7,6);
+//				map.addChild(avater3.getView(),7,4);
+//				map.addChild(avater4.getView(),5,5)
+//				map.addChild(avater5.getView(),4,5)
+				container.addChild(map.getView());
+//				setTimeout(function ():void{
+//					var t1:int = 4
+//					var t2:int = 3
+//					mapdata.mapdatavo.x = t1;
+//					mapdata.mapdatavo.y = t2;
+//					map.setMapdata(mapdata);
+//				},1000);
+				
+				nativeWindow.stage.addEventListener(KeyboardEvent.KEY_DOWN,keyHandler);
+				nativeWindow.stage.addEventListener(KeyboardEvent.KEY_UP,keyHandler);
+//				avater.data = {url:"assets/sanguo/paobing.gif",level:12,nickname:"叶莹莹",title:"无敌美女"}
+				
+//				container.addChild(avater.getView());
+			}
+			
+			private function getMap():Array{
+				var arr:Array = []
+				for(var i:int = 0;i<24;i++){
+					var temp:Array = []
+					for(var j:int = 0;j<24;j++){
+						temp.push(1);
+					}
+					arr.push(temp);
+				}
+				
+				return arr;
+			}
+			
+			private var currentD:int
+			private function keyHandler(event:KeyboardEvent):void{
+				var t:int = getTimer();
+				if(event.type == KeyboardEvent.KEY_DOWN){
+					if(keyDict[event.keyCode]){
+						return;
+					}
+					keyDict[event.keyCode] = true
+					switch(event.keyCode){
+						case Keyboard.LEFT:
+							currentD = 3
+							EnterFrameManager.regFunction(dokeyDown,0.1);
+						break;
+						case Keyboard.RIGHT:
+							currentD =7
+							EnterFrameManager.regFunction(dokeyDown,0.1);
+						break;
+						case Keyboard.UP:
+							currentD =5
+							EnterFrameManager.regFunction(dokeyDown,0.1);
+						break;
+						case Keyboard.DOWN:
+							currentD =1
+							EnterFrameManager.regFunction(dokeyDown,0.1);
+						break;
+					}
+				}else{
+					keyDict[event.keyCode] = null
+					delete keyDict[event.keyCode]
+					if(event.keyCode >= 37 && event.keyCode<=40)
+						EnterFrameManager.removeFunction(dokeyDown)
+				}
+			}
+			
+			private var keyDict:Dictionary = new Dictionary()
+			private function dokeyDown():Boolean{
+				map.moveBydirection(currentD);
+				return true
+			}
+		]]>
+	</mx:Script>
+</mx:WindowedApplication>
