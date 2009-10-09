@@ -15,16 +15,19 @@ package com.display
 		protected var _enabled:Boolean;
 		protected var inited:Boolean
 		protected var addToStaged:Boolean
+		protected var layerDict:Dictionary;
 		public function Container(_skin:DisplayObjectContainer = null)
 		{
 			addToStaged = false;
 			inited = false;
 			dict = new Dictionary()
+			layerDict = new Dictionary();
 			if(_skin){
 				this.skin = _skin;
 			}else{
 				this.skin = initSkin();
 			}
+			
 			
 			this.addEventListener(Event.ADDED_TO_STAGE,toStageHandler);
 			this.addEventListener(Event.REMOVED_FROM_STAGE,toStageHandler);
@@ -40,6 +43,9 @@ package com.display
 			this._skin = value;
 			if(this._skin){
 				createSkin();
+				if(_skin != this){
+					this.addChild(_skin);
+				}
 			}
 		}
 		
@@ -153,6 +159,38 @@ package com.display
 		
 		protected function setSkinColorNULL(value:Boolean):void{
 			ColorUtils.setToGray(this,value);
+		}
+		
+		public function createBoxLayer(
+			boxname:String,
+			layer:int,
+			_skin:DisplayObjectContainer=null,
+			boxType:String = LayoutType.HORIZONTAL,
+			directionFlag:Boolean = false,
+			hAlign:String = LayoutType.LEFT,
+			vAlign:String=LayoutType.MIDDLE
+		):DisplayObject{
+			var box:Box = new Box(boxType,directionFlag,_skin);
+			box.hAlign = LayoutType.LEFT;
+			box.vAlign = LayoutType.MIDDLE;
+			return addDisplayObjectToLayer(boxname,box,layer);
+		}
+		
+		public function addDisplayObjectToLayer(name:String,_skin:DisplayObject,layer:int):DisplayObject{
+			layerDict[name] = _skin;
+			this.addChildAt(_skin,layer);
+			return _skin;
+		}
+		
+		public function getDisplayObjectByLayerName(name:String):DisplayObject{
+			return layerDict[name]
+		}
+		
+		public function addChildDisplayObject(name:String,displayObject:DisplayObject):void{
+			var displayObjectContainer:DisplayObjectContainer = layerDict[name];
+			if(displayObjectContainer != null){
+				displayObjectContainer.addChild(displayObject);
+			}
 		}
 	}
 }

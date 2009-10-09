@@ -78,17 +78,17 @@ package com.display.skin
 		protected function initSkin():void{
 			if(skin is MovieClip){
 				defaultImage = skin as DisplayObject
-				if(actives = null){
+				if(actives == null){
 					actives = [1,2,3,4,5,6,7,8];
 				}else if(actives is Object){
 					return;
 				}
-				reset2(actives);
+				reset2(actives as Array);
 			}else if(skin is Array){
 				reset2(skin as Array);
 			}else if(skin is DisplayObject){
-				if(actives = null){
-					reset(skin)
+				if(actives == null){
+					reset(skin as DisplayObject)
 				}
 			}else if(skin is Object && actives == null){
 				actives = skin;
@@ -155,5 +155,5 @@ package com.display.skin
 					add("skin001")
 			}
 		}
-		
 	}
+}
