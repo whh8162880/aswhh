@@ -20,6 +20,7 @@ package com.display.text
 		protected var _height:Number = -1;
 		
 		protected var textType:String;
+		protected var currentText:String
 		
 		override public function set width(value:Number):void{
 			_width = value;
@@ -55,24 +56,21 @@ package com.display.text
 		}
 		
 		override public function set text(value:String):void{
-			var t:String = text.toString()
-			t = t.replace(/\r/g,"\n");
-			value = getText(value);
-			if(value == t) {
+			if(value == currentText) {
 				return;
 			}
+			currentText = value;
+			value = getText(value);
 			super.text = value;
 			dispatch2();
 		}
 		
 		override public function set htmlText(value:String):void{
-			var t:String = htmlText.toString()
-			t = t.replace(/\r/g,"\n");
-			value = getText(value);
-			if(value == t) {
+			if(value == currentText) {
 				return;
 			}
-			
+			currentText = value;
+			value = getText(value);
 			super.htmlText = value;
 			dispatch2();
 		}
