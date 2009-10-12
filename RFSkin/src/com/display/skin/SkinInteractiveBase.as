@@ -20,6 +20,8 @@ package com.display.skin
 		{
 			this.skin = skin;
 			initSkin()
+			if(defaultImage)
+				addChild(defaultImage);
 		}
 		
 		public function reset(defaultImage:DisplayObject,mouseover:Object = null,selected:Object = null,mouseoverselected:Object = null,disabledDefault:Object = null,disabledselected:Object = null,disabledmouseover:Object = null,disabledselectedmouseover:Object = null):void{
