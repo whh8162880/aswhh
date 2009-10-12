@@ -15,7 +15,7 @@ package com.display.button
 		{
 			this.useHandCursor = true;
 			this.buttonMode = true;
-			super(getUseSkin(_skin));
+			super(getUseSkin(skin));
 		}
 		
 		override protected function doEnabled():void{

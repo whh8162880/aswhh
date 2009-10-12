@@ -1,6 +1,7 @@
 package com.display
 {
 	import com.display.event.LayoutEvent;
+	import com.display.utils.ObjectUtils;
 	import com.youbt.utils.ArrayUtil;
 	
 	import flash.display.DisplayObject;
@@ -159,6 +160,13 @@ package com.display
 		override public function get height():Number{
 			return currentHeight// < super.height ? super.height : currentHeight;
 		} 
+		
+		override protected function doData():void{
+			var o:Object = ObjectUtils.getObjectPropertys(this._data);
+			for (var s:String in o){
+				setValue(s,o[s]);
+			}
+		}
 		
 //		public function getRealWidth():Number{
 //			return super.width;
