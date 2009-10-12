@@ -17,6 +17,7 @@ package com.display.label
 				skin = initSkin()
 			}
 			super(skin, type, directionFlag);
+			addListener()
 		}
 		
 		override protected function initSkin():DisplayObjectContainer{
@@ -26,6 +27,7 @@ package com.display.label
 			box.addChild(text);
 			box.regDisplayObjectToProperty(text,"label");
 			text.selectable = false
+			text.mouseEnabled = false
 			return box;
 		}
 		

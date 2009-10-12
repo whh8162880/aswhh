@@ -1,5 +1,6 @@
 package com.display.button
 {
+	import com.display.Box;
 	import com.display.Container;
 	import com.display.LayoutType;
 	import com.display.skin.SkinInteractiveBase;
@@ -54,9 +55,16 @@ package com.display.button
 		
 		
 		protected function rollHandelr(event:MouseEvent):void{
-			var mouseover:Boolean = (event.target == MouseEvent.ROLL_OVER);
-			skinInteractive.mouseover = mouseover;
-			skinInteractive.refresh();
+			var mouseover:Boolean = (event.type == MouseEvent.ROLL_OVER);
+			var num:Number = numChildren;
+			while(num--){
+				var active:SkinInteractiveBase = getChildAt(num) as SkinInteractiveBase;
+				if(active == null){
+					continue;
+				}
+				active.mouseover = mouseover;
+				active.refresh(0,0,skinInteractive.width,skinInteractive.height);
+			}
 		}
 		
 		
