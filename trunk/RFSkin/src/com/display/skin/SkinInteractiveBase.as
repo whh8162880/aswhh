@@ -1,10 +1,13 @@
 package com.display.skin
 {
+	import com.display.event.LayoutEvent;
+	
 	import flash.display.DisplayObject;
 	import flash.display.MovieClip;
 	import flash.display.Shape;
 	import flash.display.Sprite;
 	import flash.events.Event;
+	import flash.events.IEventDispatcher;
 
 	public class SkinInteractiveBase extends Sprite
 	{
@@ -81,6 +84,9 @@ package com.display.skin
 		protected var refreshFlag:Boolean
 		
 		protected function initSkin():void{
+			if(skin is IEventDispatcher){
+				(skin as IEventDispatcher).addEventListener(LayoutEvent.BUILD,layoutHadnelr);
+			}
 			if(skin is MovieClip){
 				defaultImage = skin as DisplayObject
 				if(actives == null){
@@ -94,6 +100,7 @@ package com.display.skin
 			}else if(skin is DisplayObject){
 				if(actives == null){
 					reset(skin as DisplayObject)
+					
 				}
 			}else if(skin is Object && actives == null){
 				actives = skin;
@@ -174,6 +181,11 @@ package com.display.skin
 			s.graphics.drawRect(0,0,1,1)
 			s.graphics.endFill();
 			return s;
+		}
+		
+		
+		private function layoutHadnelr(event:LayoutEvent):void{
+			this.dispatchEvent(event);
 		}
 	}
 }

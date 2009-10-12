@@ -1,9 +1,9 @@
 package com.display.label
 {
 	import com.display.Box;
-	import com.display.Container;
 	import com.display.LayoutType;
 	import com.display.button.ButtonBase;
+	import com.display.event.LayoutEvent;
 	import com.display.text.Text;
 	
 	import flash.display.DisplayObjectContainer;

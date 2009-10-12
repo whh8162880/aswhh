@@ -13,5 +13,10 @@ package com.display.event
 		
 		public static const BUILD:String = "whh_layout_build";
 		
+		
+		override public function clone():Event{
+			return new LayoutEvent(this.type,this.data,this.bubbles,this.cancelable);
+		}
+		
 	}
 }

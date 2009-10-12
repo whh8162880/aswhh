@@ -1,5 +1,6 @@
 package com.display
 {
+	import com.display.event.LayoutEvent;
 	import com.youbt.utils.ColorUtils;
 	
 	import flash.display.DisplayObject;
@@ -44,7 +45,7 @@ package com.display
 			if(this._skin){
 				createSkin();
 				if(_skin != this){
-					this.addChild(_skin);
+					this.addDisplayObjectToLayer("skin",_skin,1);
 				}
 			}
 		}
@@ -178,8 +179,23 @@ package com.display
 		
 		public function addDisplayObjectToLayer(name:String,_skin:DisplayObject,layer:int):DisplayObject{
 			layerDict[name] = _skin;
+			_skin.addEventListener(LayoutEvent.BUILD,_skinrefreshHandelr);
+			if(layer > this.numChildren){
+				layer = this.numChildren
+			}
 			this.addChildAt(_skin,layer);
 			return _skin;
+		}
+		
+		public function removeDisplayObject(name:String):void{
+			var _skin:DisplayObject = layerDict[name]
+			if(_skin == null){
+				return;
+			}
+			_skin.removeEventListener(LayoutEvent.BUILD,_skinrefreshHandelr);
+			if(this.contains(_skin)){
+				this.removeChild(_skin);
+			}
 		}
 		
 		public function getDisplayObjectByLayerName(name:String):DisplayObject{
@@ -191,6 +207,10 @@ package com.display
 			if(displayObjectContainer != null){
 				displayObjectContainer.addChild(displayObject);
 			}
+		}
+		
+		private function _skinrefreshHandelr(event:LayoutEvent):void{
+			this.dispatchEvent(event);
 		}
 	}
 }
