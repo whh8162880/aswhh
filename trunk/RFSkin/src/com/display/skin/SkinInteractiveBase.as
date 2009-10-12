@@ -2,6 +2,7 @@ package com.display.skin
 {
 	import flash.display.DisplayObject;
 	import flash.display.MovieClip;
+	import flash.display.Shape;
 	import flash.display.Sprite;
 	import flash.events.Event;
 
@@ -16,12 +17,14 @@ package com.display.skin
 		protected var currentshowtype:String;
 		protected var defaultImage:DisplayObject;
 		
+		protected var drawArea:Array;
+		
 		public function SkinInteractiveBase(skin:Object=null,actives:Object=null)
 		{
 			this.skin = skin;
 			initSkin()
 			if(defaultImage)
-				addChild(defaultImage);
+				refresh()
 		}
 		
 		public function reset(defaultImage:DisplayObject,mouseover:Object = null,selected:Object = null,mouseoverselected:Object = null,disabledDefault:Object = null,disabledselected:Object = null,disabledmouseover:Object = null,disabledselectedmouseover:Object = null):void{
@@ -97,7 +100,8 @@ package com.display.skin
 			}
 		}
 		
-		public function refresh():void{
+		public function refresh(x:Number = 0,y:Number = 0,width:Number = -1,height:Number = -1):void{
+			drawArea = [x,y,width,height]
 			//call late
 			if(refreshFlag == true){
 				return;
@@ -144,6 +148,11 @@ package com.display.skin
 		protected function add(active:String):void{
 			var o:Object = actives[active];
 			if(o is DisplayObject){
+				currentshowtype = active;
+				o.x = drawArea[0];
+				o.y = drawArea[1];
+				drawArea[2] >-1 ? o.width = drawArea[2] : 0
+				drawArea[3] >-1 ? o.height = drawArea[3] : 0;
 				this.addChild(o as DisplayObject);
 			}else if(o is Number){
 				if(defaultImage){
@@ -152,10 +161,19 @@ package com.display.skin
 					}
 					(defaultImage as MovieClip).gotoAndStop(o);
 				}
-			}else if (o is null){
+			}else if (o == null){
 				if(active != "skin001")
 					add("skin001")
 			}
+		}
+		
+		protected function getSkin(alpha:Number,color:int = 0xFBFBFB):Shape{
+			var s:Shape = new Shape()
+			s.name = alpha +" : " + color;
+			s.graphics.beginFill(color,alpha);
+			s.graphics.drawRect(0,0,1,1)
+			s.graphics.endFill();
+			return s;
 		}
 	}
 }

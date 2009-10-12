@@ -1,5 +1,6 @@
 package {
 	import com.display.label.Label;
+	import com.display.skin.skins.ListInteractive;
 	
 	import flash.display.Sprite;
 	import flash.display.StageAlign;
@@ -16,6 +17,9 @@ package {
 			var label:Label = new Label();
 			label.data = {label:"你是一头猪"}
 			addChild(label);
+			
+			label.addDisplayObjectToLayer("under",new ListInteractive(),0);
+			
 		}
 	}
 }
