@@ -49,7 +49,8 @@ package com.display
 			child.addEventListener(LayoutEvent.BUILD,rebulidHandler);
 			var d:DisplayObject = super.addChildAt(child,index)
 			updataChild(child)
-			bulidflag = true;
+			if(child.width >0 && child.height > 0)
+				bulidflag = true;
 			return d;
 		}
 		
@@ -124,7 +125,7 @@ package com.display
 			return offset
 		}
 		
-		private function rebulidHandler(event:LayoutEvent):void{
+		protected function rebulidHandler(event:LayoutEvent):void{
 			var child:DisplayObject = event.currentTarget as DisplayObject
 			updataChild(child)
 			bulidflag = true;

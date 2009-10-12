@@ -1,5 +1,6 @@
 package {
 	import com.display.label.Label;
+	import com.display.list.ListBase;
 	import com.display.skin.skins.ListInteractive;
 	
 	import flash.display.Sprite;
@@ -16,9 +17,15 @@ package {
 			
 			var label:Label = new Label();
 			label.data = {label:"你是一头猪"}
-			addChild(label);
+//			addChild(label);
 			
 			label.addDisplayObjectToLayer("under",new ListInteractive(),0);
+			
+			
+			var list:ListBase = new ListBase();
+			addChild(list);
+			
+			list.data = ["你1","你23","你23","你23","你23","你23","你23"]
 			
 		}
 	}

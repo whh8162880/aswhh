@@ -75,6 +75,7 @@ package com.display
 		
 		private function enterFrameHandelr(event:Event):void{
 			bulidflag = false;
+			this.removeEventListener(Event.ENTER_FRAME,enterFrameHandelr);
 			bulid();
 		}
 		
