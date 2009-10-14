@@ -1,6 +1,7 @@
 package com.display.skin
 {
 	import com.display.event.LayoutEvent;
+	import com.display.utils.geom.IntRectangle;
 	
 	import flash.display.DisplayObject;
 	import flash.display.MovieClip;
@@ -8,6 +9,7 @@ package com.display.skin
 	import flash.display.Sprite;
 	import flash.events.Event;
 	import flash.events.IEventDispatcher;
+	import flash.utils.getTimer;
 
 	public class SkinInteractiveBase extends Sprite
 	{
@@ -20,7 +22,7 @@ package com.display.skin
 		protected var currentshowtype:String;
 		protected var defaultImage:DisplayObject;
 		
-		protected var drawArea:Array;
+		protected var intRectangle:IntRectangle;
 		
 		public function SkinInteractiveBase(skin:Object=null,actives:Object=null)
 		{
@@ -107,8 +109,8 @@ package com.display.skin
 			}
 		}
 		
-		public function refresh(x:Number = 0,y:Number = 0,width:Number = -1,height:Number = -1):void{
-			drawArea = [x,y,width,height]
+		public function refresh(intRectangle:IntRectangle = null):void{
+			this.intRectangle = intRectangle;
 			//call late
 			if(refreshFlag == true){
 				return;
@@ -156,10 +158,11 @@ package com.display.skin
 			var o:Object = actives[active];
 			if(o is DisplayObject){
 				currentshowtype = active;
-				o.x = drawArea[0];
-				o.y = drawArea[1];
-				drawArea[2] >-1 ? o.width = drawArea[2] : 0
-				drawArea[3] >-1 ? o.height = drawArea[3] : 0;
+				resize(o as DisplayObject)
+//				o.x = intRectangle.x
+//				o.y = intRectangle.y
+//				intRectangle.width >-1 ? o.width = intRectangle.width : 0
+//				intRectangle.height >-1 ? o.height = intRectangle.height : 0;
 				this.addChild(o as DisplayObject);
 			}else if(o is Number){
 				if(defaultImage){
@@ -186,6 +189,24 @@ package com.display.skin
 		
 		private function layoutHadnelr(event:LayoutEvent):void{
 			this.dispatchEvent(event);
+		}
+		private var time:int = getTimer();
+		protected function resize(d:DisplayObject):void{
+			if(!intRectangle){
+				return;
+			}
+			d.x = intRectangle.x;
+			d.y = intRectangle.y;
+			if(intRectangle.width>0){
+				d.width = intRectangle.width
+			}else{
+				intRectangle.width = d.width;
+			}
+			if(intRectangle.height>0){
+				d.height = intRectangle.height
+			}else{
+				intRectangle.height = d.height
+			}
 		}
 	}
 }
