@@ -7,6 +7,7 @@ package com.display
 			
 		}
 		
+		public static const ABSOLUTE:String = "absolute"
 		public static const VERTICAL:String = "vertical"
 		public static const HORIZONTAL:String = "horizontal"
 		

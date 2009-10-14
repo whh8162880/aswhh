@@ -1,9 +1,9 @@
 package com.display.button
 {
-	import com.display.Box;
 	import com.display.Container;
 	import com.display.LayoutType;
 	import com.display.skin.SkinInteractiveBase;
+	import com.display.utils.geom.IntRectangle;
 	
 	import flash.display.DisplayObjectContainer;
 	import flash.events.MouseEvent;
@@ -17,6 +17,10 @@ package com.display.button
 			this.useHandCursor = true;
 			this.buttonMode = true;
 			super(getUseSkin(skin));
+			this._layout = LayoutType.HORIZONTAL;
+//			this.graphics.beginFill(0xffff00,1);
+//			this.graphics.drawCircle(0,0,2);
+//			this.graphics.endFill();
 		}
 		
 		override protected function doEnabled():void{
@@ -63,10 +67,40 @@ package com.display.button
 					continue;
 				}
 				active.mouseover = mouseover;
-				active.refresh(0,0,skinInteractive.width,skinInteractive.height);
+				active.refresh(intRectangle);
 			}
 		}
 		
+		override public function get intRectangle():IntRectangle{
+			if(intRectangleFlag == false && _intRectangle){
+//				_intRectangle.x = this.x;
+//				_intRectangle.y = this.y;
+				_intRectangle.width = skinInteractive.width;
+				_intRectangle.height =  skinInteractive.height;
+			}
+			return _intRectangle; 
+		}
+		
+		
+		override public function set width(value:Number):void{
+			if(!_intRectangle) {
+				_intRectangle = new IntRectangle(0,0,-1,-1)
+			}
+			this._intRectangle.width = value;
+			bulidflag = true
+		}
+		
+		override public function set height(value:Number):void{
+			if(!_intRectangle) {
+				_intRectangle = new IntRectangle(0,0,-1,-1)
+			}
+			this._intRectangle.height = value;
+			bulidflag = true
+		}
+		
+		override protected function bulid():void{
+			super.bulid();
+		}
 		
 	}
 }

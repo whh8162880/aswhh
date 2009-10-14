@@ -9,88 +9,31 @@ package com.display
 
 	public class Box extends Container
 	{
-		protected var layouttype:String
-		protected var childrens:Array
-		protected var _maxHeight:Number = 0;
-		protected var _maxWidth:Number = 0;
-		protected var directionFlag:Boolean;
-		protected var currentWidth:Number;
-		protected var currentHeight:Number;
 		public function Box(type:String = LayoutType.HORIZONTAL,directionFlag:Boolean = false,_skin:DisplayObjectContainer=null)
 		{
-			this.layouttype = type;
-			this.directionFlag = directionFlag;
-			childrens = []
 			super(_skin);
+			this._layout = type;
+			this.directionFlag = directionFlag;
 		}
 		
 		public function set gap(value:int):void{
-			if(layouttype == LayoutType.HORIZONTAL){
+			if(_layout == LayoutType.HORIZONTAL){
 				hgap = value;
 			}else{
 				vgap = value;
 			}
 		}
 		
-		protected var offset:Number;
-		override public function addChild(child:DisplayObject):DisplayObject{
-			if(directionFlag){
-				return addChildAt(child,0);
-			}else{
-				return addChildAt(child,this.numChildren);
-			}
-		}
-		
-		override public function addChildAt(child:DisplayObject, index:int):DisplayObject{
-			if(child == null){
-				return null;
-			}
-			childrens.splice(index,0,child);
-			child.addEventListener(LayoutEvent.BUILD,rebulidHandler);
-			var d:DisplayObject = super.addChildAt(child,index)
-			updataChild(child)
-			if(child.width >0 && child.height > 0)
-				bulidflag = true;
-			return d;
-		}
-		
-		override public function removeChild(child:DisplayObject):DisplayObject{
-			if(child == null){
-				return null;
-			}
-			ArrayUtil.remove(childrens,child);
-			child.removeEventListener(LayoutEvent.BUILD,rebulidHandler);
-			var d:DisplayObject = super.removeChild(child);
-			resetMaxChild()
-			bulidflag = true;
-			return d;
-		}
-		
-		override public function removeChildAt(index:int):DisplayObject{
-			var d:DisplayObject = this.getChildAt(index);
-			return this.removeChild(d);
-		}
-		
-		public function getChildrens():Array{
-			return childrens;
-		}
-		
-		public function refresh():void{
-			resetMaxChild()
-			bulid();
-		}
-		
 		override protected function bulid():void{
 			var offsetx:int = 0
 			var offsety:int = 0
 			for each(var item:DisplayObject in childrens){
-				if(layouttype == LayoutType.HORIZONTAL){
+				if(_layout == LayoutType.HORIZONTAL){
 					offsetx = hBulid(item,offsetx);
 				}else{
 					offsety = vBulid(item,offsety);
 				}
 			}
-			this.dispatchEvent(new LayoutEvent(LayoutEvent.BUILD));
 		}
 		
 		protected function hBulid(target:DisplayObject,offset:int):int{
@@ -125,33 +68,13 @@ package com.display
 			return offset
 		}
 		
-		protected function rebulidHandler(event:LayoutEvent):void{
-			var child:DisplayObject = event.currentTarget as DisplayObject
-			updataChild(child)
-			bulidflag = true;
+		
+		override public function set width(value:Number):void{
+//			this._intRectangle.width = value;
 		}
 		
-		protected function updataChild(child:DisplayObject):void{
-			var height:Number = child.height;
-			var width:Number = child.width
-			if(height>_maxHeight) {
-				_maxHeight = height;
-			}
-			
-			if(width>_maxWidth) {
-				_maxWidth = width;
-			}
-			
-			currentWidth = _maxWidth
-			currentHeight = _maxHeight
-		}
-		
-		protected function resetMaxChild():void{
-			_maxHeight = -1;
-			_maxWidth  = -1;
-			for each(var child:DisplayObject in childrens){
-				updataChild(child);
-			}
+		override public function set height(value:Number):void{
+//			this._intRectangle.height = value;
 		}
 		
 		override public function get width():Number{

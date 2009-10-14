@@ -1,6 +1,8 @@
 package com.display
 {
 	import com.display.event.LayoutEvent;
+	import com.display.skin.SkinInteractiveBase;
+	import com.display.utils.geom.IntRectangle;
 	import com.youbt.utils.ColorUtils;
 	
 	import flash.display.DisplayObject;
@@ -8,7 +10,7 @@ package com.display
 	import flash.events.Event;
 	import flash.utils.Dictionary;
 	
-	public class Container extends LayoutBase
+	public class Container extends Layout
 	{
 		protected var _skin:DisplayObjectContainer;
 		protected var dict:Dictionary
@@ -17,8 +19,10 @@ package com.display
 		protected var inited:Boolean
 		protected var addToStaged:Boolean
 		protected var layerDict:Dictionary;
+		protected var _intRectangle:IntRectangle;
 		public function Container(_skin:DisplayObjectContainer = null)
 		{
+			super();
 			addToStaged = false;
 			inited = false;
 			dict = new Dictionary()
@@ -29,10 +33,8 @@ package com.display
 				this.skin = initSkin();
 			}
 			
-			
 			this.addEventListener(Event.ADDED_TO_STAGE,toStageHandler);
 			this.addEventListener(Event.REMOVED_FROM_STAGE,toStageHandler);
-			super();
 		}
 		
 		protected function initSkin():DisplayObjectContainer{
@@ -210,7 +212,76 @@ package com.display
 		}
 		
 		private function _skinrefreshHandelr(event:LayoutEvent):void{
+			var num:Number = numChildren;
+			while(num--){
+				var active:SkinInteractiveBase = getChildAt(num) as SkinInteractiveBase;
+				if(active == null){
+					continue;
+				}
+				active.refresh(intRectangle);
+			}
 			this.dispatchEvent(event);
+		}
+		
+		public function get intRectangle():IntRectangle{
+			if(_intRectangle == null){
+				return null;
+			}
+			_intRectangle.width = this.width;
+			_intRectangle.height = this.height;
+			_intRectangle.x = this.x;
+			_intRectangle.y = this.y;
+			return _intRectangle;
+		}
+		
+		protected var intRectangleFlag:Boolean = false
+		public function set intRectangle(value:IntRectangle):void{
+			intRectangleFlag = true;
+			if(value){
+				_intRectangle = value;
+				bulidflag = true;
+			}
+		}
+		
+		override protected function bulid():void{
+//			switch(_vAlign){
+//				case LayoutType.TOP:
+//					
+//				break;
+//				case LayoutType.CENTER:
+//				break;
+//				case LayoutType.BOTTOM:
+//				break;
+//			}
+//			
+//			switch(_hAlign){
+//				case LayoutType.LEFT:
+//				break;
+//				case LayoutType.MIDDLE:
+//				break;
+//				case LayoutType.RIGHT:
+//				break;
+//			}
+		}
+		
+		override protected function updataChild(child:DisplayObject):void{
+			
+			if(_intRectangle){
+				_maxWidth = _intRectangle.width;
+				_maxHeight = _intRectangle.height
+			}else{
+				var height:Number = child.height;
+				var width:Number = child.width
+				if(height>_maxHeight) {
+					_maxHeight = height;
+				}
+				if(width>_maxWidth) {
+					_maxWidth = width;
+				}
+			}
+			
+			currentWidth = _maxWidth
+				currentHeight = _maxHeight
 		}
 	}
 }
