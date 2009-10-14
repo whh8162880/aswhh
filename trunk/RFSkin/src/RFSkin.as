@@ -17,14 +17,14 @@ package {
 			
 			var label:Label = new Label();
 			label.data = {label:"你是一头猪"}
-//			addChild(label);
+			addChild(label);
+			label.width = 1000;
 			
 			label.addDisplayObjectToLayer("under",new ListInteractive(),0);
 			
 			
 			var list:ListBase = new ListBase();
-			addChild(list);
-			
+//			addChild(list);
 			list.data = ["你1","你23","你23","你23","你23","你23","你23"]
 			
 		}
