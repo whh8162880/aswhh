@@ -3,6 +3,7 @@ package com.display
 	import com.display.event.LayoutEvent;
 	import com.display.skin.SkinInteractiveBase;
 	import com.display.utils.geom.IntRectangle;
+	import com.youbt.geom.IntPoint;
 	import com.youbt.utils.ColorUtils;
 	
 	import flash.display.DisplayObject;
@@ -20,9 +21,11 @@ package com.display
 		protected var addToStaged:Boolean
 		protected var layerDict:Dictionary;
 		protected var _intRectangle:IntRectangle;
+		protected var _focusPoint:IntPoint
 		public function Container(_skin:DisplayObjectContainer = null)
 		{
 			super();
+			_focusPoint = new IntPoint(0,0);
 			addToStaged = false;
 			inited = false;
 			dict = new Dictionary()
@@ -35,6 +38,17 @@ package com.display
 			
 			this.addEventListener(Event.ADDED_TO_STAGE,toStageHandler);
 			this.addEventListener(Event.REMOVED_FROM_STAGE,toStageHandler);
+		}
+		
+		public function set focusPoint(value:IntPoint):void{
+			if(_focusPoint == null){
+				return ;
+			}
+			this._focusPoint = _focusPoint;
+		}
+		
+		public function get focusPoint():IntPoint{
+			return _focusPoint;
 		}
 		
 		protected function initSkin():DisplayObjectContainer{
