@@ -283,5 +283,22 @@ package com.display
 			currentWidth = _maxWidth
 				currentHeight = _maxHeight
 		}
+		
+		
+		override public function set width(value:Number):void{
+			if(!_intRectangle) {
+				_intRectangle = new IntRectangle(0,0,-1,-1)
+			}
+			this._intRectangle.width = value;
+			bulidflag = true
+		}
+		
+		override public function set height(value:Number):void{
+			if(!_intRectangle) {
+				_intRectangle = new IntRectangle(0,0,-1,-1)
+			}
+			this._intRectangle.height = value;
+			bulidflag = true
+		}
 	}
 }
