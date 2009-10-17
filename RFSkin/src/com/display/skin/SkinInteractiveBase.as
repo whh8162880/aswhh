@@ -1,5 +1,7 @@
 package com.display.skin
 {
+	import com.display.Container;
+	import com.display.LayoutType;
 	import com.display.event.LayoutEvent;
 	import com.display.utils.geom.IntRectangle;
 	
@@ -102,15 +104,23 @@ package com.display.skin
 			}else if(skin is DisplayObject){
 				if(actives == null){
 					reset(skin as DisplayObject)
-					
 				}
 			}else if(skin is Object && actives == null){
 				actives = skin;
 			}
 		}
 		
-		public function refresh(intRectangle:IntRectangle = null):void{
-			this.intRectangle = intRectangle;
+		public function refresh(intRectangle:IntRectangle = null,width:Number = -1, height:Number = -1):void{
+			if(intRectangle != null){
+				this.intRectangle = intRectangle.clone()
+				if(width>-1 && intRectangle.width<0){
+					this.intRectangle.width = width;
+				}
+				if(height>-1 && intRectangle.height<0){
+					this.intRectangle.height = height;
+				}
+			}
+			
 			//call late
 			if(refreshFlag == true){
 				return;
@@ -195,18 +205,157 @@ package com.display.skin
 			if(!intRectangle){
 				return;
 			}
+			
 			d.x = intRectangle.x;
 			d.y = intRectangle.y;
+			
+			if(intRectangle.width == d.width && intRectangle.height == d.height){
+				return;
+			}
+			
 			if(intRectangle.width>0){
 				d.width = intRectangle.width
 			}else{
-				intRectangle.width = d.width;
+//				intRectangle.width = d.width;
 			}
 			if(intRectangle.height>0){
 				d.height = intRectangle.height
 			}else{
-				intRectangle.height = d.height
+//				intRectangle.height = d.height
 			}
+			if((d is Container) == false){
+				this.dispatchEvent(new LayoutEvent(LayoutEvent.BUILD));
+				trace(".....")
+			}
+		}
+		
+		
+		
+		//--------------------------------------
+//		public function set hgap(value:int):void{
+//			if(skin.hasOwnProperty("hgap")){
+//				skin["hgap"] = value;
+//			}else{
+////				super.hgap = value;
+//			}
+//		}
+		
+		public function get hgap():int{
+			if(skin.hasOwnProperty("hgap")){
+				return skin["hgap"];
+			}else{
+//				return _hgap
+			}
+			return 0;
+		}
+		
+		//---------------------------------------
+//		public function set vgap(value:int):void{
+//			if(skin.hasOwnProperty("vgap")){
+//				skin["vgap"] = value;
+//			}else{
+////				super.vgap = value;
+//			}
+//		}
+		
+		public function get vgap():int{
+			if(skin.hasOwnProperty("vgap")){
+				return skin["vgap"];
+			}else{
+//				return _vgap
+			}
+			return 0
+		}
+		
+		//---------------------------------------
+//		public function set hParentAlign(value:String):void{
+//			if(skin.hasOwnProperty("hParentAlign")){
+//				skin["hParentAlign"] = value;
+//			}else{
+////				super.hParentAlign = value;
+//			}
+//		}
+		
+		public function get hParentAlign():String{
+			if(skin.hasOwnProperty("hParentAlign")){
+				return skin["hParentAlign"];
+			}else{
+//				return _hParentAlign
+			}
+			
+			return LayoutType.ABSOLUTE
+		}
+		
+		//---------------------------------------
+//		public function set vParentAlign(value:String):void{
+//			if(skin.hasOwnProperty("vParentAlign")){
+//				skin["vParentAlign"] = value;
+//			}else{
+////				super.vParentAlign = value;
+//			}
+//		}
+		
+		public function get vParentAlign():String{
+			if(skin.hasOwnProperty("vParentAlign")){
+				return skin["vParentAlign"];
+			}else{
+//				return _vParentAlign
+			}
+			return LayoutType.ABSOLUTE
+		}
+		
+		//---------------------------------------
+//		public function set vAlign(value:String):void{
+//			if(skin.hasOwnProperty("vAlign")){
+//				skin["vAlign"] = value;
+//			}else{
+////				super.vAlign = value;
+//			}
+//		}
+		
+		public function get vAlign():String{
+			if(skin.hasOwnProperty("vAlign")){
+				return skin["vAlign"];
+			}else{
+//				return _vAlign
+			}
+			return LayoutType.ABSOLUTE
+		}
+		
+		//---------------------------------------
+//		public function set hAlign(value:String):void{
+//			if(skin.hasOwnProperty("hAlign")){
+//				skin["hAlign"] = value;
+//			}else{
+//				super.hAlign = value;
+//			}
+//		}
+		
+		public function get hAlign():String{
+			if(skin.hasOwnProperty("hAlign")){
+				return skin["hAlign"];
+			}else{
+//				return _hAlign
+			}
+			return LayoutType.ABSOLUTE
+		}
+		
+		//---------------------------------------
+//		public function set layout(value:String):void{
+//			if(skin.hasOwnProperty("layout")){
+//				skin["layout"] = value;
+//			}else{
+//				super.layout = value;
+//			}
+//		}
+		
+		public function get layout():String{
+			if(skin.hasOwnProperty("layout")){
+				return skin["layout"];
+			}else{
+//				return _hAlign
+			}
+			return LayoutType.ABSOLUTE
 		}
 	}
 }

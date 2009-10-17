@@ -3,7 +3,6 @@ package com.display.label
 	import com.display.Box;
 	import com.display.LayoutType;
 	import com.display.button.ButtonBase;
-	import com.display.event.LayoutEvent;
 	import com.display.text.Text;
 	
 	import flash.display.DisplayObjectContainer;
@@ -18,6 +17,9 @@ package com.display.label
 			}
 			super(skin, type, directionFlag);
 			addListener()
+			
+			this._vAlign = LayoutType.CENTER;
+			this._hAlign = LayoutType.LEFT;
 		}
 		
 		override protected function initSkin():DisplayObjectContainer{
@@ -28,6 +30,7 @@ package com.display.label
 			box.regDisplayObjectToProperty(text,"label");
 			text.selectable = false
 			text.mouseEnabled = false
+			box.hAlign = LayoutType.MIDDLE;
 			return box;
 		}
 		
@@ -37,6 +40,5 @@ package com.display.label
 			}
 			box.data = _data;
 		}
-		
 	}
 }

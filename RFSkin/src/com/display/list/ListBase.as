@@ -48,6 +48,11 @@ package com.display.list
 		
 		protected function createItem(o:Object):void{
 			var item:Container = CreateItemManager.getItem(SkinClass) as Container;
+			if(this.layout == LayoutType.HORIZONTAL){
+				item.height = _intRectangle.height;
+			}else if(this.layout == LayoutType.VERTICAL){
+				item.width = _intRectangle.width
+			}
 			addChild(item);
 			item.data = o;
 			addUnder(item)

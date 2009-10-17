@@ -1,7 +1,9 @@
 package {
+	import com.display.LayoutType;
 	import com.display.label.Label;
 	import com.display.list.ListBase;
 	import com.display.skin.skins.ListInteractive;
+	import com.display.utils.geom.IntRectangle;
 	
 	import flash.display.Sprite;
 	import flash.display.StageAlign;
@@ -18,12 +20,13 @@ package {
 			var label:Label = new Label();
 			label.data = {label:"你是一头猪"}
 			addChild(label);
-			label.width = 1000;
-			
+			label.width = 200;
+//			label.intRectangle = new IntRectangle(0,0,300,20);
 			label.addDisplayObjectToLayer("under",new ListInteractive(),0);
-			
+			label.hAlign = LayoutType.MIDDLE
 			
 			var list:ListBase = new ListBase();
+			list.intRectangle = new IntRectangle(0,0,200,500);
 //			addChild(list);
 			list.data = ["你1","你23","你23","你23","你23","你23","你23"]
 			
