@@ -13,6 +13,7 @@ package com.display.event
 		
 		public static const BUILD:String = "whh_layout_build";
 		public static const MOVE_BUILD:String = "whh_layout_move_build";
+		public static const RESIZE:String = "whh_layout_resize";
 		
 		
 		override public function clone():Event{
