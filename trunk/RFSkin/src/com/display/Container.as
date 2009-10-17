@@ -22,6 +22,7 @@ package com.display
 		protected var layerDict:Dictionary;
 		protected var _intRectangle:IntRectangle;
 		protected var _focusPoint:IntPoint
+		protected var _skinlayer:int = 1;
 		public function Container(_skin:DisplayObjectContainer = null)
 		{
 			super();
@@ -61,9 +62,13 @@ package com.display
 			if(this._skin){
 				createSkin();
 				if(_skin != this){
-					this.addDisplayObjectToLayer("skin",_skin,1);
+					addSkin();
 				}
 			}
+		}
+		
+		protected function addSkin():void{
+			this.addDisplayObjectToLayer("skin",_skin,_skinlayer);
 		}
 		
 		public function get skin():DisplayObjectContainer{
