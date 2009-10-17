@@ -59,6 +59,28 @@ package com.display
 		}
 		
 		//---------------------------------------
+		public function set hParentAlign(value:String):void{
+			if(_hParentAlign == value) return;
+			_hParentAlign = value;
+			bulidflag= true
+		}
+		
+		public function get hParentAlign():String{
+			return _hParentAlign
+		}
+		
+		//---------------------------------------
+		public function set vParentAlign(value:String):void{
+			if(_vParentAlign == value) return;
+			_vParentAlign = value;
+			bulidflag= true
+		}
+		
+		public function get vParentAlign():String{
+			return _vParentAlign
+		}
+		
+		//---------------------------------------
 		public function set vAlign(value:String):void{
 			if(_vAlign == value) return;
 			_vAlign = value;
@@ -154,7 +176,7 @@ package com.display
 			return childrens;
 		}
 		
-		public function refresh():void{
+		public function refreshLayout():void{
 			resetMaxChild()
 			bulid();
 		}

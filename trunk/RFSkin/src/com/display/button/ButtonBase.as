@@ -67,7 +67,7 @@ package com.display.button
 					continue;
 				}
 				active.mouseover = mouseover;
-				active.refresh(intRectangle);
+				active.refresh(intRectangle,skinInteractive.width,skinInteractive.height);
 			}
 		}
 		

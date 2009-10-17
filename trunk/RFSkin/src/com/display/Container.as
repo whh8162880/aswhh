@@ -250,32 +250,71 @@ package com.display
 		
 		protected var intRectangleFlag:Boolean = false
 		public function set intRectangle(value:IntRectangle):void{
-			intRectangleFlag = true;
 			if(value){
+				intRectangleFlag = true;
 				_intRectangle = value;
 				bulidflag = true;
 			}
 		}
 		
 		override protected function bulid():void{
-//			switch(_vAlign){
-//				case LayoutType.TOP:
-//					
-//				break;
-//				case LayoutType.CENTER:
-//				break;
-//				case LayoutType.BOTTOM:
-//				break;
-//			}
-//			
-//			switch(_hAlign){
-//				case LayoutType.LEFT:
-//				break;
-//				case LayoutType.MIDDLE:
-//				break;
-//				case LayoutType.RIGHT:
-//				break;
-//			}
+			for each(var d:DisplayObject in childrens){
+				
+				if(d.hasOwnProperty("intRectangle")){
+					d['intRectangle'] = _intRectangle;
+				}
+				
+				if(d is SkinInteractiveBase){
+					(d as SkinInteractiveBase).refresh(_intRectangle);
+				}
+				
+				var focusPoint:IntPoint = new IntPoint()
+				if(d.hasOwnProperty("focusPoint")){
+					focusPoint = d["focusPoint"]
+				}
+				if(d.hasOwnProperty("vParentAlign")  && d["vParentAlign"] != LayoutType.ABSOLUTE){
+					doLayout(d,d["vParentAlign"],focusPoint);
+				}else{
+					doLayout(d,_vAlign,focusPoint);
+				}
+				
+				if(d.hasOwnProperty("hParentAlign") && d["hParentAlign"] != LayoutType.ABSOLUTE){
+					doLayout(d,d["hParentAlign"],focusPoint);
+				}else{
+					doLayout(d,_hAlign,focusPoint);
+				}
+			}
+		}
+		
+		
+		protected function doLayout(d:DisplayObject,align:String,focusPoint:IntPoint):void{
+			var width:Number = this.width;
+			var heiht:Number = this.height;
+			var dw:Number = d.width;
+			var dh:Number = d.height;
+			switch(align){
+				case LayoutType.TOP:
+					d.y = 0;
+				break;
+				case LayoutType.CENTER:
+					d.y = (heiht - dh)/2;
+				break;
+				case LayoutType.BOTTOM:
+					d.y = heiht - dh;
+				break;
+				case LayoutType.LEFT:
+					d.x = 0;	
+				break;
+				case LayoutType.MIDDLE:
+					d.x = (width - dw)/2
+				break;
+				case LayoutType.RIGHT:
+					d.x = width - dw
+				break;
+			}
+			
+			d.x += focusPoint.x;
+			d.y += focusPoint.y;
 		}
 		
 		override protected function updataChild(child:DisplayObject):void{
@@ -304,7 +343,7 @@ package com.display
 				_intRectangle = new IntRectangle(0,0,-1,-1)
 			}
 			this._intRectangle.width = value;
-			bulidflag = true
+			intRectangle = _intRectangle
 		}
 		
 		override public function set height(value:Number):void{
@@ -312,7 +351,23 @@ package com.display
 				_intRectangle = new IntRectangle(0,0,-1,-1)
 			}
 			this._intRectangle.height = value;
-			bulidflag = true
+		 	intRectangle = _intRectangle
+		}
+		
+		override public function get width():Number{
+			if(!_intRectangle || _intRectangle.width <0){
+				return super.width;
+			}
+			return _intRectangle.width;
+			
+		}
+		
+		override public function get height():Number{
+			if(!_intRectangle || _intRectangle.height <0){
+				return super.height;
+			}
+			return _intRectangle.height;
+			
 		}
 	}
 }
