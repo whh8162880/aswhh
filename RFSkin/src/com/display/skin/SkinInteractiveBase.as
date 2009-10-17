@@ -155,6 +155,7 @@ package com.display.skin
 			var active:String = getActive();
 			
 			if(currentshowtype == active){
+				resize(currentImage)
 				return;
 			}
 			
@@ -181,7 +182,7 @@ package com.display.skin
 			if(o is DisplayObject){
 				currentshowtype = active;
 				currentImage = o as DisplayObject
-				resize(o as DisplayObject)
+				resize(currentImage)
 //				o.x = intRectangle.x
 //				o.y = intRectangle.y
 //				intRectangle.width >-1 ? o.width = intRectangle.width : 0
