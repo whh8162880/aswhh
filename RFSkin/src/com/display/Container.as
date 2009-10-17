@@ -195,7 +195,7 @@ package com.display
 		
 		public function addDisplayObjectToLayer(name:String,_skin:DisplayObject,layer:int):DisplayObject{
 			layerDict[name] = _skin;
-			_skin.addEventListener(LayoutEvent.BUILD,_skinrefreshHandelr);
+			_skin.addEventListener(LayoutEvent.RESIZE,_skinrefreshHandelr);
 			if(layer > this.numChildren){
 				layer = this.numChildren
 			}
@@ -208,7 +208,7 @@ package com.display
 			if(_skin == null){
 				return;
 			}
-			_skin.removeEventListener(LayoutEvent.BUILD,_skinrefreshHandelr);
+			_skin.removeEventListener(LayoutEvent.RESIZE,_skinrefreshHandelr);
 			if(this.contains(_skin)){
 				this.removeChild(_skin);
 			}
@@ -227,13 +227,21 @@ package com.display
 		
 		private function _skinrefreshHandelr(event:LayoutEvent):void{
 			var num:Number = numChildren;
+			var target:DisplayObject = event.target as DisplayObject
+			if(_intRectangle && _intRectangle.width < 0 ){
+				_maxWidth = Math.max(_maxWidth,target.width);
+			}
+			if(_intRectangle && _intRectangle.height < 0){
+				_maxHeight = Math.max(_maxHeight,target.height);
+			}
 			while(num--){
 				var active:SkinInteractiveBase = getChildAt(num) as SkinInteractiveBase;
 				if(active == null){
 					continue;
 				}
-				active.refresh(intRectangle);
+				active.refresh(intRectangle,_maxWidth,_maxHeight);
 			}
+			itemResizeHandelr();
 			this.dispatchEvent(event);
 		}
 		
@@ -259,15 +267,28 @@ package com.display
 		
 		override protected function bulid():void{
 			for each(var d:DisplayObject in childrens){
-				
+				if(d.width == 0 || d.height == 0){
+					return;
+				}
+
 				if(d.hasOwnProperty("intRectangle")){
 					d['intRectangle'] = _intRectangle;
 				}
 				
 				if(d is SkinInteractiveBase){
-					(d as SkinInteractiveBase).refresh(_intRectangle);
+					(d as SkinInteractiveBase).refresh(_intRectangle,_maxWidth,_maxHeight);
 				}
-				
+			}
+			
+			itemResizeHandelr();
+		}
+		
+		protected function itemResizeHandelr():void{
+			for each(var d:DisplayObject in childrens){
+				if(d.width == 0 || d.height == 0){
+					return;
+				}
+
 				var focusPoint:IntPoint = new IntPoint()
 				if(d.hasOwnProperty("focusPoint")){
 					focusPoint = d["focusPoint"]
@@ -319,22 +340,26 @@ package com.display
 		
 		override protected function updataChild(child:DisplayObject):void{
 			
-			if(_intRectangle){
+			if(_intRectangle && _intRectangle.width >0){
 				_maxWidth = _intRectangle.width;
-				_maxHeight = _intRectangle.height
 			}else{
-				var height:Number = child.height;
 				var width:Number = child.width
-				if(height>_maxHeight) {
-					_maxHeight = height;
-				}
 				if(width>_maxWidth) {
 					_maxWidth = width;
 				}
 			}
 			
+			if(_intRectangle && _intRectangle.height >0){
+				_maxHeight = _intRectangle.height
+			}else{
+				var height:Number = child.height;
+				if(height>_maxHeight) {
+					_maxHeight = height;
+				}
+			}
+			
 			currentWidth = _maxWidth
-				currentHeight = _maxHeight
+			currentHeight = _maxHeight
 		}
 		
 		

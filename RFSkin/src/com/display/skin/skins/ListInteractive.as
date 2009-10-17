@@ -8,15 +8,16 @@ package com.display.skin.skins
 	{
 		public function ListInteractive()
 		{
+			var defulat:Shape = getSkin(0)
 			skin = [
-			getSkin(0),
+			defulat,
 			/*mouseover*/getSkin(0.4,0xFFFFFF),
 			/*selected*/getSkin(0.6),
 			/*mouseoverselected*/getSkin(0.8),
-			/*disabledDefault*/getSkin(0),
-			/*disabledmouseover*/getSkin(0),
-			/*disabledselected*/getSkin(0),
-			/*disabledselectedmouseover*/getSkin(0)]
+			/*disabledDefault*/defulat,
+			/*disabledmouseover*/defulat,
+			/*disabledselected*/defulat,
+			/*disabledselectedmouseover*/defulat]
 			enabled = true
 			super(skin);
 		}

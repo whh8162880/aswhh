@@ -24,6 +24,8 @@ package com.display.skin
 		protected var currentshowtype:String;
 		protected var defaultImage:DisplayObject;
 		
+		protected var currentImage:DisplayObject
+		
 		protected var intRectangle:IntRectangle;
 		
 		public function SkinInteractiveBase(skin:Object=null,actives:Object=null)
@@ -84,7 +86,7 @@ package com.display.skin
 		
 		public var mouseover:Boolean;
 		public var selected:Boolean;
-		public var enabled:Boolean;
+		public var enabled:Boolean = true;
 		protected var refreshFlag:Boolean
 		
 		protected function initSkin():void{
@@ -121,12 +123,19 @@ package com.display.skin
 				}
 			}
 			
-			//call late
-			if(refreshFlag == true){
+			if(getActive() == currentshowtype &&
+			 (this.intRectangle!=null && 
+			 (this.width == width && this.height == height))){
 				return;
 			}
-			this.addEventListener(Event.ENTER_FRAME,enterframehandler);
-			refreshFlag = true;
+			
+			//call late
+//			if(refreshFlag == true){
+//				return;
+//			}
+//			this.addEventListener(Event.ENTER_FRAME,enterframehandler);
+//			refreshFlag = true;
+			doRefresh();
 		}
 		
 		protected function enterframehandler(event:Event):void{
@@ -135,12 +144,15 @@ package com.display.skin
 			doRefresh();
 		}
 		
-		protected function doRefresh():void{
+		protected function getActive():String{
 			var m:String = mouseover ? "1" : "0";
 			var s:String = selected ? "1" : "0";
 			var e:String = enabled ? "1" : "0";
-			
-			var active:String = "skin"+m+s+e;
+			return "skin"+m+s+e;
+		}
+		
+		protected function doRefresh():void{
+			var active:String = getActive();
 			
 			if(currentshowtype == active){
 				return;
@@ -168,6 +180,7 @@ package com.display.skin
 			var o:Object = actives[active];
 			if(o is DisplayObject){
 				currentshowtype = active;
+				currentImage = o as DisplayObject
 				resize(o as DisplayObject)
 //				o.x = intRectangle.x
 //				o.y = intRectangle.y
@@ -198,7 +211,7 @@ package com.display.skin
 		
 		
 		private function layoutHadnelr(event:LayoutEvent):void{
-			this.dispatchEvent(event);
+			this.dispatchEvent(/*new LayoutEvent(LayoutEvent.RESIZE)*/ event);
 		}
 		private var time:int = getTimer();
 		protected function resize(d:DisplayObject):void{
@@ -224,8 +237,7 @@ package com.display.skin
 //				intRectangle.height = d.height
 			}
 			if((d is Container) == false){
-				this.dispatchEvent(new LayoutEvent(LayoutEvent.BUILD));
-				trace(".....")
+				this.dispatchEvent(new LayoutEvent(LayoutEvent.RESIZE));
 			}
 		}
 		
@@ -238,6 +250,14 @@ package com.display.skin
 //			}else{
 ////				super.hgap = value;
 //			}
+//		}
+
+//		override public function get width():Number{
+//			return currentImage ? currentImage.width : 0;
+//		}
+//		
+//		override public function get height():Number{
+//			return currentImage ? currentImage.height : 0;
 //		}
 		
 		public function get hgap():int{

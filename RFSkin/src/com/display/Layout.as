@@ -129,7 +129,9 @@ package com.display
 			bulidflag = false;
 			this.removeEventListener(Event.ENTER_FRAME,enterFrameHandelr);
 			bulid();
-			this.dispatchEvent(new LayoutEvent(LayoutEvent.BUILD));
+			if(this.width != 0 && this.height != 0){
+				this.dispatchEvent(new LayoutEvent(LayoutEvent.BUILD));
+			}
 		}
 		
 		
