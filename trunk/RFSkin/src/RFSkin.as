@@ -19,15 +19,15 @@ package {
 			
 			var label:Label = new Label();
 			label.data = {label:"你是一头猪"}
-			addChild(label);
+//			addChild(label);
 			label.width = 200;
 //			label.intRectangle = new IntRectangle(0,0,300,20);
 			label.addDisplayObjectToLayer("under",new ListInteractive(),0);
 			label.hAlign = LayoutType.MIDDLE
 			
 			var list:ListBase = new ListBase();
-			list.intRectangle = new IntRectangle(0,0,200,500);
-//			addChild(list);
+			list.intRectangle = new IntRectangle(0,0,100,500);
+			addChild(list);
 			list.data = ["你1","你23","你23","你23","你23","你23","你23"]
 			
 		}

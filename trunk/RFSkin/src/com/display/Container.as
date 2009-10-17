@@ -196,6 +196,7 @@ package com.display
 		public function addDisplayObjectToLayer(name:String,_skin:DisplayObject,layer:int):DisplayObject{
 			layerDict[name] = _skin;
 			_skin.addEventListener(LayoutEvent.RESIZE,_skinrefreshHandelr);
+			_skin.addEventListener(LayoutEvent.BUILD,_skinrefreshHandelr);
 			if(layer > this.numChildren){
 				layer = this.numChildren
 			}
@@ -209,6 +210,7 @@ package com.display
 				return;
 			}
 			_skin.removeEventListener(LayoutEvent.RESIZE,_skinrefreshHandelr);
+			_skin.removeEventListener(LayoutEvent.BUILD,_skinrefreshHandelr);
 			if(this.contains(_skin)){
 				this.removeChild(_skin);
 			}
