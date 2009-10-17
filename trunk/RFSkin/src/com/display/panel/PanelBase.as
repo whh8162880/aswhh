@@ -10,5 +10,13 @@ package com.display.panel
 			super(_skin);
 		}
 		
+		public function start():void{
+			
+		}
+		
+		public function sleep():void{
+			
+		}
+		
 	}
 }
