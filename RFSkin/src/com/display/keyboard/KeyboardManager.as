@@ -1,21 +1,91 @@
 package com.display.keyboard
 {
+	import com.youbt.manager.RFSystemManager;
 	import com.youbt.utils.ArrayUtil;
 	
+	import flash.display.DisplayObject;
+	import flash.display.Stage;
 	import flash.events.EventDispatcher;
 	import flash.events.IEventDispatcher;
 	import flash.events.KeyboardEvent;
+	import flash.events.MouseEvent;
 	import flash.utils.Dictionary;
 
 	public class KeyboardManager extends EventDispatcher
 	{
-		public static var state:Object;
+		public static var state:IEventDispatcher;
+		private static var _stage:Stage;
+		private static var _loop:Boolean = false
+		public static function setStage(stage:Stage):void{
+			if(_stage) return;
+			_stage = stage;
+		}
+		
+		private static function addTarget(target:IEventDispatcher):void{
+			if(!target){
+				return;
+			}
+			target.addEventListener(MouseEvent.ROLL_OVER,rollHandler);
+			target.addEventListener(MouseEvent.ROLL_OUT,rollHandler);
+		}
+		
+		private static function removeTarget(target:IEventDispatcher):void{
+			if(!target){
+				return;
+			}
+			target.removeEventListener(MouseEvent.ROLL_OVER,rollHandler);
+			target.removeEventListener(MouseEvent.ROLL_OUT,rollHandler);
+			if(state == target){
+				removeListener();
+				state = null;
+			}
+		}
+		
+		private static function startListener():void{
+			_stage.addEventListener(KeyboardEvent.KEY_DOWN,keyHandler);
+			_stage.addEventListener(KeyboardEvent.KEY_UP,keyHandler);
+//			trace("_stage add")
+		}
+		
+		private static function removeListener():void{
+			_stage.removeEventListener(KeyboardEvent.KEY_DOWN,keyHandler);
+			_stage.removeEventListener(KeyboardEvent.KEY_UP,keyHandler);
+//			trace("_stage remove")
+		}
+		
+		private static function keyHandler(event:KeyboardEvent):void{
+			if(state){
+				var e:KeyboardEvent = new KeyboardEvent(event.type,false,false,event.charCode,event.keyCode,event.keyLocation,event.ctrlKey,event.altKey,event.shiftKey);
+				state.dispatchEvent(e);
+				event.stopImmediatePropagation();
+			}else{
+				removeListener();
+			}
+		}
+		
+		private static function rollHandler(event:MouseEvent):void{
+			if(!_stage){
+				var d:DisplayObject = event.target as DisplayObject
+				_stage = d ? d.stage : null
+			}
+			if(event.type == MouseEvent.ROLL_OVER){
+				state = IEventDispatcher(event.target)
+				startListener();
+			}else{
+				state = null
+				removeListener();
+			}
+		}
+		
 		private var keymap:Dictionary
 		private var target:IEventDispatcher
 		private var usedKeymap:Dictionary
 		private var keylist:Array
 		public function KeyboardManager(target:IEventDispatcher=null)
 		{
+			if(!_stage) {
+				setStage(RFSystemManager.getInstance().stage);
+			}
 			keylist = []
 			keymap = new Dictionary();
 			usedKeymap = new Dictionary();
@@ -29,6 +99,14 @@ package com.display.keyboard
 			this.target = target
 			this.target.addEventListener(KeyboardEvent.KEY_DOWN,keydownHandler);
 			this.target.addEventListener(KeyboardEvent.KEY_UP,keyupHandler);
+		}
+		
+		public function start():void{
+			addTarget(this.target);
+		}
+		
+		public function sleep():void{
+			removeTarget(this.target);
 		}
 		
 		public function regFunction(keyFunction:Function,ctrlflag:Boolean = false,shiftflag:Boolean=false,altFlag:Boolean=false,...args):Boolean{

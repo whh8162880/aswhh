@@ -50,11 +50,16 @@ package com.display.managers
 					delete arr.dict[item];
 					arr.emptys.push(i);
 				}
+				
+				if(arr.emptys.length>5){
+					clearKey(arr)
+				}
 			}
 			
 			if(removeStage == true && item is DisplayObject && (item as DisplayObject).parent){
 				(item as DisplayObject).parent.removeChild((item as DisplayObject))
 			}
+			
 			
 		}
 		
