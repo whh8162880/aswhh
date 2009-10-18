@@ -96,10 +96,20 @@ package com.display.keyboard
 			usedKeymap[code] = false;
 			ArrayUtil.remove(keylist,code);
 			delete usedKeymap[code]
-			trace("up keylist : "+keylist)
+//			trace("up keylist : "+keylist)
 		}
 		
 		protected function getKeyAction(keycodes:Array,ctrlflag:Boolean,shiftflag:Boolean,altFlag:Boolean):String{
+			
+			var i:int;
+			for each(var o:Object in keycodes){
+				if(o is KeyStroke){
+					o = (o as KeyStroke).getCode();
+					keycodes[i] = o
+				}
+				i++
+			}
+			
 			keycodes.sort();
 			return "whhkey_"+ctrlflag.toString()+"_"+shiftflag.toString()+
 			       			"_"+altFlag.toString()+"_"+keycodes.join("_");

@@ -35,10 +35,10 @@ package {
 			
 			var keyboard:KeyboardManager = new KeyboardManager()
 			keyboard.init(stage);
-			keyboard.regFunction(close,false,false,false,KeyStroke.VK_ESCAPE.getCode());
-			keyboard.regFunction(open,false,false,false,KeyStroke.VK_ENTER.getCode());
-			keyboard.regFunction(ctrlz,false,true,false,KeyStroke.VK_Z.getCode());
-			keyboard.regFunction(abc,false,false,false,KeyStroke.VK_A.getCode(),KeyStroke.VK_B.getCode(),KeyStroke.VK_C.getCode());
+			keyboard.regFunction(close,false,false,false,KeyStroke.VK_ESCAPE);
+			keyboard.regFunction(open,false,false,false,KeyStroke.VK_ENTER);
+			keyboard.regFunction(ctrlz,false,true,false,KeyStroke.VK_Z);
+			keyboard.regFunction(abc,false,false,false,KeyStroke.VK_A,KeyStroke.VK_B,KeyStroke.VK_C);
 		}
 		
 		
