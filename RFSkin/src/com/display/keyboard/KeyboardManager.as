@@ -44,12 +44,14 @@ package com.display.keyboard
 		private static function startListener():void{
 			_stage.addEventListener(KeyboardEvent.KEY_DOWN,keyHandler);
 			_stage.addEventListener(KeyboardEvent.KEY_UP,keyHandler);
+			_stage.addEventListener(MouseEvent.CLICK,stageClickHandler);
 //			trace("_stage add")
 		}
 		
 		private static function removeListener():void{
 			_stage.removeEventListener(KeyboardEvent.KEY_DOWN,keyHandler);
 			_stage.removeEventListener(KeyboardEvent.KEY_UP,keyHandler);
+			_stage.removeEventListener(MouseEvent.CLICK,stageClickHandler);
 //			trace("_stage remove")
 		}
 		
@@ -71,8 +73,14 @@ package com.display.keyboard
 			if(event.type == MouseEvent.ROLL_OVER){
 				state = IEventDispatcher(event.target)
 				startListener();
-			}else{
+			}else if(state == event.target){
 				state = null
+				removeListener();
+			}
+		}
+		
+		private static function stageClickHandler(event:MouseEvent):void{
+			if(event.currentTarget == state){
 				removeListener();
 			}
 		}
@@ -214,6 +222,7 @@ class KeyVO{
 		this.shiftflag = shiftflag;
 		this.altFlag = altFlag;
 		this.keyFunction = keyFunction;
+		trace(keyFunction)
 	}
 	
 	public var keycodes:Array;
