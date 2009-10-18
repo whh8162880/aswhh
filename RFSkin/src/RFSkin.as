@@ -1,5 +1,7 @@
 package {
 	import com.display.LayoutType;
+	import com.display.keyboard.KeyStroke;
+	import com.display.keyboard.KeyboardManager;
 	import com.display.label.Label;
 	import com.display.list.ListBase;
 	import com.display.skin.skins.ListInteractive;
@@ -13,6 +15,7 @@ package {
 	{
 		public function RFSkin()
 		{
+			
 			
 			stage.align = StageAlign.TOP_LEFT;
 			stage.scaleMode = StageScaleMode.NO_SCALE
@@ -30,6 +33,37 @@ package {
 			addChild(list);
 			list.data = ["你1","你23","你23","你23","你23","你23","你23"]
 			
+			var keyboard:KeyboardManager = new KeyboardManager()
+			keyboard.init(stage);
+			keyboard.regFunction(close,false,false,false,KeyStroke.VK_ESCAPE.getCode());
+			keyboard.regFunction(open,false,false,false,KeyStroke.VK_ENTER.getCode());
+			keyboard.regFunction(ctrlz,false,true,false,KeyStroke.VK_Z.getCode());
+			keyboard.regFunction(abc,false,false,false,KeyStroke.VK_A.getCode(),KeyStroke.VK_B.getCode(),KeyStroke.VK_C.getCode());
+		}
+		
+		
+		private function close():void{
+			trace("close")
+		}
+		
+		private function open():void{
+			trace("open")
+		}
+		
+		private function ctrlz():void{
+			trace("ctrl+z")
+		}
+		
+		private function ctrlshiftz():void{
+			trace('ctrl+shift+z')
+		}
+		
+		private function ctrlshiftaltz():void{
+			trace('ctrl+shift+alt+z')
+		}
+		
+		private function abc():void{
+			trace('abc')
 		}
 	}
 }
