@@ -164,6 +164,8 @@ package com.display.skin
 			if(actives.hasOwnProperty(active)){
 				add(active)
 			}
+			
+//			trace(active)
 		}
 		
 		protected function remove(active:String):void{

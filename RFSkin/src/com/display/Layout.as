@@ -158,7 +158,7 @@ package com.display
 		}
 		
 		override public function removeChild(child:DisplayObject):DisplayObject{
-			if(child == null){
+			if(child == null && this.contains(child) == false){
 				return null;
 			}
 			ArrayUtil.remove(childrens,child);
