@@ -56,6 +56,9 @@ package com.display.keyboard
 		}
 		
 		private static function keyHandler(event:KeyboardEvent):void{
+			if(_stage.focus == state){
+				return;
+			}
 			if(state){
 				var e:KeyboardEvent = new KeyboardEvent(event.type,false,false,event.charCode,event.keyCode,event.keyLocation,event.ctrlKey,event.altKey,event.shiftKey);
 				state.dispatchEvent(e);
