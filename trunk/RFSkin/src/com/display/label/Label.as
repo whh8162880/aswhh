@@ -9,7 +9,6 @@ package com.display.label
 
 	public class Label extends ButtonBase
 	{
-		protected var box:Box
 		public function Label(skin:Object=null, type:String=LayoutType.HORIZONTAL, directionFlag:Boolean=false)
 		{
 			if(skin == null){
@@ -23,10 +22,9 @@ package com.display.label
 		}
 		
 		override protected function initSkin():DisplayObjectContainer{
-			box = new Box();
 			var text:Text = new Text();
 			text.setTextColor(0xFFFFFF,0);
-			box.addChild(text);
+			addChildToBoxLayer(text);
 			box.regDisplayObjectToProperty(text,"label");
 			text.selectable = false
 			text.mouseEnabled = false

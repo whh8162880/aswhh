@@ -117,15 +117,16 @@ package com.display
 			if(_buildFlag == value){
 				return;
 			}
-			_buildFlag = value;
-			if(_buildFlag == true && layout != LayoutType.ABSOLUTE){
+			if(_buildFlag == false && (_layout != LayoutType.ABSOLUTE || _hAlign != LayoutType.LEFT || _vAlign != LayoutType.TOP)){
+				_buildFlag = true;
 				this.addEventListener(Event.ENTER_FRAME,enterFrameHandelr);
 			}else{
+				_buildFlag = false;
 				this.removeEventListener(Event.ENTER_FRAME,enterFrameHandelr);
 			}
 		}
 		
-		private function enterFrameHandelr(event:Event):void{
+		protected function enterFrameHandelr(event:Event):void{
 			bulidflag = false;
 			this.removeEventListener(Event.ENTER_FRAME,enterFrameHandelr);
 			bulid();

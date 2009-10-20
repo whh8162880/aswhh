@@ -117,9 +117,13 @@ package com.display.skin
 				this.intRectangle = intRectangle.clone()
 				if(width>-1 && intRectangle.width<0){
 					this.intRectangle.width = width;
+				}else{
+					width = this.intRectangle.width
 				}
 				if(height>-1 && intRectangle.height<0){
 					this.intRectangle.height = height;
+				}else{
+					height = this.intRectangle.height
 				}
 			}
 			
@@ -380,5 +384,6 @@ package com.display.skin
 			}
 			return LayoutType.ABSOLUTE
 		}
+		
 	}
 }
