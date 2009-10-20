@@ -1,10 +1,12 @@
 package com.display.button
 {
+	import com.display.Box;
 	import com.display.Container;
 	import com.display.LayoutType;
 	import com.display.skin.SkinInteractiveBase;
 	import com.display.utils.geom.IntRectangle;
 	
+	import flash.display.DisplayObject;
 	import flash.display.DisplayObjectContainer;
 	import flash.events.IEventDispatcher;
 	import flash.events.MouseEvent;
@@ -16,6 +18,7 @@ package com.display.button
 		protected var onlySkin:Boolean = false
 		protected var _textField:TextField;
 		protected var _labelString:String;
+		protected var _box:Box
 		public function ButtonBase(skin:Object=null,type:String=LayoutType.HORIZONTAL, directionFlag:Boolean=false)
 		{
 			this.useHandCursor = true;
@@ -53,6 +56,20 @@ package com.display.button
 			}
 			
 			_textField = value;
+			_textField.selectable = false
+			_textField.mouseEnabled = false
+		}
+		
+		public function addChildToBoxLayer(d:DisplayObject,index:int = 999):void{
+			if(_box == null){
+				_box = new Box()
+				addDisplayObjectToLayer("box",_box,999);
+			}
+			_box.addChildAt(d,index);
+		} 
+		
+		public function get box():Box{
+			return _box;
 		}
 		
 		public function set label(value:String):void{

@@ -225,7 +225,6 @@ class KeyVO{
 		this.shiftflag = shiftflag;
 		this.altFlag = altFlag;
 		this.keyFunction = keyFunction;
-		trace(keyFunction)
 	}
 	
 	public var keycodes:Array;

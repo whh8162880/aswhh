@@ -11,6 +11,7 @@ package {
 	import flash.display.Sprite;
 	import flash.display.StageAlign;
 	import flash.display.StageScaleMode;
+	import flash.utils.setTimeout;
 
 	public class RFSkin extends Sprite
 	{
@@ -44,6 +45,11 @@ package {
 //			
 			var b:ButtonBase = new WButton();
 			addChild(b);
+			
+			b.width =200
+			setTimeout( function ():void{
+				b.height =500
+			},100);
 		}
 	}
 }
