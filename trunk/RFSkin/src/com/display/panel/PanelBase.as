@@ -19,10 +19,12 @@ package com.display.panel
 		protected var _enterCloseFlag:Boolean = false;
 		protected var _escCloseFlag:Boolean = false;
 		protected var parentPanel:PanelBase
+		protected var _panelMoveArea:PanelMoveArea;
 		public function PanelBase(_skin:DisplayObjectContainer=null)
 		{
 			_keyboardManager = new KeyboardManager();
 			_keyboardManager.init(this);
+			_panelMoveArea = new PanelMoveArea(this);
 			super(_skin);
 		}
 		
