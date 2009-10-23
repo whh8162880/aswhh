@@ -1,6 +1,7 @@
 package com.display.panel
 {
 	import com.display.Box;
+	import com.display.Container;
 	import com.display.LayoutType;
 	import com.display.button.ButtonBase;
 	import com.display.utils.geom.IntRectangle;
@@ -12,28 +13,31 @@ package com.display.panel
 	import flash.events.IEventDispatcher;
 	import flash.events.MouseEvent;
 
-	public class PanelMoveArea extends Box
+	public class PanelMoveArea extends Container
 	{
 		protected var panel:DisplayObject;
-		protected var stage:Stage;
+		protected var _stage:Stage;
 		protected var offsetx:int;
 		protected var offsety:int;
+		protected var _box:Box
 		public function PanelMoveArea(panel:DisplayObject = null, _skin:DisplayObjectContainer=null)
 		{
 			this.panel = panel;
 			this._hAlign = LayoutType.RIGHT;
 			this._vAlign = LayoutType.CENTER;
-			super(LayoutType.HORIZONTAL, false , _skin);
+			_box = new Box()
+			addDisplayObjectToLayer("panel_move_box",_box,999);
+			super(_skin);
 		}
 		
-		public function addbutton(button:ButtonBase):void{
+		public function addbutton(button:ButtonBase,index:int = 999):void{
 			if(button)
-				this.addChild(button);
+				_box.addChild(button);
 		}
 		
 		public function removeButton(button:ButtonBase):void{
 			if(button){
-				this.removeChild(button);
+				_box.removeChild(button);
 			}
 		}
 		
@@ -44,11 +48,11 @@ package com.display.panel
 		protected function mouseDownHandler(event:MouseEvent):void{
 			var d:DisplayObject = event.target as DisplayObject;
 			var dispather:IEventDispatcher
-			if(!stage && d){
-				stage = d.stage;
+			if(!_stage && d){
+				_stage = d.stage;
 			}
 			if(panel != null){
-				dispather = d ? stage : IEventDispatcher(event.target)
+				dispather = d ? _stage : IEventDispatcher(event.target)
 				dispather.addEventListener(MouseEvent.MOUSE_MOVE,mouseMoveHandler);
 				dispather.addEventListener(MouseEvent.MOUSE_UP,mouseUpHandler);
 				offsetx = panel.mouseX;

@@ -43,13 +43,6 @@ package {
 			panel.escClose = true;
 //			addChild(panel);
 //			
-			var b:ButtonBase = new WButton();
-			addChild(b);
-			
-			b.width =200
-			setTimeout( function ():void{
-				b.height =500
-			},100);
 		}
 	}
 }
