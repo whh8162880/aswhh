@@ -2,6 +2,7 @@ package com.display.skin.skins
 {
 	import com.display.skin.SkinInteractiveBase;
 	
+	import flash.display.DisplayObject;
 	import flash.display.Shape;
 
 	public class ListInteractive extends SkinInteractiveBase
@@ -22,5 +23,13 @@ package com.display.skin.skins
 			super(skin);
 		}
 		
+		override protected function resize(d:DisplayObject):void{
+			if(!intRectangle){
+				return;
+			}
+			super.resize(d);
+		}
+		
+	
 	}
 }

@@ -113,12 +113,16 @@ package com.display.button
 		protected function rollHandelr(event:MouseEvent):void{
 			var mouseover:Boolean = (event.type == MouseEvent.ROLL_OVER);
 			var num:Number = numChildren;
+//			var target:DisplayObject = DisplayObject(event.target);
+//			var w:int = Math.max(target.width,skinInteractive.width);
+//			var h:int = Math.max(target.height,skinInteractive.height);
 			while(num--){
 				var active:SkinInteractiveBase = getChildAt(num) as SkinInteractiveBase;
 				if(active == null){
 					continue;
 				}
 				active.mouseover = mouseover;
+//				active.refresh(intRectangle,w,h);
 				active.refresh(intRectangle,skinInteractive.width,skinInteractive.height);
 			}
 		}

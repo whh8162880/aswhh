@@ -127,6 +127,10 @@ package com.display.skin
 				}
 			}
 			
+			if(!skin){
+				return;
+			}
+			
 			if(getActive() == currentshowtype &&
 			 (this.intRectangle!=null && 
 			 (this.width == width && this.height == height))){
@@ -188,7 +192,9 @@ package com.display.skin
 			if(o is DisplayObject){
 				currentshowtype = active;
 				currentImage = o as DisplayObject
+//				if(intRectangle && (currentImage.width != intRectangle.width || currentImage.height != intRectangle.height)){
 				resize(currentImage)
+//				}
 //				o.x = intRectangle.x
 //				o.y = intRectangle.y
 //				intRectangle.width >-1 ? o.width = intRectangle.width : 0
@@ -228,6 +234,7 @@ package com.display.skin
 			
 			d.x = intRectangle.x;
 			d.y = intRectangle.y;
+			
 			
 			if(intRectangle.width == d.width && intRectangle.height == d.height){
 				return;

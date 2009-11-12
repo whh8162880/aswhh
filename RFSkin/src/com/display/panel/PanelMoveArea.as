@@ -26,8 +26,8 @@ package com.display.panel
 			this._hAlign = LayoutType.RIGHT;
 			this._vAlign = LayoutType.CENTER;
 			_box = new Box()
-			addDisplayObjectToLayer("panel_move_box",_box,999);
 			super(_skin);
+			addDisplayObjectToLayer("panel_move_box",_box,999);
 		}
 		
 		public function addbutton(button:ButtonBase,index:int = 999):void{

@@ -151,6 +151,9 @@ package com.display
 			}
 			childrens.splice(index,0,child);
 			child.addEventListener(LayoutEvent.BUILD,rebulidHandler);
+			if(index>super.numChildren){
+				index = super.numChildren
+			}
 			var d:DisplayObject = super.addChildAt(child,index)
 			updataChild(child)
 			if(child.width >0 && child.height > 0)

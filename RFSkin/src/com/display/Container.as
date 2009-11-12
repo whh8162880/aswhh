@@ -30,7 +30,8 @@ package com.display
 			addToStaged = false;
 			inited = false;
 			dict = new Dictionary()
-			layerDict = new Dictionary();
+			if(!layerDict)
+				layerDict = new Dictionary();
 			if(_skin){
 				this.skin = _skin;
 			}else{
@@ -199,6 +200,9 @@ package com.display
 		}
 		
 		public function addDisplayObjectToLayer(name:String,_skin:DisplayObject,layer:int):DisplayObject{
+			if(!layerDict){
+				layerDict = new Dictionary();
+			}
 			layerDict[name] = _skin;
 			_skin.addEventListener(LayoutEvent.RESIZE,_skinrefreshHandelr);
 			_skin.addEventListener(LayoutEvent.BUILD,_skinrefreshHandelr);
@@ -236,10 +240,10 @@ package com.display
 			var num:Number = numChildren;
 			var target:DisplayObject = event.target as DisplayObject
 			if(_intRectangle && _intRectangle.width < 0 ){
-				_maxWidth = Math.max(_maxWidth,target.width);
+				_maxWidth = Math.max(_maxWidth,this.width);
 			}
 			if(_intRectangle && _intRectangle.height < 0){
-				_maxHeight = Math.max(_maxHeight,target.height);
+				_maxHeight = Math.max(_maxHeight,this.height);
 			}
 			while(num--){
 				var active:SkinInteractiveBase = getChildAt(num) as SkinInteractiveBase;
