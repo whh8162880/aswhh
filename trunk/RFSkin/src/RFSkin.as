@@ -41,7 +41,7 @@ package {
 			panel.enterKeyboardEnabled = true;
 			panel.escKeyboardEnabled = true;
 			panel.escClose = true;
-//			addChild(panel);
+			addChild(panel);
 //			
 		}
 	}

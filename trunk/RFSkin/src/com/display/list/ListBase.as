@@ -69,13 +69,13 @@ package com.display.list
 			super.bulid()
 		}
 		
-		override public function set width(value:Number):void{
-			
-		}
-		
-		override public function set height(value:Number):void{
-			
-		}
+//		override public function set width(value:Number):void{
+//			
+//		}
+//		
+//		override public function set height(value:Number):void{
+//			
+//		}
 		
 	}
 }

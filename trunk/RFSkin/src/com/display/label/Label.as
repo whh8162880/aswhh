@@ -11,10 +11,10 @@ package com.display.label
 	{
 		public function Label(skin:Object=null, type:String=LayoutType.HORIZONTAL, directionFlag:Boolean=false)
 		{
+			super(skin, type, directionFlag);
 			if(skin == null){
 				skin = initSkin()
 			}
-			super(skin, type, directionFlag);
 			addListener()
 			
 			this._vAlign = LayoutType.CENTER;
@@ -25,11 +25,11 @@ package com.display.label
 			var text:Text = new Text();
 			text.setTextColor(0xFFFFFF,0);
 			addChildToBoxLayer(text);
-			box.regDisplayObjectToProperty(text,"label");
+			_box.regDisplayObjectToProperty(text,"label");
 			text.selectable = false
 			text.mouseEnabled = false
-			box.hAlign = LayoutType.MIDDLE;
-			return box;
+			_box.hAlign = LayoutType.MIDDLE;
+			return _box;
 		}
 		
 		override protected function doData():void{
