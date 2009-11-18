@@ -1,6 +1,5 @@
 package {
 	import com.display.LayoutType;
-	import com.display.button.ButtonBase;
 	import com.display.label.Label;
 	import com.display.list.ListBase;
 	import com.display.panel.PanelBase;
@@ -11,7 +10,6 @@ package {
 	import flash.display.Sprite;
 	import flash.display.StageAlign;
 	import flash.display.StageScaleMode;
-	import flash.utils.setTimeout;
 
 	public class RFSkin extends Sprite
 	{
@@ -24,6 +22,10 @@ package {
 //			
 ////			RFSystemManager.getInstance().setStage(stage);
 //			
+			var button:WButton = new WButton()
+			button.label = "你是一头猪" 
+			addChild(button);
+			return;
 			var label:Label = new Label();
 			label.data = {label:"你是一头猪"}
 //			addChild(label);
