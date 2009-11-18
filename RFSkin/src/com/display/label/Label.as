@@ -28,6 +28,7 @@ package com.display.label
 			_box.regDisplayObjectToProperty(text,"label");
 			text.selectable = false
 			text.mouseEnabled = false
+			textField = text;
 			_box.hAlign = LayoutType.MIDDLE;
 			return _box;
 		}

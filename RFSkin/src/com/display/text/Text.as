@@ -34,13 +34,13 @@ package com.display.text
 		
 		override public function get width():Number{
 			if(_width == -1)
-				return this.textWidth;
+				return super.width;
 			return _width;
 		}
 		
 		override public function get height():Number{
 			if(_height == -1)
-				return this.textHeight;
+				return super.height;
 			return _height;
 		}
 		
