@@ -16,55 +16,22 @@ package com
 		{
 		}
 		
-		private var _file:File
-		public function open(imageTypes:FileFilter = null):void
-	    {
-			_file = new File();
-			var imageTypes:FileFilter = new FileFilter("*.*", "*.*");
-			_file.addEventListener( Event.SELECT, this.onSelect );
-			_file.browseForOpen( "Open", [ imageTypes ] );
-	    }
-	    
-	    private var openData:ByteArray
-		private function onSelect( e:Event ):void
-	    {
-	      var stream:FileStream = new FileStream();
-	      stream.open( e.target as File, FileMode.READ );
-	      var fileDate:ByteArray = new ByteArray();
-	      stream.readBytes( fileDate, 0, stream.bytesAvailable );
-	      stream.close();
-	      openData = fileDate;
-	      this.dispatchEvent(new Event(Event.COMPLETE));
-	    }
-	    
-	    public function getFile():File{
-	    	return _file
-	    }
-	    
-	    public function getData():ByteArray{
-	    	return openData
-	    }
-	    
-	    public function write(byteArray:ByteArray,path:String):void{
-	    	var stream:FileStream;
-	    	try{
-			    var _file:File = File.desktopDirectory.resolvePath( path );
-			    stream = new FileStream();
-			    _file.addEventListener(Event.COMPLETE,streamHandler);
-			    stream.open( _file, FileMode.WRITE );
-			    stream.writeBytes( byteArray );
-			    stream.close();
-			}catch(e:Error){
-				
-			}
-//		    _file.addEventListener(
-	    }
-	    
-	    private function streamHandler(event:Event):void{
-	    	event.target.removeEventListener(Event.COMPLETE,streamHandler);
-	    	Alert.show("保存成功!!!");
+		public static function browseForDirectory(browseHandler:Function,title:String=""):void{
+			new BrowseForDirectory(title,browseHandler);
+		}
+		
+		public static function browseForOpen(browseHandler:Function,title:String="",fileTypes:Array = null):void{
+			new BrowseForOpen(fileTypes,title,browseHandler);
+		}
+		
+		public static function browseForOpenMultiple(browseHandler:Function,title:String="",fileTypes:Array = null):void{
+			new BrowseForOpenMultiple(fileTypes,title,browseHandler);
 	    }
 		
+		public static function browseForSave(browseHandler:Function,title:String=""):void{
+			new BrowseForSave(title,browseHandler);
+		}
+	    
 		public static function open(file:File):ByteArray{
 			if(!file || !file.exists){
 				return null;
@@ -100,5 +67,80 @@ package com
 		}
 		
 		
+	}
+}
+import flash.events.Event;
+import flash.events.FileListEvent;
+import flash.filesystem.File;
+import flash.net.FileFilter;
+
+class BrowseForDirectory{
+	protected var openHandler:Function
+	protected var title:String;
+	protected var file:File;
+	public function BrowseForDirectory(title:String,openHandler:Function){
+		this.title = title;
+		this.openHandler = openHandler;
+		this.file = new File();
+		file.addEventListener(Event.SELECT,selectHandler);
+		file.addEventListener(FileListEvent.SELECT_MULTIPLE,selectMultipleHandler);
+		file.addEventListener(Event.CANCEL,cancelHandler);
+	}
+	
+	protected function selectMultipleHandler(event:FileListEvent):void{
+		if(openHandler != null){
+			openHandler(event.files)
+		}
+	}
+	
+	protected function selectHandler(event:Event):void{
+		if(file.exists && openHandler != null){
+			openHandler(file)
+		}
+	}
+	
+	protected function cancelHandler(event:Event):void{
+		if(openHandler != null){
+			openHandler(null)
+		}
+	}
+	
+	protected function doOpen():void{
+		file.browseForDirectory(title);
+	}
+}
+
+
+
+class BrowseForOpen extends BrowseForDirectory{
+	protected var fileTypes:Array;
+	public function BrowseForOpen(fileTypes:Array,title:String,openHandler:Function){
+		this.fileTypes = fileTypes;
+		super(title,openHandler);
+	}
+	
+	override protected function doOpen():void{
+		file.browseForOpen(title,fileTypes);
+	}
+}
+
+class BrowseForOpenMultiple extends BrowseForOpen{
+	
+	public function BrowseForOpenMultiple(fileTypes:Array,title:String,openHandler:Function){
+		super(fileTypes,title,openHandler);
+	}
+	
+	override protected function doOpen():void{
+		file.browseForOpenMultiple(title,fileTypes);
+	}
+}
+
+class BrowseForSave extends BrowseForDirectory{
+	public function BrowseForSave(title:String,openHandler:Function){
+		super(title,openHandler);
+	}
+	
+	override protected function doOpen():void{
+		file.browseForSave(title);
 	}
 }
