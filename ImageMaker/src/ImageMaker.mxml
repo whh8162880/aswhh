@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:WindowedApplication xmlns:fx="http://ns.adobe.com/mxml/2009" 
+					   xmlns:s="library://ns.adobe.com/flex/spark" 
+					   xmlns:mx="library://ns.adobe.com/flex/mx" 
+					   styleName="font"
+					   width="1000"
+					   height="700"
+					   creationComplete="windowedapplication1_creationCompleteHandler(event)"
+					   nativeDragEnter="windowedapplication1_nativeDragEnterHandler(event)"
+					   nativeDragDrop="windowedapplication1_nativeDragDropHandler(event)" xmlns:view="make.module.quickmake.view.*"
+					   >
+	
+	<fx:Style>
+		@namespace s "library://ns.adobe.com/flex/spark";
+		@namespace mx "library://ns.adobe.com/flex/mx";
+		.font{
+			fontSize:12px;
+			fontFamily:"宋体";
+		}
+	</fx:Style>
+	
+	
+	<fx:Script>
+		<![CDATA[
+			import com.OpenFile;
+			
+			import mx.events.FlexEvent;
+			
+			import nt.imagine.exif.ExifExtractor;
+			import nt.imagine.exif.prototype.IFDEntry;
+
+			
+			protected function windowedapplication1_creationCompleteHandler(event:FlexEvent):void
+			{
+				// TODO Auto-generated method stub
+				
+			}
+			
+			
+
+			private var types:Array = [".jpeg",".jpg",".png"];
+			private var files:Array;
+			protected function windowedapplication1_nativeDragEnterHandler(event:NativeDragEvent):void
+			{
+				NativeDragManager.acceptDragDrop(this);
+			}
+
+
+			protected function windowedapplication1_nativeDragDropHandler(event:NativeDragEvent):void
+			{
+				var clip:Clipboard = event.clipboard;
+				files = clip.getData(ClipboardFormats.FILE_LIST_FORMAT) as Array;
+				complete();
+			}
+			
+			
+			private function getInfo(b:ByteArray):void{
+				b.position = 0;
+				var url:URLLoader = new URLLoader();
+				url.data = b;
+				
+				var info:ExifExtractor = new ExifExtractor(url);
+				var arr:Array = info.getAllTag();
+				for each(var o:IFDEntry in arr){
+					trace(o.CN+":"+o.values)
+				}
+			}
+
+
+			protected function complete():void
+			{
+				// TODO Auto-generated method stub
+				var b:ByteArray;
+				for each(var f:File in files){
+					if(types.indexOf(f.type.toLocaleLowerCase())==-1){
+						continue;
+					}
+					b = OpenFile.open(f);
+					if(!b){
+						continue;
+					}
+					getInfo(b);
+				}
+				
+			}
+
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
+	</fx:Declarations>
+	<view:MainView />
+</s:WindowedApplication>

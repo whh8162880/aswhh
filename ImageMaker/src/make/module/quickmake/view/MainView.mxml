@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns:TitleWindow xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" 
+			   xmlns:ns="library://ns.adobe.com/flex/halo"
+			   layout="absolute"
+			   xmlns:mx="library://ns.adobe.com/flex/mx" width="600" height="600" title="快速转换"
+			   showCloseButton="true"
+			   >
+	<fx:Script>
+		<![CDATA[
+			protected function button1_clickHandler(event:MouseEvent):void
+			{
+				//选择输入的图片地址
+				stage.quality
+			}
+
+			protected function button2_clickHandler(event:MouseEvent):void
+			{
+				//选择输出的图片地址
+			}
+
+
+			protected function button3_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+			}
+
+
+			protected function button4_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+			}
+
+		]]>
+	</fx:Script>
+
+	<fx:Declarations>
+		<s:RadioButtonGroup id="radiogroup1"/>
+		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
+	</fx:Declarations>
+	<s:Label x="10" y="30" width="120" text="等待处理的图片位置&#xd;"/>
+	<s:TextInput x="130" y="25" width="200" id="prePathTxt"/>
+	<s:Button x="340" y="25" click="button1_clickHandler(event)" label="selete..." />
+	
+	<s:Label x="10" y="60" width="120" text="处理后的图片保存至&#xd;"/>
+	<s:TextInput x="130" y="55" width="200" id="savePathTxt"/>
+	<s:Button x="340" y="55" click="button2_clickHandler(event)" label="selete..." />
+	
+	
+	<s:Label x="10" y="90"  text="处理后的图片全部为jpg形式,图片质量为:                   % "/>
+	<s:TextInput x="230" y="85" width="50" id="jpgQualityTxt" restrict="0-9" maxChars="3" text="100" textAlign="right"/>
+	<s:CheckBox x="10" y="110" label="处理后的图片加前缀" id="preNameCheckbox"/>
+	
+	<ns:HRule x="10" y="136" width="100%"/>
+	
+	
+	<s:Label x="10" y="150" text="改变大小"/>
+	<s:RadioButton x="20" y="170" width="100" label="按百分比改" groupName="radiogroup1"/>
+	<s:Label x="120" y="175" text="改成原图大小的                   %"/>
+	<s:TextInput x="210" y="170" width="50" id="jpgAreaTxt" restrict="0-9" maxChars="3" text="100" textAlign="right"/>
+	
+	<s:RadioButton x="20" y="200" width="100" label="按分辨率改" groupName="radiogroup1" selected="true"/>
+	<s:Label x="120" y="205" text="改成宽度为                   改变高度为"/>
+	<s:TextInput x="185" y="200" width="50" id="jpgwidthTxt" restrict="0-9" maxChars="4" text="800"/>
+	<s:TextInput x="300" y="200" width="50" id="jpgheightTxt" restrict="0-9" maxChars="4" text="600"/>
+	
+	<ns:HRule x="10" y="235" width="100%"/>
+	
+	<s:Label x="10" y="250" text="加入签名" />
+	<s:CheckBox x="10" y="270" label="时间.日期" id="dateCheckbox"/>
+	<s:CheckBox x="110" y="270" label="相机信息" id="cameraInfoCheckbox"/>
+	<s:CheckBox x="210" y="270" label="ISO" id="isoCheckbox"/>
+	<s:CheckBox x="10" y="300" label="光圈" id="apertureCheckbox"/>
+	<s:Label x="310" y="250" text="预览" />
+	
+	<ns:HRule x="10" y="327" width="100%"/>
+	
+	<s:Label x="10" y="340" text="信息" />
+	<s:TextArea x="10" y="360" height="100" width="500"/>
+	
+	<ns:HRule x="10" y="472" width="100%"/>
+	
+	<s:Button x="10" y="480" label="开始转换" click="button3_clickHandler(event)"/>
+	<s:Button x="100" y="480" label="关闭" click="button4_clickHandler(event)"/>
+	
+</ns:TitleWindow>
