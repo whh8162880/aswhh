@@ -8,10 +8,15 @@
 			   >
 	<fx:Script>
 		<![CDATA[
+			import com.OpenFile;
 			protected function button1_clickHandler(event:MouseEvent):void
 			{
 				//选择输入的图片地址
-				stage.quality
+				OpenFile.browseForDirectory(selectInputImageDirectorty);
+			}
+			
+			private function selectInputImageDirectorty(file:File):void{
+				prePathTxt.text = file.nativePath;z
 			}
 
 			protected function button2_clickHandler(event:MouseEvent):void
