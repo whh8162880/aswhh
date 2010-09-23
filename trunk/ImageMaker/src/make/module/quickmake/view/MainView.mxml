@@ -5,10 +5,13 @@
 			   layout="absolute"
 			   xmlns:mx="library://ns.adobe.com/flex/mx" width="600" height="600" title="快速转换"
 			   showCloseButton="true"
+			   creationComplete="titlewindow1_creationCompleteHandler(event)"
 			   >
 	<fx:Script>
 		<![CDATA[
 			import com.OpenFile;
+			
+			import mx.events.FlexEvent;
 			protected function button1_clickHandler(event:MouseEvent):void
 			{
 				//选择输入的图片地址
@@ -16,12 +19,17 @@
 			}
 			
 			private function selectInputImageDirectorty(file:File):void{
-				prePathTxt.text = file.nativePath;z
+				prePathTxt.text = file.nativePath;
 			}
 
 			protected function button2_clickHandler(event:MouseEvent):void
 			{
 				//选择输出的图片地址
+				OpenFile.browseForDirectory(selectOutputImageDirectorty);
+			}
+			
+			private function selectOutputImageDirectorty(file:File):void{
+				savePathTxt.text = file.nativePath;
 			}
 
 
@@ -34,6 +42,11 @@
 			protected function button4_clickHandler(event:MouseEvent):void
 			{
 				// TODO Auto-generated method stub
+			}
+
+
+			protected function titlewindow1_creationCompleteHandler(event:FlexEvent):void
+			{
 			}
 
 		]]>

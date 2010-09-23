@@ -85,28 +85,38 @@ class BrowseForDirectory{
 		file.addEventListener(Event.SELECT,selectHandler);
 		file.addEventListener(FileListEvent.SELECT_MULTIPLE,selectMultipleHandler);
 		file.addEventListener(Event.CANCEL,cancelHandler);
+		doOpen();
 	}
 	
 	protected function selectMultipleHandler(event:FileListEvent):void{
 		if(openHandler != null){
 			openHandler(event.files)
 		}
+		disponse();
 	}
 	
 	protected function selectHandler(event:Event):void{
 		if(file.exists && openHandler != null){
 			openHandler(file)
 		}
+		disponse();
 	}
 	
 	protected function cancelHandler(event:Event):void{
 		if(openHandler != null){
 			openHandler(null)
 		}
+		disponse();
 	}
 	
 	protected function doOpen():void{
 		file.browseForDirectory(title);
+	}
+	
+	protected function disponse():void{
+		file.removeEventListener(Event.SELECT,selectHandler);
+		file.removeEventListener(FileListEvent.SELECT_MULTIPLE,selectMultipleHandler);
+		file.removeEventListener(Event.CANCEL,cancelHandler);
 	}
 }
 
