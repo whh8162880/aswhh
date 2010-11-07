@@ -7,7 +7,7 @@
 					   height="700"
 					   creationComplete="windowedapplication1_creationCompleteHandler(event)"
 					   nativeDragEnter="windowedapplication1_nativeDragEnterHandler(event)"
-					   nativeDragDrop="windowedapplication1_nativeDragDropHandler(event)" xmlns:view="make.module.quickmake.view.*"
+					   nativeDragDrop="windowedapplication1_nativeDragDropHandler(event)" xmlns:view="make.module.quickmake.view.*" xmlns:view1="make.module.photoscale.view.*"
 					   >
 	
 	<fx:Style>
@@ -89,5 +89,5 @@
 	<fx:Declarations>
 		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
 	</fx:Declarations>
-	<view:MainView />
+	<view1:PhotoScale />
 </s:WindowedApplication>
