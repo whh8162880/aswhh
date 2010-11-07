@@ -11,7 +11,7 @@ package make.utils
 		{
 		}
 		
-		public static function resizeBitmap(bmd:BitmapData,width:int,height:int,scaleMode:Boolean = true):BitmapData{
+		public static function resizeBitmap(bmd:BitmapData,width:int,height:int,scaleMode:Boolean = true,smoothing:Boolean=false):BitmapData{
 			var matrix:Matrix = new Matrix();
 			var wScale:Number = width/bmd.width;
 			var hScale:Number 
@@ -21,7 +21,7 @@ package make.utils
 				hScale = height/bmd.height;
 			}
 			matrix.scale(wScale,hScale);
-			return ImageSnapshot.captureBitmapData(bmd,matrix,null,null,null,true);
+			return ImageSnapshot.captureBitmapData(bmd,matrix,null,null,null,smoothing);
 		}
 		
 		public static function resizeBitmapByScale(bmd:BitmapData,scale:Number):BitmapData{

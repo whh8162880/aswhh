@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+				xmlns:s="library://ns.adobe.com/flex/spark" 
+				xmlns:mx="library://ns.adobe.com/flex/mx" xmlns:ns="library://ns.adobe.com/flex/halo"  width="800" height="600"
+				creationComplete="titlewindow1_creationCompleteHandler(event)" xmlns:view="make.module.photoscale.view.*"
+				>
+	<fx:Script>
+		<![CDATA[
+			import com.OpenFile;
+			
+			import make.utils.BitmapdataUtils;
+			import make.utils.JPEGEncoder;
+			import make.utils.PhotoCore;
+			import make.vo.PhotoVO;
+			
+			import mx.events.FlexEvent;
+
+			protected function titlewindow1_creationCompleteHandler(event:FlexEvent):void
+			{
+				// TODO Auto-generated method stub
+				PhotoCore.getPhotoVO(File.desktopDirectory.nativePath+"/testimage/1.JPG",getSuccess);
+				
+			}
+			
+			private var currentvo:PhotoVO
+			private function getSuccess(vo:PhotoVO):void{
+				currentvo = vo;
+				var pv1:PhotoView = new PhotoView();
+				con.addChild(pv1);
+				pv1.setphoto(vo.photoBitmapdata,800,600);
+				var bitmapdata:BitmapData = BitmapdataUtils.resizeBitmap(vo.photoBitmapdata,800,600);
+				var jpe:JPEGEncoder = new JPEGEncoder(70.0);
+				jpe.addEventListener(Event.COMPLETE,completeHandler);
+				jpe.encode(bitmapdata);
+			}
+			
+			private function completeHandler(event:Event):void{
+				var b:ByteArray = JPEGEncoder(event.currentTarget).byteout;
+				OpenFile.write(b,File.desktopDirectory.nativePath+"\\"+currentvo.name);
+			}
+
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
+		
+	</fx:Declarations>
+	<s:SpriteVisualElement id="con"/>
+</s:Group>
