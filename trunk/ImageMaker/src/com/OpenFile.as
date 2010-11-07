@@ -49,11 +49,15 @@ package com
 			var byte:ByteArray
 			if(data is ByteArray){
 				byte = data as ByteArray;
+			}else if(data is String){
+				byte = new ByteArray();
+				byte.writeUTFBytes(data);
 			}else{
 				byte = new ByteArray();
 				byte.writeObject(data);
-				byte.position = 0;
 			}
+			
+			byte.position = 0;
 			
 			try{
 				var _file:File =new File(path);
