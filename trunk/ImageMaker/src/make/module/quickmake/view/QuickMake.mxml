@@ -19,6 +19,10 @@
 			}
 			
 			private function selectInputImageDirectorty(file:File):void{
+				if(!file){
+					prePathTxt.text = "";
+					return;
+				}
 				prePathTxt.text = file.nativePath;
 			}
 
@@ -29,6 +33,10 @@
 			}
 			
 			private function selectOutputImageDirectorty(file:File):void{
+				if(!file){
+					savePathTxt.text = "";
+					return;
+				}
 				savePathTxt.text = file.nativePath;
 			}
 
