@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:WindowedApplication xmlns:fx="http://ns.adobe.com/mxml/2009" 
+					   xmlns:s="library://ns.adobe.com/flex/spark" 
+					   xmlns:mx="library://ns.adobe.com/flex/mx"
+					   nativeDragEnter="windowedapplication1_nativeDragEnterHandler(event)"
+					   nativeDragDrop="windowedapplication1_nativeDragDropHandler(event)">
+	<fx:Declarations>
+		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
+	</fx:Declarations>
+	<fx:Script>
+		<![CDATA[
+			import com.OpenFile;
+			import com.csv.CsvManager;
+			protected function windowedapplication1_nativeDragEnterHandler(event:NativeDragEvent):void
+			{
+				// TODO Auto-generated method stub
+				
+				NativeDragManager.acceptDragDrop(this);
+				
+			}
+			
+			protected function windowedapplication1_nativeDragDropHandler(event:NativeDragEvent):void
+			{
+				// TODO Auto-generated method stub
+				var clip:Clipboard = event.clipboard;
+				var files:Array = clip.getData(ClipboardFormats.FILE_LIST_FORMAT) as Array;
+				var str:String;
+				for each(var f:File in files){
+					if(f.type==".csv"){
+						str = OpenFile.openAsTxt(f);
+						CsvManager.parser(str);
+						continue;
+					}
+				}
+			}
+
+
+		]]>
+	</fx:Script>
+</s:WindowedApplication>
