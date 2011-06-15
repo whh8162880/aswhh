@@ -24,11 +24,9 @@
 				// TODO Auto-generated method stub
 				var clip:Clipboard = event.clipboard;
 				var files:Array = clip.getData(ClipboardFormats.FILE_LIST_FORMAT) as Array;
-				var str:String;
 				for each(var f:File in files){
 					if(f.type==".csv"){
-						str = OpenFile.openAsTxt(f);
-						CsvManager.parser(str);
+						CsvManager.parser(f);
 						continue;
 					}
 				}
