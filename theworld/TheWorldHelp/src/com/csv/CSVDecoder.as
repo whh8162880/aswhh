@@ -54,7 +54,7 @@ package com.csv
 			
 			fieldSeperator 		= ','
 			fieldEnclosureToken = '"'
-			recordsetDelimiter 	= '\r'
+			recordsetDelimiter 	= '\r\n'
 			
 			header = new Array()
 			embededHeader = true
@@ -406,7 +406,7 @@ package com.csv
 			var result : Array = new Array ();
 			var data:Array;
 			data = str.split( recordsetDelimiter );
-			for(  var i : uint = 0; i < data.length; i++ )
+ 			for(  var i : uint = 0; i < data.length; i++ )
 			{
 				if( !Boolean( count % 2 ) )
 					 result.push( data[ i ] )
@@ -416,12 +416,12 @@ package com.csv
 			}
 			result = result.filter( isNotEmptyRecord )
 			result.forEach( fieldDetection )
-			if ( embededHeader && headerOverwrite )
-				   result.shift()
-			else if ( embededHeader && headerHasValues )
-				   result.shift()
-			else if ( embededHeader )
-				 	  Header = result.shift()
+//			if ( embededHeader && headerOverwrite )
+//				   result.shift()
+//			else if ( embededHeader && headerHasValues )
+//				   result.shift()
+//			else if ( embededHeader )
+//				 	  Header = result.shift()
 			return result;
 		}
 		
@@ -482,7 +482,8 @@ package com.csv
 			var count  : uint  = 0;
 			var result : Array = new Array ();
 			var tmp    : Array = element.split( fieldSeperator );
-			for( var i : uint = 0; i < tmp.length; i++ )
+			var i : uint
+			for( i = 0; i < tmp.length; i++ )
 			{
 				if( !Boolean( count % 2 ) )
 					 result.push( StringUtils.trim( tmp[ i ] ) );
@@ -490,6 +491,16 @@ package com.csv
 					 result[ result.length - 1 ] += fieldSeperator + tmp[ i ];
 				count += StringUtils.count( tmp[ i ] , fieldEnclosureToken );
 			}
+			
+			i =0;
+			for each(var str:String in result){
+				if(str.indexOf(",")!=-1){
+					str = str.slice(1,str.length-1);
+					result[i] = str;
+				}
+				i++
+			}
+			
 			arr[ index ] = result
 		}
 		
