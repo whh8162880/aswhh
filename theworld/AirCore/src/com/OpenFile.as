@@ -5,6 +5,7 @@ package com
 	import flash.filesystem.File;
 	import flash.filesystem.FileMode;
 	import flash.filesystem.FileStream;
+	import flash.html.script.Package;
 	import flash.net.FileFilter;
 	import flash.utils.ByteArray;
 	
@@ -50,10 +51,41 @@ package com
 				return null;
 			}
 			b.position = 0;
-			return b.readUTFBytes(b.bytesAvailable);
+			var type:String = getFileType(b);
+			b.position = 0;
+			return b.readMultiByte(b.bytesAvailable,type);
 		}
 		
-		public static function write(data:*,path:String):void{
+		public static function openAsObj(file:File,deflate:Boolean = false):*{
+			var b:ByteArray = open(file);
+			if(!b){
+				return null;
+			}
+			b.position = 0;
+			if(deflate){
+				b.deflate();
+				b.position = 0;
+			}
+			return b.readObject();
+		}
+		
+		public static function getFileType(bytes:ByteArray):String{
+			var b0:int = bytes.readUnsignedByte();
+			var b1:int = bytes.readUnsignedByte();
+			bytes.position =0;
+			if(b0==0xFF && b1==0xFE){
+				return "unicode";
+			}else if(b0==0xFE && b1==0xFF){
+				return "unicodeFFFE";
+			}else if(b0==0xEF && b1==0xBB){
+				return "utf-8";
+			}else{
+				return "gb2312"
+			}
+			
+		}
+		
+		public static function write(data:*,path:String):File{
 			var stream:FileStream;
 			var byte:ByteArray
 			if(data is ByteArray){
@@ -74,9 +106,11 @@ package com
 				stream.open( _file, FileMode.WRITE );
 				stream.writeBytes( byte );
 				stream.close();
+				return _file;
 			}catch(e:Error){
 				
 			}
+			return null;
 		}
 		
 		
