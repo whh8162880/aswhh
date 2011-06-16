@@ -11,6 +11,7 @@
 		<![CDATA[
 			import com.OpenFile;
 			import com.csv.CsvManager;
+			import com.tool.NPCOnceTool;
 			protected function windowedapplication1_nativeDragEnterHandler(event:NativeDragEvent):void
 			{
 				// TODO Auto-generated method stub
@@ -28,6 +29,10 @@
 					if(f.type==".csv"){
 						CsvManager.parser(f);
 						continue;
+					}else if(f.name == 'npc.txt'){
+						new NPCOnceTool("npc").decoder(f);
+					}else if(f.name == 'item.txt'){
+						new NPCOnceTool("npc").decodeItem(f);
 					}
 				}
 			}

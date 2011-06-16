@@ -14,6 +14,12 @@ package com.csv
 			this.type = type;
 		}
 		
+		
+		protected const T_STRING:int = 0;
+		protected const T_INT:int = 1;
+		protected const T_NUMBER:int = 2;
+		protected const T_ARRAY:int = 3;
+		
 		public function parser(file:File,arr:Array):void{
 			
 		}
@@ -42,14 +48,59 @@ package com.csv
 			arr[index] = o;
 		}
 		
-		protected function write(data:*,path:String,inflate:Boolean = true):void{
+		protected function write(data:*,path:String,inflate:Boolean = true):File{
 			var b:ByteArray = new ByteArray();
 			b.writeObject(data);
 			b.position = 0;
 			if(inflate)
 				b.inflate();
+			return OpenFile.write(b,path);
+		}
+		
+		protected function writeString(str:String,path:String,charset:String = 'utf-8'):void{
+			var b:ByteArray = new ByteArray();
+			b.writeMultiByte(str,charset);
+			b.position = 0;
 			OpenFile.write(b,path);
 		}
+		
+		protected function getpath(file:File,type:String=null):String{
+			if(type){
+				return file.parent.nativePath+"\\"+(file.name.replace(file.type,""))+type
+			}else{
+				return file.parent.nativePath+'\\';
+			}
+		}
+		
+		protected function encodeCsvValue(str:String):String{
+			if(str.indexOf(",")!=-1){
+				str = '"'+str+'"';
+			}
+			return str;
+		}
+		
+		protected function getValue(value:Object,type:int):String{
+			switch(type){
+				case T_ARRAY:
+					return decodeArrayValue(value as Array);
+					break;
+			}
+			return value.toString();
+		}
+		
+		private var arrayLevels:Array = [";","|",":"];
+		private function decodeArrayValue(value:Array,level:int=0):String{
+			var str:String = '';
+			for each(var o:* in value){
+				if(o is Array){
+					str += decodeArrayValue(o,level++);
+				}else{
+					str += o.toString()+arrayLevels[level];
+				}
+			}
+			return str.slice(0,str.length-1);
+		}
+		
 		
 	}
 }
