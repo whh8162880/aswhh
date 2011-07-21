@@ -1,0 +1,30 @@
+code:
+	15000
+define:
+	channel:
+		0:私聊
+		1:系统
+		2:普通
+		3:队伍
+		4:帮派
+		5:门派
+		6:世界
+		7:闲聊
+	messagevo:
+		ChatMessageVO
+interface:
+	15001(系统信息):
+		s->c:
+			messagevo;
+			
+	15002(私聊信息):
+		c->s
+			messagevo;
+		s->c
+			messagevo;
+			
+	15003(其他信息）
+		c->s
+			messagevo;
+		s->c
+			messagevo;
