@@ -1,0 +1,2506 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>天下1资料站→文章频道→查看文章→NPC 查询</TITLE>
+<META http-equiv=content-type content=text/html;charset=gb2312>
+<META http-equiv=content-language content=gb2312>
+<META content=all name=robots>
+<META http-equiv=imagetoolbar content=no>
+<META content=loes1@qq.com,LEOS name=author>
+<META content=天下1资料站 name=description>
+<META content=在线音乐试听,flash欣赏,影视BT下载,天下1资料中心,天下1游戏图片展示,天下1游戏娱乐中心,天下1游戏下载中心 
+name=keywords>
+<META content="www.foxmy.cn,LEOS 版权所有,未经允许不许任意转载" name=copyright><LINK 
+rev=stylesheet href="http://www.foxmy.cn/skin/1/css.css" type=text/css 
+rel=stylesheet>
+<SCRIPT language=javascript src="http://www.foxmy.cn/inc/js.js" 
+type=text/javascript></SCRIPT>
+ 
+<SCRIPT language=javascript src="http://www.foxmy.cn/skin/1/js.js" 
+type=text/javascript></SCRIPT>
+ 
+<META content="MSHTML 6.00.6000.16674" name=GENERATOR></HEAD>
+<BODY scroll=auto>
+<CENTER>
+<TABLE height=70 cellSpacing=0 cellPadding=0 width=770 border=0>
+  <TBODY>
+  <TR>
+    <TD align=middle width=200><IMG 
+      src="http://www.foxmy.cn/skin/1/mylogo.gif" align=absMiddle border=0> </TD>
+    <TD align=middle width=200>
+      <SCRIPT 
+      src="http://union.links99.net/banner468x60_1a.php?sid=12080&amp;uid=28463&amp;&amp;x=839278da511921f95b5fe5d14f6687ad&amp;x1=b2f7abd036bf0c5810d4dbed3b5c6b1e" 
+      charset=gb2312></SCRIPT>
+    </TD>
+    <TD align=middle width=100><A style="CURSOR: hand" 
+      onclick="this.style.behavior='url(#default#homepage)';this.sethomepage('http://www.foxmy.cn');">设为首页</A><BR><A 
+      href="javascript:window.external.addfavorite('http://www.foxmy.cn','天下1资料站');">加入收藏</A><BR><A 
+      href="mailto:loes1@qq.com">联系站长</A><BR><A id=StranLink><FONT 
+      color=red>繁體中文</FONT></A> </TD></TR></TBODY></TABLE>
+<TABLE id=topmenu cellSpacing=0 cellPadding=0 border=0>
+  <TBODY>
+  <TR>
+    <TD class=tml noWrap></TD>
+    <TD class=tmc noWrap>&nbsp;天下1欢迎您：&nbsp;游客&nbsp;&nbsp;<A 
+      href="http://www.foxmy.cn/index.asp">本站首页</A>┊<A 
+      href="http://www.foxmy.cn/news.asp">新闻动态</A>┊<A 
+      href="http://www.foxmy.cn/art.asp">天下资料库</A>┊<A 
+      href="http://www.foxmy.cn/down.asp">下载专区</A>┊<A 
+      href="http://www.foxmy.cn/book.asp">访客留言</A>┊<A 
+      href="http://www.foxmy.cn/other.asp?id=6">网络电视</A></TD>
+    <TD class=tmr noWrap></TD></TR></TBODY></TABLE>
+<TABLE id=content cellSpacing=0 cellPadding=0 border=0>
+  <TBODY>
+  <TR>
+    <TD id=show vAlign=top noWrap>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD class=111 noWrap></TD>
+          <TD class=222 noWrap>&nbsp;当前位置：<A 
+            href="http://www.foxmy.cn/index.asp">本站首页</A>→<A 
+            href="http://www.foxmy.cn/art.asp">文章频道</A>→<A 
+            href="http://www.foxmy.cn/art.asp?action=small&amp;id=1">天下资料库</A>→<A 
+            href="http://www.foxmy.cn/art.asp?action=list&amp;class=2">数据查询</A>
+          <TD class=333 noWrap></TD></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD class=444 noWrap></TD>
+          <TD class=555 vAlign=top noWrap>
+            <DIV class=show_content><BR>
+            <CENTER><B><FONT color=#000000>NPC 查询</FONT></B></CENTER>
+            <P class=show_title 
+            align=center>[&nbsp;推荐：★★★☆☆┋作者：LEOS┋来源：◇∴『天一阁』∴◇┋发布：mo1_┋发布：2006年7月29日┋阅读：605次&nbsp;]</P>
+            <TABLE 
+            style="TABLE-LAYOUT: fixed; WORD-BREAK: break-all; TEXT-ALIGN: left" 
+            cellSpacing=0 cellPadding=0 width="98%" align=center>
+              <TBODY>
+              <TR>
+                <TD vAlign=top>
+                  <BLOCKQUOTE id=size 
+                  style="LINE-HEIGHT: 150%; HEIGHT: 100px; TEXT-ALIGN: left">
+                    <DIV>
+                    <DIV>
+                    <DIV>
+                    <DIV align=center>
+                    <TABLE borderColorDark=#6a7f9a width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%" height=10><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR>
+                      <TR>
+                        <TD height=11><I><FONT face="Arial Black"><A 
+                          name=A>A</A></FONT></I></TD></TR>
+                      <TR>
+                        <TD width="100%" height=441>阿 绣 a xiu 百姓（侠客岛南野外）2005 
+                          764 百褶裙 略知一二 
+                          <P>安 奉 日 An fengri 普通百姓（北 方） 2235 2578 青布袍 紫金刀 
+心领神会</P>
+                          <P>阿 黑 a hei 普通百姓（英雄） 1515 2008 麻布衣 初学乍练</P>
+                          <P>阿 铁 a tie 普通百姓（英雄） 1503 2025 灰布袍 初学乍练</P>
+                          <P>阿 洪 a hong 普通百姓（大理） 667 860 黑布衣 略知一二</P>
+                          <P>阿 胜 a sheng 普通百姓（大理） 667 860 棕布衣 略知一二</P>
+                          <P>阿 旺 a wang 普通百姓（成 都）514 1600 灰布衣 不足挂齿</P>
+                          <P>阿 旺 妻 a wangqi 普通百姓（成 都）514 1598 绿棉裙 不足挂齿</P>
+                          <P>矮 长 老 ai zhanglao　 华 山 派（华 山） 1521 2527 黑麻布袍 大 刀 
+                          举世无双</P>
+                          <P>安 隆 an long 　 圣门(成都圣门) 640 1577 青麻布衣 惊世骇俗</P>
+                          <P>矮 将 ai miang 百姓(成都圣门) 652 1580 灰布衣 马马虎虎</P>
+                          <P>艾 飞 雨 ai feiyu 普通百姓（大理） 900 745 武士服 长剑 
+                      心领神会</P></TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><FONT face="Arial Black"><I><A 
+                          name=B>B</A></I></FONT></TD></TR>
+                      <TR>
+                        <TD width="100%" height=1212>
+                          <P style="MARGIN: 0px; WORD-SPACING: 0px">白 自 在 be 
+                          zizai 百姓（侠客岛） 2000 996 雪白线袍 长剑 惊世骇俗</P>
+                          <P>百里长青 baili changqing 镖 局（北方镖） 2055 2676 素白棉袍 长 青 剑 
+                          略有大成</P>
+                          <P>不 痴 bu chi 百姓（洛阳寺庙） 1830 2076 红衣袈裟 禅杖 傲视群雄</P>
+                          <P>不 嗔 bu cheng 百姓（洛阳寺庙） 1856 2075 青布僧袍 出类拔萃</P>
+                          <P>不 惧 bu ju 百姓（洛阳寺庙） 1856 2077 麻黄僧袍 一代宗师</P>
+                          <P>不 贪 bu tan 百姓（洛阳寺庙） 1829 2076 灰布僧袍 一代宗师</P>
+                          <P>包 志 复 bao zhifu 双 龙 帮（洛阳） 2077 2084 青布衣 大刀 马马虎虎</P>
+                          <P>跋 野 纲 ba yegang 普通百姓（洛阳） 2038 2322 银罗团花袍 长枪 
+心领神会</P>
+                          <P>白 玉 魔 bai yumo 　 丐 帮（英雄） 1688 2169 洗得发白的破布衣 白玉竹棒 
+                          了然于胸</P>
+                          <P>白 情 bai qing 普通百姓（英雄） 1517 1999 月白丝裙 驾轻就熟</P>
+                          <P>百 晓 生 bai xiaosheng 普通百姓（英雄） 1581 2062 黑棉袍 回答问题/算命 
+                          半生不熟</P>
+                          <P>宝 儿 bao er 百姓（长安沙府） 1355 2203 绿棉裙 略知一二</P>
+                          <P>鸨 母 bao mu 普通百姓（北方青） ......... 粉红罗裙 初学乍练</P>
+                          <P>鸨 母 bo mu 普通百姓（英雄） 1515 2058 粉红罗裙 初窥门径</P>
+                          <P>捕 头 bu tou 普通百姓（英雄） 1653 2133 青布衣 略有小成</P>
+                          <P>鸨 母 bao mu 百 姓（侠客青楼）1290 1701 粉红罗裙 初学乍练</P>
+                          <P>镖 师 biao shi 普通百姓（侠 客）1261 1728 黑布衣 普普通通</P>
+                          <P>镖 师 biao shi 普通百姓（侠 客）1219 1726 黑布衣 普普通通</P>
+                          <P>镖 头 biao tou 普通百姓（侠 客）1227 1732 草绿棉袍 半生不熟</P>
+                          <P>白 冰 bai bing 普通百姓（大理） 883 749 青羽衣 粗通皮毛</P>
+                          <P>步 烟 飞 bu yanfei 普通百姓（大理） 759 699 青羽衣 丝巾 略有小成</P>
+                          <P>宝 官 bao guan 百姓（长安六福赌）1181 2035 青布衣 略知一二</P>
+                          <P>本 观 ben guan 　 段府（大理天龙寺）645 654 鹅黄僧袍 登峰造极</P>
+                          <P>本 相 ben xiang 段府（大理天龙寺）669 656 鹅黄僧袍 登峰造极</P>
+                          <P>本因方丈 benyin fangzhang 段府（大理天龙寺）659 695 鹅黄僧袍 
+登峰造极</P>
+                          <P>本 参 ben can 　段府（大理天龙寺）646 695 鹅黄僧袍 登峰造极</P>
+                          <P>巴 天 石 ba tianshi 百姓（大理皇府） 742 765 斑斓战袍 半生不熟</P>
+                          <P>白 玉 楼 bai yulou 普通百姓（大理） 900 745 鹅黄丝袍 长剑 驾轻就熟</P>
+                          <P>变 化 bian hua 普通百姓（大理） 903 784 鹅黄丝袍 心领神会</P>
+                          <P>白 夫 子 bai fuzi 普通百姓（杨州书院）2387 1439 文士服 初窥门径</P>
+                          <P>宝 官 bao guan 普通百姓（杨 州）2395 1494 青布衣 初窥门径</P>
+                          <P>半 空 ban kong 　 少 林 寺 2374 2148 青布僧袍 长枪 略有大成</P>
+                          <P>边 不 负 bian bufu 百姓(成都圣门) 637 1589 文士服 一代宗师</P>
+                          <P>白 清 儿 bai qinger　 阴癸派（洛阳） 2026 2142 青丝裙 傲视群雄</P>
+                          <P>白 无 瑕 bai wuxia 普通百姓（少林南） 2324 1986 青绫裙 
+                      略有小成</P></TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><FONT face="Arial Black"><I><A 
+                          name=C>C</A></I></FONT></TD></TR>
+                      <TR>
+                        <TD width="100%" height=1829>
+                          <P style="MARGIN: 0px; WORD-SPACING: 0px">陈 静 静 cheng 
+                          jinjin 普通百姓（北方赌） 2032 2590 百摺裙 普普通通</P>
+                          <P>淳 于 薇 chunyu wei 百姓（洛阳客栈） 1946 2037 青羽衣 突厥腰刀 
+                          略有大成</P>
+                          <P>楚 楚 chu chu 普通百姓（洛阳） 2015 2052 青棉裙 初学乍练</P>
+                          <P>长 叔 谋 chang shumou 普通百姓（洛阳） 1952 2193 雪白丝袍 大刀 
+                          了然于胸</P>
+                          <P>陈 长 林 cheng changlin 普通百姓（洛阳） 2036 2235 布袍 长剑 
+                          了然于胸</P>
+                          <P>陈 郎 cheng lang 百姓（洛阳阴癸） 2075 2139 天蓝锦袍 大 刀 半生不熟</P>
+                          <P>楚 楚 chu chu 普通百姓（英雄） 1538 2155 青羽衣 粗通皮毛</P>
+                          <P>春 娇 chun jiao 百姓（侠客快活林）1241 1630 黑丝裙 初学乍练</P>
+                          <P>春 水 chun shui 百姓（侠客快活林）1228 1641 绯红丝裙 不足挂齿</P>
+                          <P>菜 农 cai nong 普通百姓（侠 客）1091 1655 蓝布衣 初学乍练</P>
+                          <P>陈 大 官 cheng daguan 百 姓 （侠客裁）1153 1654 青麻布袍 不足挂齿</P>
+                          <P>厨 子 chu zi 百 姓(侠客客栈)1148 1611 灰布衣 初学乍练</P>
+                          <P>厨 师 chu shi 百姓（侠客快活林）1219 1629 灰布袍 初窥门径</P>
+                          <P>柴 玉 关 chai yuguan 百姓（侠客快活林）1242 1646 湖青丝袍 心领神会</P>
+                          <P>翠 浓 cui nong 百 姓（侠客青楼）1304 1724 粉红罗裙 初学乍练</P>
+                          <P>楚 鸣 琴 chu mingqin 普通百姓（侠 客）1321 1682 蓝布袍 初学乍练</P>
+                          <P>裁 缝 cai feng 普通百姓（侠 客）1154 1654 灰布衣 初学乍练</P>
+                          <P>陈 掌 柜 chen zhanggui 百 姓 （侠客当）1235 1699 白棉袍 不足挂齿</P>
+                          <P>陈 万 福 chen wanfu 百姓(长安皇城) 1201 2500 朝服 朝鞋 普普通通</P>
+                          <P>陈 叔 达 cheng shuda 百姓(长安皇城) 1198 2599 朝服 朝鞋 神乎其技</P>
+                          <P>陈 甫 chen fu 普通百姓（长安） 1235 2387 灰布袍 略有小成</P>
+                          <P>陈 甫 chen fu 百姓（长 安 当） 1109 2214 灰布袍 略有小成</P>
+                          <P>陈 来 满 cheng laiman 百姓（长安沙府） 1367 2156 青布衣 驾轻就熟</P>
+                          <P>常善师太 chang shan 普通百姓（长安） 1124 2327 灰道衣 盖世奇才</P>
+                          <P>陈 良 cheng liang 百姓（长安兴昌隆）1242 2227 麻布衣 长剑 了然於胸</P>
+                          <P>常 何 chang he 百姓（长安沙府） 1369 2188 银龙衫 钢刀 出神入化</P>
+                          <P>曹 三 cao san 百姓（长安六福赌）1158 2062 夜行服 面罩 飞刀 出神入化</P>
+                          <P>池 生 春 chi shengchun 百姓（长安六福赌）1137 2047 天蓝棉袍 
+登峰造极</P>
+                          <P>柴 绍 chai shao 百姓（长安天策府）1014 2323 湖青丝袍 长 剑 心领神会</P>
+                          <P>言 宽 chang kuan 普通百姓（杨 州）2480 1622 麻布衣 粗通皮毛</P>
+                          <P>常 次 chang qi 普通百姓（杨 州）2476 1623 灰布袍 了然於胸</P>
+                          <P>春 花 chun hua 百姓（杨州双英镖局）2423 1564 碧纹裙 毫不足虑</P>
+                          <P>常 潭 chang tan 普通百姓（杨州贾家）1470 1517 棕布衣 判官笔 半生不熟</P>
+                          <P>程 碧 素 cheng bisu 百姓（长安沙府） 1381 2205 红绸裙 毫不足虑</P>
+                          <P>尘 涤 chen di 　 天师符咒（天师） 237 1614 绿道袍 登峰造极</P>
+                          <P>尘 明 chen ming 天师符咒（天师） 257 1589 青道袍 技冠群雄</P>
+                          <P>尘 宁 chen ning　 天师符咒（天师） 209 1587 黄道袍 豁然贯通</P>
+                          <P>尘 清 chen qing 天师符咒（天师） 254 1505 青道袍 略有大成</P>
+                          <P>尘 汐 chen xi 　 天师符咒（天师） 245 1575 灰道袍 出神出化</P>
+                          <P>尘 雪 chen xue　 天师符咒（天师） 237 1607 黄道袍 傲视群雄</P>
+                          <P>尘 缘 chen yuan　　 天师符咒（天师） 253 1614 灰道袍 神乎其技</P>
+                          <P>常 真 chang zhen 阴癸派（洛阳） 2085 2141 销魂彩衣 技冠群雄</P>
+                          <P>陈 郎 cheng lang 百姓（洛阳阴癸） 2075 2139 天蓝锦袍 大 刀 半生不熟</P>
+                          <P>春 花 chun hua 魔 教(优愁谷) 225 1218 绿棉裙 豁然贯通</P>
+                          <P>曹 应 龙 cao yinglong 圣门(成都圣门) 608 1566 斑斓战袍 出类拔萃</P>
+                          <P>褚 红 玉 chu hongyu　　 韩门（ 韩府 ） 809 2029 千褶裙 长剑 
+略有大成</P>
+                          <P>褚 万 里 chu wanli 段府（大理皇府） 718 770 灿银连环甲 长索 马马虎虎</P>
+                          <P>陈 望 chen wang 普通百姓（杨州官府）2274 1605 蓝布袍 粗通皮毛</P>
+                          <P>纯一道长 chun yi 百 姓（成都青羊肆）797 1555 灰道袍 初学乍练</P>
+                          <P>川 牟 寻 chuan mouxun 普通百姓（成都四族）694 1586 班斓战袍 大刀 
+                          略有大成</P>
+                          <P>秤 千 金 cheng qianjin 普通百姓（成都傅宅）596 1803 白棉袍 心领神会</P>
+                          <P>崔 毒 cui du 百 姓（鄱阳） 1802 1333 灰布衣 心领神会</P>
+                          <P>程 庭 cheng ting 百 姓（鄱阳） 1799 1327 灰布衣 降魔杵 驾轻就熟</P>
+                          <P>赤 尊 信 chi zunxin 百 姓（鄱阳） 1798 1335 黑麻布袍 钢刀 惊世骇俗</P>
+                          <P>楚 素 秋 cu suqiu 百 姓（鄱阳） 1968 1377 月白丝裙 初窥门径</P>
+                          <P>崔 百 泉 cui baiqiu 百姓（大理皇府） 712 792 灰布袍 金算珠 略有小成</P>
+                          <P>程 碧 素 cheng bisu 百姓（长安沙府） 1381 2205 红绸裙 
+                      毫不足虑</P></TD></TR>
+                      <TR>
+                        <TD width="100%" height=30><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><A name=D><FONT 
+                          face="Arial Black"><I>D</I></FONT></A></TD></TR>
+                      <TR>
+                        <TD width="100%" height=1616>
+                          <P style="MARGIN: 0px; WORD-SPACING: 0px">丁 不 三 Ding 
+                          busan 百姓（侠客岛）</P>
+                          <P>丁 不 四 ding busi 百姓（侠客岛） 2045 1016 麻布袍 金龙鞭 一代天骄</P>
+                          <P>道信大师 daoxin dashi 百姓（洛阳寺庙） 1850 2077 鹅黄僧袍 深不可测</P>
+                          <P>帝心尊者 di xin zunzhe百姓（洛阳寺庙） 1851 2076 灰布僧袍 禅 杖 
+                          深不可测</P>
+                          <P>董 老 板 dong laoban 百姓（洛阳客栈） 1942 2051 青缎丝袍 略有大成</P>
+                          <P>段 玉 成 duan yucheng 双 龙 帮（洛阳） 2077 2089 青布袍 钢刀 
+                          略有小成</P>
+                          <P>道 士 dao shi 普通百姓（英雄） 1569 2174 蓝道袍 毫不足虑</P>
+                          <P>杜 白 du bai 普通百姓（英雄） 1562 2142 夜行服 长剑 驾轻就熟</P>
+                          <P>丁 香 姨 ding xiangyi 普通百姓（英雄） 1553 2009 黄棉裙 毒针 
+                          普普通能</P>
+                          <P>登 雕 梁 deng diaoliang 普通百姓（英雄） 1561 2067 灰布袍 
+马马虎虎</P>
+                          <P>独 孤 伤 dugu shang 百姓（侠客快活林）1226 1645 夜行服 心领神会</P>
+                          <P>戴 独 行 dai duxin 丐 帮（侠 客）1301 1672 百宝衣 湘竹棒 了然于胸</P>
+                          <P>赌 徒 du tu 百 姓(侠客银钩赌) 1179 1733 灰布衣 不足挂齿</P>
+                          <P>大 牛 da niu 百 姓(侠客银钩赌) 1185 1731 灰布袍 普普通通</P>
+                          <P>董 淑 妮 dong shunie 百姓(长安皇城) 1102 2660 黑丝裙 粗通皮毛</P>
+                          <P>刁 昂 diao ang 百姓（长安京兆联）1377 2301 黑布袍 大刀 略有大成</P>
+                          <P>邓 定 侯 deng dinghou 镖局（长安镖局）　1077 2172 白金丝袍 略有大成</P>
+                          <P>独 孤 霸 dugu ba 百姓（长安独孤府）1016 2170 文士服 了然於胸</P>
+                          <P>独 孤 雄 dugu xong 百姓（长安独孤府）1027 2168 黑布衣 略有小成</P>
+                          <P>独 孤 策 dugu ce 百姓（长安独孤府）1036 2170 长剑 驾轻就熟</P>
+                          <P>独 孤 凤 dugu feng 百姓（长安独孤府）1020 2224 红绸裙 长剑 神功盖世</P>
+                          <P>独 孤 盛 dugus heng 百姓（长安独孤府）1027 2202 朝服 朝鞋 了然於胸</P>
+                          <P>独 孤 峰 dugus feng 百姓（长安独孤府）1027 2202 朝服 朝鞋 盖世奇才</P>
+                          <P>大 渡 da du 百姓(长安无漏寺) 1035 2024 麻黄僧袍 心领神会</P>
+                          <P>大 惠 da hui 百姓(长安无漏寺) 1034 2051 红布袈裟 一代宗师</P>
+                          <P>大 智 da zhi 百姓(长安无漏寺) 1058 2051 青布僧袍 一代宗师</P>
+                          <P>大德圣僧 da de 百姓(长安无漏寺) 1055 2027 鹅黄僧袍 深不可测</P>
+                          <P>段 志 玄 duan zhixun 百姓（长安天策府）1043 2328 蓝麻衣 长剑 
+豁然贯通</P>
+                          <P>杜 淹 du yan 百姓（长安天策府）1014 2339 青铜铠甲 马马虎虎</P>
+                          <P>赌 徒 du tu 百姓（长安明堂赌）..........灰布衣 不足挂齿</P>
+                          <P>杜 如 晦 du ruhui 百姓（长安天策府）1030 2284 麻 布 衣 普普通通</P>
+                          <P>丁 喜 ding xin 百姓（野外） 2469 1935 白金丝袍 略有小成</P>
+                          <P>道信大师 daoxin dashi 少 林 寺 2263 2235 鹅黄僧袍 大刀 傲视群雄</P>
+                          <P>达摩大师 damo dashi 少 林 寺 2323 2236 木棉架裟 深不可测</P>
+                          <P>道明禅师 daoming chanshi 少 林 寺 2327 2153 红布架裟 一代天妖</P>
+                          <P>道 空 dao kong　 少 林 寺 2278 2085 青布僧袍 架轻就熟</P>
+                          <P>段 正 明 duan zhengming 段府（大理皇府） 683 777 彩绘龙袍 旷世高手</P>
+                          <P>段 誉 duan yu 段府（大理皇府） 648 820　青缎丝袍　 深不可测</P>
+                          <P>段 正 淳 duan zhengchun 　段府（大理皇府） 712 778 团龙黄袍 
+举世无双</P>
+                          <P>道 士 dao shi 天师内丹（天师） 215 1689 蓝道袍 毫不足虑</P>
+                          <P>旦 梅 dan mei　　 阴癸派（洛阳） 2089 2164 金丝裙 神乎其技</P>
+                          <P>丁 鹏 ding peng 　 魔 教(优愁谷) 215 1335 麻布袍 出跸刀 深不可测</P>
+                          <P>刀 白 凤 dao baifeng 百姓（大理皇府） 711 779 女道袍 略有小成</P>
+                          <P>打 手 da shou 普通百姓（洛阳） 1874 2206 黑布衣 不足挂齿</P>
+                          <P>道 士 dao shi 普通百姓（北 方） 2100 2680 蓝道袍 毫不足虑</P>
+                          <P>打 手 da shou 普通百姓（英雄） 1522 2049 黑布衣 初窥门径</P>
+                          <P>杜 伏 威 du duwei 百姓（杨州老格饭店）2219 1490 麻布袍 护臂 举世无双</P>
+                          <P>邓 玉 函 deng yuhan 普通百姓（成都萧府）746 1640 文士服 长剑 略有大成</P>
+                          <P>狄大夫人 di furen 普通百姓（成都萧府）754 1694 碧纹裙 
+                      不足挂齿<BR></P></TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><A name=E><FONT 
+                          face="Arial Black"><I>E</I></FONT></A></TD></TR>
+                      <TR>
+                        <TD width="100%" height=37>尔 文 焕 er wenhuan 
+                          百姓（长安京兆联）1351 2321 蓝布衣 略有大成</TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><FONT face="Arial Black"><I><A 
+                          name=F>F</A></I></FONT></TD></TR>
+                      <TR>
+                        <TD width="100%" height=1116>
+                          <P style="MARGIN: 0px; WORD-SPACING: 0px">风 良 feng 
+                          liang 百姓（侠客岛） 2043 1016 青布袍 金龙鞭 技冠群雄</P>
+                          <P>范 一 飞 fan yifei 百姓（侠客岛） 2042 975 灰布衣 长剑 技冠群雄</P>
+                          <P>冯 振 武 feng zhenwu 普通百姓（北 方） 2241 2522 黑布袍 钢刀 
+                          心领神会</P>
+                          <P>伏骞王子 fus qian 百姓（洛阳客栈） 1915 2058 胡服 长矛 一代天骄</P>
+                          <P>符 彦 fu yan 普通百姓（洛阳） 2086 2058 蓝麻布袍 心领神会</P>
+                          <P>符 真 Fu zhen 普通百姓（洛阳） 2086 2057 红布袍 心领神会</P>
+                          <P>房 见 鼎 fang jianding 普通百姓（洛阳） 1880 2213 灰布衣 狼牙棒 
+                          出神入化</P>
+                          <P>傅 红 雪 fu hongxue 百 姓（侠客青楼）1304 1725 黑棉袍 魔刀 傲视群雄</P>
+                          <P>方 玉 飞 fang yufei 百 姓(侠客银钩赌) 1159 1730 锦袍 普普通通</P>
+                          <P>符 敌 fu di 百姓（长安京兆联）1362 2284 蓝布袍 了然於胸</P>
+                          <P>符 敌 fu di 百姓（长安渭水盟）1168 2122 蓝布袍 了然於胸</P>
+                          <P>方 重 生 fang chongsheng 普通百姓（大理） 892 782 锦袍 链子刀 
+                          心领神会</P>
+                          <P>风 入 松 feng rusong 普通百姓（大理） 856 739 红丝袍 长剑 略有大成</P>
+                          <P>傅 君 绰 fu junchuo 普通百姓（杨州茶馆）2347 1439 黄羽衣 长剑 
+傲视群雄</P>
+                          <P>冯 大 嫂 feng dasao 普通百姓（杨 州）2409 1588 黄棉裙 毫不足虑</P>
+                          <P>凤 栖 梧 feng siwu 百姓（杨州双英镖局）2383 1553 银罗团花袍 了然於胸</P>
+                          <P>方 人 智 fang renzhi 普通百姓（成 都）747 1565 文士服 长剑 马马虎虎</P>
+                          <P>奉 振 feng zhen 普通百姓（成都四族）692 1588 棉布袍 豁然贯通</P>
+                          <P>方 益 民 fang yimin 普通百姓（成都解府）745 1793 锦袍 神乎其技</P>
+                          <P>符 永 祥 fu yongxiang 普通百姓（成 都）585 1776 武士服 大刀 
+略有小成</P>
+                          <P>封 寒 feng han 怒蛟帮（鄱阳） 2560 1415 灰布衣 大刀 空前绝后</P>
+                          <P>傅 天 义 fu tianyi 普通百姓（成都傅宅）583 1803 灰布衣 出类拔萃</P>
+                          <P>范 卓 fan zhuo 普通百姓（成都傅宅）641 1738 青布衣 长枪 神乎其技</P>
+                          <P>范 采 琪 fan caiqi 普通百姓（成都傅宅）630 1756 千褶裙 钢刀 马马虎虎</P>
+                          <P>风 清 扬 feng qingyang 华 山 派（华 山） 1586 2542 青布袍 长剑 
+                          深不可测</P>
+                          <P>法融禅师 farong chanshi 少 林 寺 2338 2128 红布袈裟 长剑 
+登峰造极</P>
+                          <P>凤 三 feng san 百姓（唐门） 530 1206 月白丝袍 旷世高手</P>
+                          <P>法 难 fa nan　　　 阴癸派（洛阳） 2068 2140 红布袈裟 一代宗师</P>
+                          <P>风 行 烈 feng xinglie　 韩门（ 韩府 ） 840 2091 月白丝袍 红枪 
+                          空前绝后</P>
+                          <P>傅 思 归 fu sigui 段府（大理皇府） 746 777 青缎锁子甲 铜棍 马马虎虎</P>
+                          <P>樊 杀 fan sha 百 姓（鄱阳） 1866 1348 夜行衣 钢刀 心领神会</P>
+                          <P>方 横 海 fang henghai 百 姓（鄱阳） 1878 1344 夜行衣 长剑 
+心领神会</P>
+                          <P>封 德 彝 feng deyi 百姓（长安封府） 1161 2369 朝靴 朝服 驾轻就熟</P>
+                          <P>冯 立 本 feng liben 百姓（长安京兆联）1351 2357 银罗团花袍 长剑 
+                          出神入化</P></TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><FONT face="Arial Black"><I><A 
+                          name=G>G</A></I></FONT></TD></TR>
+                      <TR>
+                        <TD width="100%" height=1260>
+                          <P style="MARGIN-TOP: 0px; WORD-SPACING: 0px">高三娘子 gao 
+                          san 百姓（侠客岛） 2022 1016 雪白丝裙 飞蝗刀 技冠群雄</P>
+                          <P>耿 万 忠 geng wanzhong 普通百姓（北 方） 2240 2616 麻布袍 长剑 
+                          初通皮毛</P>
+                          <P>官 员 guan yuan 百姓（洛阳官府） 1820 2238 官服 普普通通</P>
+                          <P>庚哥呼儿 gengge huer 普通百姓（洛阳） 1955 2193 胡服 长剑 驾轻就熟</P>
+                          <P>郭 善 才 guo shancai 普通百姓（洛阳） 2034 2254 斑斓战袍 长枪 
+                          心领神会</P>
+                          <P>孤 松 gu song 普通百姓（英雄） 1568 2022 湖青丝袍 心领神会</P>
+                          <P>歌 妓 ge ji 百 姓（侠客青楼）1302 1748 黄棉裙 初学乍练</P>
+                          <P>龟 奴 gui nu 百 姓（侠客青楼）1289 1710 蓝布袍 普普通通</P>
+                          <P>高 士 谦 gao shilian 百姓(长安皇城) 1199 2500 朝服 朝鞋 略有大成</P>
+                          <P>贵 妃 gui fei 百姓(长安皇城) 1101 2586 绛纱裙 毫不足虑</P>
+                          <P>过 彦 之 guo yanzhi 普通百姓（大理） 775 797 孝服 长鞭 半生不熟</P>
+                          <P>干 光 豪 gan guanghao 百姓（大理客栈） 660 922 青布袍 长剑 普普通通</P>
+                          <P>葛 光 佩 guo guangpei 百姓（大理客栈） 660 922 白布裙 长剑 普普通通</P>
+                          <P>龚 光 杰 gong guangjie 百姓（大理客栈） 658 917 麻布衣 长剑 
+普普通通</P>
+                          <P>管 孝 然 guan xiaoran 百姓（长安封府） 1140 2386 蓝缎战甲 大刀 
+                          驾轻就熟</P>
+                          <P>官 员 guan yuan 普通百姓（长安） 1161 2295 官服 普普通通</P>
+                          <P>高 越 gao yue 百姓（长安京兆联）1334 2334 青布衣 长剑 了然於胸</P>
+                          <P>桂 枝 gui zhi 百姓（长安风雅阁）1244 2061 黄棉裙 初学乍练</P>
+                          <P>高 占 道 gao zhandao 百姓（长安同心社）1013 2110 灰布衣 长枪 
+出类拔萃</P>
+                          <P>顾 天 璋 gu tianzhang 百姓（长 安 盐）1082 2232 灰布衣 长剑 
+                          普普通通</P>
+                          <P>归 东 景 gui dongjin 镖局（大理镖局） 855 700 青麻布袍 略有大成</P>
+                          <P>官 员 guan yuan 普通百姓（大理） 855 773 官服 普普通通</P>
+                          <P>甘 豹 gan bao 普通百姓（杨 州）2396 1485 麻布衣 粗通皮毛</P>
+                          <P>广 叔 guang shu 普通百姓（成都萧府）756 1678 麻布袍 技冠群雄</P>
+                          <P>管 家 guan jia 普通百姓（成都解府）702 1728 青布袍 略知一二</P>
+                          <P>管 八 方 guan bafang 普通百姓（成都傅宅）596 1801 麻黄衫 金刚杵 
+                          粗通皮毛</P>
+                          <P>干 虹 青 gan hongqing 怒蛟帮（鄱阳） 2028 1381 月白丝裙 无 无 
+                          举世无双</P>
+                          <P>谷 倩 莲 gu qianlian　　 韩门（ 韩府 ） 772 2138 黑纱裙 长 剑 
+                          略有小成</P>
+                          <P>高 升 泰 gao shengtai 段府（大理皇府） 741 776 银罗团花袍 铁笛 
+                          了然於胸</P>
+                          <P>高 将 gao jiang 百姓(成都圣门) 652 1580 灰布衣 马马虎虎</P>
+                          <P>谷 姿 仙 gu zixian　 韩门（ 韩府 ） 840 2093 黑纱裙 长剑 出类拔萃</P>
+                          <P>高 根 明 gao genming　 华 山 派（华 山） 1544 2348 青布袍 长剑 
+                          了然于胸</P>
+                          <P>高 长 老 gao zhanglao　 华 山 派（华 山） 1518 2500 黑麻布袍 大刀 
+                          神功盖世</P>
+                          <P>官 兵 guan bing 普通百姓（洛阳） 1892 2339 皮甲钢刀 初学乍练</P>
+                          <P>宫 女 gong nv 王 府（洛阳） 1962 2284 粉红罗裙 毫不足虑</P>
+                          <P>官 兵 guan bing 普通百姓（英雄） 1652 2117 皮甲 钢刀 初学乍练</P>
+                          <P>管 家 guan jia 普通百姓（英雄） 1670 2123 青布袍 普普通通</P>
+                          <P>官 员 guan yuan 普通百姓（英雄） 1654 2137 官服 半生不熟</P></TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD borderColorLight=#99cc00 width="100%" 
+                        borderColorDark=#ffffff><FONT face="Arial Black"><I><A 
+                          name=H>H</A></I></FONT></TD></TR>
+                      <TR>
+                        <TD width="100%" height=1468>花 万 紫 hua wanzi 普通百姓（北 方） 
+                          2016 2545 碧纹裙 粗通皮毛 
+                          <P>乎延成善 huyan wanshan 普通百姓（北 方） 2082 2709 麻黄衫 长剑 
+                          精通皮毛</P>
+                          <P>红 佛 女 hongfu nv 普通百姓（洛阳） 1863 2139 绯红丝裙 长剑 一代宗师</P>
+                          <P>花 娜 hua na 百姓（洛阳客栈） 1922 2058 红绸裙 马马虎虎</P>
+                          <P>花 翎 子 hua lingzi 普通百姓（洛阳） 1954 2193 千褶裙 长剑 心领神会</P>
+                          <P>黄 小 虫 huang xiaochong 丐 帮（英雄） 1693 2171 破棉袍 黄竹棒 
+                          心领神会</P>
+                          <P>寒 梅 han mei 普通百姓（英雄） 1702 2101 湖青丝袍 心领神会</P>
+                          <P>胡 辛 hu xin 普通百姓（英雄） 1560 2144 蓝布袍 断魂沙 驾轻就熟</P>
+                          <P>华 玉 坤 hua yukun 普通百姓（英雄） 1563 2144 青缎丝袍 驾轻就熟</P>
+                          <P>胡 生 hu sheng 普通百姓（英雄） 1678 2048 灰布袍 驾轻就熟</P>
+                          <P>花 满 天 hua mantian 普通百姓（侠 客）1207 1749 雪白丝袍 长剑 
+                          略有小成</P>
+                          <P>胡 半 仙 hu banxian 普通百姓（侠 客）1260 1693 蓝道袍 马马虎虎</P>
+                          <P>慧 观 hui guan 普通百姓（大理） 777 732 红布袈裟 普普通通</P>
+                          <P>慧 真 hui zhen 普通百姓（大理） 777 732 青布僧袍 普普通通</P>
+                          <P>花 匠 huaa jiang 普通百姓（洛阳） 1815 2336 灰布衣 初窥门径</P>
+                          <P>候 卫 hou wei 王 府（洛阳） 1951 2197 端牛战袍 长剑 心领神会</P>
+                          <P>胡 佛 hu fo 百姓（长安明堂赌）1181 2214 银罗团花袍 举世无双</P>
+                          <P>胡 小 仙 hu xiaoxian 百姓（长安明堂赌）1136 2212 粉红罗裙 略有大成</P>
+                          <P>虹 夫 人 hong furen 百姓（长安明堂赌）1137 2203 绛纱裙 普普通通</P>
+                          <P>候 君 集 hou junji 百姓（长安天策府）1029 2358 文士服 出神入化</P>
+                          <P>候 人 英 hou renying 普通百姓（成 都）722 1589 青布袍 长剑 马马虎虎</P>
+                          <P>洪 人 雄 hong renxong 普通百姓（成 都）747 1590 灰布袍 长剑 
+略有小成</P>
+                          <P>霍 纪 童 huo jitong 普通百姓（成 都）814 1727 棉袍 大刀 普普通通</P>
+                          <P>华 孤 坟 hua gufen 普通百姓（成都傅宅）529 1786 蓝麻布袍 了然於胸</P>
+                          <P>黄 眉 僧 huang meiseng 百姓（大理天龙寺）658 641 鹅黄僧袍 傲视群雄</P>
+                          <P>寒 碧 翠 han bicui　 韩门（ 韩府 ） 787 2030 青丝裙 丹青剑 技冠群雄</P>
+                          <P>韩 柏 han bo 韩门（ 韩府 ） 802 2101 银龙团花战袍 鹰刀 深不可测</P>
+                          <P>候 希 白 hou xibai 　　 　圣门(成都家家) 800 1589 月白丝袍 美人扇 
+                          惊世骇俗</P>
+                          <P>何 三 七 he sanqi 普通百姓 (华 山) 1534 2363 灰布袍 长剑 一代宗师</P>
+                          <P>慧可禅师 huike chanshi 少 林 寺　 2338 2086 红布袈裟 惊世骇俗</P>
+                          <P>慧可大师 huike dashi 少 林 寺　 2308 2130 鹅黄僧袍 深不可测</P>
+                          <P>慧安国师 huian guoshi 少 林 寺　 2328 2216 红布架裟 神乎其技</P>
+                          <P>弘忍大师 hongren dashi 少 林 寺 2382 2235 木棉架裟 长鞭 举世无双</P>
+                          <P>慧 能 hui neng　 少 林 寺 2365 2106 黄布僧袍 心领神会</P>
+                          <P>慧 场 hui chang　 少 林 寺 2365 2085 黄布僧袍 豁然贯通</P>
+                          <P>慧 因 hui yin　　 少 林 寺 2373 2106 黄布僧袍 技冠群雄</P>
+                          <P>红 巾 盗 hong jin 百 姓（鄱阳） ......... 夜行服 头巾 驾轻就熟</P>
+                          <P>虎组弟子 hu zu 普通百姓（成都萧府）738 1650 武士服 长剑 驾轻就熟</P>
+                          <P>黑 老 汉 hei laohan 普通百姓（成 都）520 1950 棕布衣 不足挂齿</P>
+                          <P>花家姑娘 hua jia 百 姓（成都散花楼）576 1628 红绸裙 不足挂齿</P>
+                          <P>黑衣武士 heyi wushi 百姓（大理皇府） 675 760 黑棉袍 长剑 半生不熟</P>
+                          <P>韩府门卫 hanfu menwei 百姓（ 韩府 ） 801 1999 黑布衣 豁然贯通</P>
+                          <P>何 昆 he kun 普通百姓（成 都）514 1582 武士服 钢骨伞 了然於胸</P>
+                          <P>红衣武士 hongyi wushi 百姓（大理皇府） 675 760 红布袍 长剑 半生不熟</P>
+                          <P>和 尚 he shang 百姓（洛阳寺庙） .......... 红布袈裟 
+略知一二</P></TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><FONT face="Arial Black"><I><A 
+                          name=J>J</A></I></FONT></TD></TR>
+                      <TR>
+                        <TD width="100%" height=794>金 不 换 jin buhuan 丐 帮（北 方） 
+                          2191 2649 破棉袄 青竹棒 驾轻就熟 
+                          <P>江 秀 音 jiang xiuyin 普通百姓（北 方） 1132 2603 碧纹裙 马马虎虎</P>
+                          <P>嘉祥大师 jia xiang 百姓（洛阳寺庙） 1850 2076 灰布僧袍 深不可测</P>
+                          <P>金 波 jing bo 百姓（洛阳青楼） 1922 2073 蓝麻衣 铁棍 架轻就熟</P>
+                          <P>京 兆 宁 jing zhaoning 百姓（洛阳客栈） 1930 2040 文士服 钢骨伞 
+                          略有小成</P>
+                          <P>贾 乐 山 jia leshan 普通百姓（英雄） 1538 2158 金丝裙 驾轻就熟</P>
+                          <P>教书先生 jiaoshu xiansheng百 姓（侠客书院）1114 1417 文士服 
+                          毫不足虑</P>
+                          <P>进 哥 儿 jin geer 百姓（长安沙府） 1357 2222 白布袍 毫不足虑</P>
+                          <P>教书先生jiaoshu xiansheng百姓（长安书院） 1316 2174 文士服 
+毫不足虑</P>
+                          <P>金 大 椿 jin dachun 百姓（长安京兆联）1366 2316 麻布袍 豁然贯通</P>
+                          <P>贾 人 达 jia renda 普通百姓（成 都）735 1555 青布衣 长剑 马马虎虎</P>
+                          <P>吉 人 通 ji rentong 普通百姓（成 都）724 1581 草绿棉袍 长剑 马马虎虎</P>
+                          <P>教书先生jiaoshu xiansheng百 姓（成都书院）803 1675 文士服 毫不足虑</P>
+                          <P>角 罗 风 jiao luofeng 普通百姓（成都四族）691 1586 黑布袍 了然於胸</P>
+                          <P>妓 女 ji nv 普通百姓（北方青） ......... 粉红罗裙 毫不足虑</P>
+                          <P>进 香 客 jinxiang ke 普通百姓（北 方） 2210 2700 蓝布袍 初窥门径</P>
+                          <P>锦衣武士 jinyi wushi 普通百姓（大理） 848 831 棉袍 长剑 马马虎虎</P>
+                          <P>贾 老 六 jia laoliu 普通百姓（杨州贾家）2457 1515 青布衣 普普通通</P>
+                          <P>焦 邪 jiao xie 普通百姓（杨 州）2470 1588 青铜铠甲 心领神会</P>
+                          <P>觉 远 jue yuan　 少 林 寺　 2367 2126 灰布傍袍 铁棍 神功盖世</P>
+                          <P>金狮长老 jinshi zhanglao 魔 教(优愁谷) 274 1218 麻黄衫 举世无双</P>
+                          <P>姬 灵 风 ji lingfeng 百姓（唐门） 580 1375 黑纱裙 出神出化</P>
+                          <P>荆 城 冷 jing chengleng 百姓（ 韩府 ） 768 2112 湖青丝袍 长鞭 
+                          神功盖世</P>
+                          <P>纪 倩 ji qian 百姓（长安风雅阁）1220 2030 绯红丝裙 马马虎虎</P></TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><FONT face="Arial Black"><I><A 
+                          name=K>K</A></I></FONT></TD></TR>
+                      <TR>
+                        <TD width="100%" height=313>柯 万 均 ke wanjun 普通百姓（北 方） 
+                          2021 2697 麻布衣 长剑 精通皮毛 
+                          <P>可风道人 ke feng 普通百姓（洛阳） 1880 2226 青道袍 一代宗师</P>
+                          <P>枯 竹 ku zhu 普通百姓（英雄） 1498 2099 湖青丝袍 心领神会</P>
+                          <P>康 鞘 利 kang qiaoli 百姓(长安皇城) 1200 2551 胡服 突厥腰刀 
+                          一代宗师</P>
+                          <P>可 达 志 ke dazhi 百姓（长安京兆联）1380 2333 武士服 狂沙刀 举世无双</P>
+                          <P>孔 扬 泰 kong yangtai 普通百姓（成都萧府）747 1609 雪白丝袍 长剑 
+                          出类拔萃</P>
+                          <P>康 劫 生 kang jiesheng 普通百姓（成都萧府）744 1641 银罗团花袍 长剑 
+                          略有大成</P>
+                          <P>客 人 ke ren 百姓（ 韩府 ） 760 2091 草绿棉袍 粗通皮毛</P>
+                          <P>枯荣大师 kurong dashi 　 段府（大理天龙寺）653 700 灰布僧袍 
+                        空前绝后</P></TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><FONT face="Arial Black"><I><A 
+                          name=L>L</A></I></FONT></TD></TR>
+                      <TR>
+                        <TD width="100%" height=2578>老 和 尚 lao hoshang 普通百姓（北 
+                          方） 2074 2599 灰布禅袍 略有小成 
+                          <P>老 人 lao ren 普通百姓（北 方） 2000 2560 白棉袍 初学乍练</P>
+                          <P>刘 石 文 liu shiwen 百姓（长安兴昌隆）1231 2216 蓝布袍 长剑 略有小成</P>
+                          <P>来 福 儿 lai fuer 普通百姓（大理） 917 870 青麻衣 初窥门径</P>
+                          <P>冷 血 leng xue 普通百姓（杨 州）2366 1615 文士服 半生不熟</P>
+                          <P>莲 柔 lian rou 百 姓（成都青羊肆）810 1556 夜行衣 心领神会</P>
+                          <P>龙组弟子 long zu 普通百姓（成都萧府）749 1651 武士服 长剑 心领神会</P>
+                          <P>令 儿 ling er 百 姓（鄱阳） 1965 1377 麻布衣 毫不足虑</P>
+                          <P>了 空 liao kong　 少 林 寺 2270 2085 青布僧袍 禅杖 一代宗师</P>
+                          <P>令 狐 冲 linghu chong 　 华 山 派（华 山） 1549 2427 青布袍 长剑 
+                          神功盖世</P>
+                          <P>陆 大 有 lu dayou　　 华 山 派（华 山） 1572 2474 蓝布袍 长剑 
+                          了然于胸</P>
+                          <P>木 平 之 lin pingzhi 华 山 派（华 山） 1552 2459 金带/绵袍 青锋剑 
+                          架轻就熟</P>
+                          <P>劳 德 诺 lao denuo　 华 山 派（华 山） 1548 2413 青布袍 长剑 
+                          技冠群雄</P>
+                          <P>蓝 凤 凰 lan fenghuang 百姓(华山南野外) 1556 2285 黄羽衣 
+神乎其技</P>
+                          <P>刘 正 风 liu zengfeng 普通百姓（华 山） 1601 2353 黑棉袍 长剑 
+                          傲视群雄</P>
+                          <P>老 婆 婆 lao popo 　 魔 教(优愁谷) 284 1335 长裙 木棍 深不可测</P>
+                          <P>柳 若 松 liu ruosong　 魔 教(优愁谷) 253 1228 长袍 长剑 神乎其技</P>
+                          <P>乐 乐 山 le leshan 普通百姓（侠 客）1112 1675 文士服 长剑 心领神会</P>
+                          <P>李 大 元 li dayan 普通百姓（北 方） 2086 2624 灰布袍 大刀 精通皮毛</P>
+                          <P>李 密 li mi 普通百姓（洛阳） 1856 2030 麻布袍 架轻就熟</P>
+                          <P>李 靖 li jing 普通百姓（洛阳） 1863 2157 青麻布袍 一代宗师</P>
+                          <P>李 天 凡 li tianfan 普通百姓（洛阳） 2085 2057 草绿棉袍 心领神会</P>
+                          <P>李 福 成 li fucheng 普通百姓（洛阳） 2080 2243 白棉袍 初学乍练</P>
+                          <P>李 长 青 li changqing 普通百姓（英雄） 1591 2090 武士服 QUEST 
+                          略有小成</P>
+                          <P>李 四 li si 百姓（侠客岛） 2028 906 蓝布袍 一代天骄</P>
+                          <P>李 神 童 li shentong 普通百姓（北方赌） 2032 2659 锦袍 粗通皮毛</P>
+                          <P>李 霞 li xia 普通百姓（北方赌） 2023 2619 青绫裙 普普通通</P>
+                          <P>吕 正 平 lv zhengping 百姓（侠客岛） 2043 996 蓝布袍 紫金刀 
+技冠群雄</P>
+                          <P>龙 岛 主 long daozhu 百姓（侠客岛） 1045 1025 湖青丝袍 深不可测</P>
+                          <P>冷 红 儿 leng honger 普通百姓（北 方） 2120 2574 黑纱裙 马马虎虎</P>
+                          <P>老 山 羊 lao shanyang 普通百姓（北 方） 2032 2642 羊皮袄 粗通皮毛</P>
+                          <P>陆 万 通 lu wantong 普通百姓（北 方） 2167 2565 红布袍 长剑 
+粗通皮毛</P>
+                          <P>绿 竹 翁 lv zhuweng 普通百姓（洛阳） 1868 2015 青布袍 马马虎虎</P>
+                          <P>了 空 liao kong 百姓（洛阳寺庙） 1821 2088 鹅黄僧袍 空前绝后</P>
+                          <P>凌 伟 ling wei 百姓（洛阳青楼） 1942 2085 锦袍 粗通皮毛</P>
+                          <P>凌 风 lin feng 百姓（洛阳青楼） 1922 2077 武士服 长枪 架轻就熟</P>
+                          <P>凌 谋 ling mou 普通百姓（洛阳） 2078 2242 白棉袍 略知一二</P>
+                          <P>莉 安 li an 百姓（洛阳客栈） 1921 2058 黑纱裙 略有小成</P>
+                          <P>柳 菁 liu jing 百姓（洛阳客栈） 1944 2053 粉龙罗裙 初学乍练</P>
+                          <P>刘 伯 温 liu bowen 普通百姓（洛阳） 1889 2198 朝服 半生不熟</P>
+                          <P>郎奉将军 lang feng 普通百姓（洛阳） 2039 2239 银罗团花战袍 豁然贯通</P>
+                          <P>卢 达 lu da 王 府（洛阳） 1954 2255 朝服 略知一二</P>
+                          <P>黎 鹏 li peng 普通百姓（英雄） 1543 2090 青布衣 略知一二</P>
+                          <P>老 狐 狸 lao huli 普通百姓（英雄） 1688 2071 蓝布袍 马马虎虎</P>
+                          <P>李 登 龙 li denglong 百姓（侠客快活林）1124 1631 锦袍 初学乍练</P>
+                          <P>龙 四 海 long sihai 百姓（侠客快活林）1240 1620 蓝布衣 驾轻就熟</P>
+                          <P>老 妇 lao fu 普通百姓（侠 客）1261 1675 碧纹裙 初窥门径</P>
+                          <P>老 房 东 lao fangdong 普通百姓（侠 客）1268 1625 白布裙 马马虎虎</P>
+                          <P>李 马 虎 li mahu 百 姓（侠客杂货）1168 1700 青麻布衣 铁蒺藜 普普通通</P>
+                          <P>蓝 胡 子 lan huzi 百 姓(侠客银钩赌) 1148 1743 青缎丝袍 马马虎虎</P>
+                          <P>冷 若 霜 leng ruoshuang 百 姓(侠客银钩赌) 1147 1732 红绸裙 
+                          粗通皮毛</P>
+                          <P>李 秀 宁 li xiuning 百姓(长安皇城) 1156 2518 黄棉裙 心领神会</P>
+                          <P>李 来 复 li laifu 百姓(长安皇城) 1156 2515 青缎锁子甲 出神入化</P>
+                          <P>李 建 城 li jiancheng 百姓(长安皇城) 1155 2540 团龙黄袍 含光剑 
+                          一代宗师</P>
+                          <P>李 南 天 li nantian 百姓(长安皇城) 1129 2539 青缎丝袍 出神入化</P>
+                          <P>李 元 吉 li yanji 百姓(长安皇城) 1244 2517 红丝袍 长枪 神功盖世</P>
+                          <P>李 世 民 li shimin 百姓(长安皇城) 1244 2537 天蓝丝袍 宵练剑 
+神功盖世</P>
+                          <P>连 天 云 lian tianyun 普通百姓（侠 客）1203 1687 武士服 QUEST 
+                          普普通通</P>
+                          <P>刘 政 会 liu zhenghui 百姓(长安皇城) 1199 2541 朝服 驾轻就熟</P>
+                          <P>李 渊 li yan 百姓(长安皇城) 1209 2625 彩绘龙袍 皇冠 承影剑 盖世奇才</P>
+                          <P>李 真 li zhen 百姓（长安京兆联）1363 2351 黑布袍 心领神会</P>
+                          <P>李 拨 li ba 百姓（长安京兆联）1366 2354 麻布袍 心领神会</P>
+                          <P>罗 士 信 luo shixin 百姓（长安天策府）1015 2302 蓝缎战甲 大刀 
+略有大成</P>
+                          <P>刘 德 威 liu dewei 百姓（长安天策府）1030 2305 青缎锁子甲 铁棍 
+了然於胸</P>
+                          <P>李 神 通 li shentong 百姓（长安天策府）1028 2321 银罗团花战袍 短戟 
+                          傲视群雄</P>
+                          <P>李 世 绩 li shiji 普通百姓 （长安）1074 2109 明光铠 长剑 出类拔萃</P>
+                          <P>柳 如 春 liu ruchun 普通百姓（大理） 849 637 绛纱裙 初窥门径</P>
+                          <P>李 东 平 li dongping 普通百姓（大理） 847 631 武士服 大刀 马马虎虎</P>
+                          <P>柳 忠 liu zhong 百姓（杨州双英镖局）2437 1553 灰布袍 毫不足虑</P>
+                          <P>柳 西 塘 liu xitang 百姓（杨州双英镖局）2417 1553 青缎丝袍 飞环 
+                          略有大成</P>
+                          <P>老 冯 lao feng 普通百姓（杨 州）2410 1594 灰布衣 不足挂齿</P>
+                          <P>老 张 lao zhang 百姓（杨州老格饭店）2231 1488 灰布衣 不足挂齿</P>
+                          <P>梁 舜 明 liang shunming 百姓（杨州老格饭店）2248 1486 武士服 
+                          心领神会</P>
+                          <P>林 朗 lin lang 百 姓（成都乌江帮）797 1528 青布衣 半生不熟</P>
+                          <P>罗 人 杰 luo renjie 普通百姓（成 都）736 1579 黑布衣 长剑 马马虎虎</P>
+                          <P>蓝衣大汉 lan yi 普通百姓（成都傅宅）560 1802 蓝布衣 长剑 半生不熟</P>
+                          <P>浪 翻 云 lang fanyun 怒蛟帮（鄱阳） 2054 1435 灰布衣 覆雨剑 
+深不可测</P>
+                          <P>凌 战 天 Ling zhantian 怒蛟帮（鄱阳） 1918 1332 蓝布衣 鬼索 
+                          深不可测</P>
+                          <P>梁 秋 末 liang qiumo 怒蛟帮（鄱阳） 　 1920 1388 黑布衣 
+                        出神入化</P></TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><FONT face="Arial Black"><I><A 
+                          name=M>M</A></I></FONT></TD></TR>
+                      <TR>
+                        <TD width="100%" height=984>妙谛大师 miao di 百姓（侠客岛） 2063 
+                          996 鹅黄僧袍 禅杖 震古铄今 
+                          <P>木 岛 主 mu daozhu 百姓（侠客岛） 1943 1025 红丝袍 深不可测</P>
+                          <P>闵 柔 min rou 普通百姓（北 方） 2208 2518 月白丝裙 白剑 了然于胸</P>
+                          <P>麻 贵 ma gui 双 龙 帮（洛阳） 2062 2086 青布衣 铁蒺藜 马马虎虎</P>
+                          <P>毛 燥 mao cao 百姓(洛阳上南门外)1862 2224 文士服 神乎其技</P>
+                          <P>明 珠 ming zhu 百姓（侠客快活林）1232 1642 红绸裙 不足挂齿</P>
+                          <P>名 妓 ming ji 百 姓（侠客青楼）1290 1748 百褶裙 初学乍练</P>
+                          <P>马 芳 铃 ma fanglin 百 姓 （侠客裁）1153 1653 绯红丝裙 半生不熟</P>
+                          <P>卖 艺 人 maiyi ren 普通百姓（侠 客）1196 1672 麻黄衫 钢刀 普普通通</P>
+                          <P>莫 贺 儿 mo heer 百姓(长安皇城) 1202 2544 胡服 出类拔萃</P>
+                          <P>慕 容 苍 murong cang 普通百姓（大理） 911 765 灰布衣 普普通通</P>
+                          <P>慕 容 刚 murong gang 普通百姓（大理） 887 765 蓝布袍 大刀 马马虎虎</P>
+                          <P>慕容孤芳 murong gufang 普通百姓（大理） 900 784 千褶裙 长剑 驾轻就熟</P>
+                          <P>曼 摩 藏 man mozhi 普通百姓（大理） 754 896 鹅黄僧袍 半生不熟</P>
+                          <P>孟 昌 meng chang 百姓（杨州老格饭店）2243 1492 武士服 心领神会</P>
+                          <P>孟 浩 meng hao 百姓（杨州老格饭店）2246 1492 武士服 心领神会</P>
+                          <P>慕 天 颜 mu tianyan 普通百姓（杨州官府）2287 1678 文士服 初窥门径</P>
+                          <P>麻 勒 吉 ma leji 普通百姓（杨州官府）2285 1688 银袍 初窥门径</P>
+                          <P>马 佑 ma you 普通百姓（杨州官府）2271 1691 银罗团花袍 初窥门径</P>
+                          <P>卖 艺 人 maiyi ren 普通百姓（北 方） 2126 2599 麻黄衫 钢刀 普普通通</P>
+                          <P>媒 婆 mei po 普通百姓（长安） 1303 2238 碧纹裙 初学乍练</P>
+                          <P>毛 世 昌 mao shichang 百姓（长安沙府） 1371 2162 灰布袍 了然於胸</P>
+                          <P>梅 洵 mei xun 百姓（长安京兆联）1363 2316 武士服 金枪 一代宗师</P>
+                          <P>莫 声 谷 mo shenggu　 武当派（武当） 1578 1544 青道袍 青锋剑 
+一代天娇</P>
+                          <P>明 月 ming yue 武当派（武当） 1524 1619 蓝道袍 长剑 马马虎虎</P>
+                          <P>木 宛 清 mu wanqing 百姓（大理皇府） 647 818 黑丝裙 袖箭 半生不熟</P>
+                          <P>何大财主 he dacaizhu 普通百姓（杨州何宅）2503 1626 锦袍 毫不足虑</P>
+                          <P>茅 十 八 mao shiba 普通百姓（杨州妓院）2297 1754 青麻布袍 钢刀 
+略有小成</P>
+                          <P>孟 相 逢 meng xiangfeng 普通百姓（成都萧府）757 1635 白金丝袍 长剑 
+                          技冠群雄</P>
+                          <P>马 五 德 ma wude 百 姓（大理杂） 860 614 蓝麻衣 半生不熟</P></TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><FONT face="Arial Black"><I><A 
+                          name=N>N</A></I></FONT></TD></TR>
+                      <TR>
+                        <TD width="100%" height=280>南 宫 灵 nangong ling 丐 
+                          帮（北方丐） 2243 2704 青丝绸袍 打狗棒 了然于胸 
+                          <P>牛 肉 汤 niu routang 普通百姓（英雄） 1678 2070 千褶裙 驾轻就熟</P>
+                          <P>南宫松篁nangong songhuang普通百姓（成都傅宅）531 1786 蓝麻布袍 
+                          驾轻就熟</P>
+                          <P>农 民 nong min 百姓（少林南野外） 2327 1960 麻布衣 木拖鞋 斗笠 
+略知一二</P>
+                          <P>怒 真 人 nu zhenren 百姓（唐门） 524 1230 蓝道袍 长剑 惊世骇俗</P>
+                          <P>怒蛟弟子 nujiao dizi 怒蛟帮（鄱阳） ......... 绿棉裙（女） 略知一二</P>
+                          <P>怒蛟弟子 nujiao dizi 怒蛟帮（鄱阳） ......... 青布衣（男） 略知一二</P>
+                          <P>牛 奉 义 niu feongyi 百姓（长安同心社）1013 2120 黑布袍 长枪 
+                        豁然贯通</P></TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><FONT face="Arial Black"><I><A 
+                          name=O>O</A></I></FONT></TD></TR>
+                      <TR>
+                        <TD width="100%" height=48>欧阳希夷 OYang xiyi 百姓（洛阳青楼） 
+                          1944 2085 青麻布袍 长剑 出神入化</TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><FONT face="Arial Black"><A 
+                          name=P><I>P</I></A></FONT></TD></TR>
+                      <TR>
+                        <TD width="100%" height=310>卜 天 志 pu tianzhi 百姓（洛阳青楼） 
+                          1944 2080 锦袍 心领神会 
+                          <P>卜 廷 pu ting 百姓（长安兴昌隆）1223 2229 白布衣 长剑 了然於胸</P>
+                          <P>卜 杰 pu jie 百姓（长安兴昌隆）1219 2202 棉袍 长剑 了然於胸</P>
+                          <P>庞 过 之 pang guozhi 怒蛟帮（鄱阳） 1825 1315 草绿绵袍 大刀 
+神乎其技</P>
+                          <P>庞 玉 pang yu 百姓（长安天策府）1017 2287 文士服 神乎其技</P>
+                          <P>平 婆 婆 ping popo 普通百姓（大理） 919 877 黑纱裙 长鞭 粗通皮毛</P>
+                          <P>辟 守 玄 pi shouxuan 阴癸派（洛阳） 2033 2166 文士服 举世无双</P>
+                          <P>嫖 客 piao ke 普通百姓（北方青） ......... 绵袍 略知一二</P>
+                          <P>裴 寂 pei ji 百姓（长安封府） 1142 2372 朝服 略有大成</P></TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><FONT face="Arial Black"><I><A 
+                          name=Q>Q</A></I></FONT></TD></TR>
+                      <TR>
+                        <TD width="100%" height=1020>齐 智 qi zhi 普通百姓（北 方） 2102 
+                          2631 武士服 半生不熟 
+                          <P>清 菊 qing ju 百姓（洛阳青楼） 1913 2075 绯红丝裙 初窥门径</P>
+                          <P>清 萍 qing ping 百姓（洛阳青楼） 1931 2071 霓虹羽衣 技冠群雄</P>
+                          <P>清 莲 qing lian 百姓（洛阳客栈） 1933 2060 青羽衣 初窥门径</P>
+                          <P>祈 八 州 qi bazhou 百姓（洛阳客栈） 1940 2051 文士服 长剑 略有小成</P>
+                          <P>囚 犯 qiu fan 百姓（洛阳官府） 1826 2230 囚服 普普通通</P>
+                          <P>曲 傲 qu ao 普通百姓（洛阳） 1951 2193 胡服 出神入化</P>
+                          <P>骑 卫 qi wei 王 府（洛阳） 1959 2292 豹纹战袍 钢刀 了然于胸</P>
+                          <P>秋 萍 qiu ping 普通百姓（英雄） 1688 2108 青绫裙 不足挂齿</P>
+                          <P>乔 公 山 qiao shangong 百姓（长安京兆联）1378 2319 红布袍 心领神会</P>
+                          <P>樵 夫 qiao fu 普通百姓（侠 客）1269 1754 蓝布衣 普普通通长安皇城</P>
+                          <P>邱 文 盛 qiu wensheng 百姓（长安天策府）1015 2358 灰布袍 略有大成</P>
+                          <P>钱 天 赐 qian tianci 普通百姓（杨州布店）2311 1605 锦袍 不足挂齿</P>
+                          <P>钱 如 山 qian rushan 普通百姓（杨州布店）2310 1610 灰布袍 不足挂齿</P>
+                          <P>小 青 年 qing nian 普通百姓（洛阳） 1870 2268 蓝布衣 初学乍练</P>
+                          <P>囚 犯 qiu fan 普通百姓（长安） 1163 2289 囚服 普普通通</P>
+                          <P>青青夫人 qing qing 百姓（长安风雅阁）1232 2028 黑纱裙 初学乍练</P>
+                          <P>囚 犯 qiu fan 普通百姓（大理） 850 775 囚服 普普通通</P>
+                          <P>秋 月 qiu yue 百姓（杨州双英镖局）2417 1538 白布裙 不足挂齿</P>
+                          <P>清秀小姐 qing xiu 百 姓（成都散花楼）574 1651 百褶裙 腰带 彩冠 不足挂齿</P>
+                          <P>青衣少年 qing yi 普通百姓（成都茶馆）700 1515 青布衣 长剑 了然於胸</P>
+                          <P>丘 伯 qiu bo 普通百姓（成都萧府）735 1691 灰布衣 出类拔萃</P>
+                          <P>犬组弟子 quan zu 普通百姓（成都萧府）739 1697 武士服 长剑 驾轻就熟</P>
+                          <P>曲 洋 qu yang 普通百姓 (华 山) 1599 2350 草绿棉袍 一代守师</P>
+                          <P>曲 飞 烟 qu feiyan 普通百姓 (华 山) 1600 2362 青绫裙 初通皮毛</P>
+                          <P>青 青 qing qing 魔 教(优愁谷) 214 1335 青丝裙 银月刀 深不可测</P>
+                          <P>秋 月 qiu yue 魔 教(优愁谷) 225 1228 黄棉裙 钢刀 驾轻就熟</P>
+                          <P>青 风 qing feng 武当派（武当） 1524 1619 蓝道袍 长剑 马马虎虎</P>
+                          <P>七 娘 qi niang 百姓（ 韩府 ） 758 2122 黑丝裙 出神出化</P>
+                          <P>戚 长 征 qi changzheng　 韩门（ 韩府 ） 799 2029 青麻衣 天兵宝刀 
+                          惊世骇俗</P>
+                          <P>秦 红 棉 qin hongmian 百姓（大理皇府） 654 811 黑丝裙 修罗刀 
+                          驾轻就熟<BR></P></TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><FONT face="Arial Black"><I><A 
+                          name=R>R</A></I></FONT></TD></TR>
+                      <TR>
+                        <TD width="100%" height=287>任 恩 ren en 普通百姓（洛阳） 2015 
+                          2047 青麻布袍 半生不熟 
+                          <P>荣 凤 祥 rong fengxiang 普通百姓（洛阳） 1873 2226 阴阳一气袍 
+                          空前绝后</P>
+                          <P>染 香 ran xiang 百姓（侠客快活林）1241 1643 黄棉裙 初学乍练</P>
+                          <P>容 子 矩 rong ziju 普通百姓（大理） 654 860 青布袍 长剑 半生不熟</P>
+                          <P>瑞 婆 婆 rui popo 普通百姓（大理） 919 877 黑纱裙 粗通皮毛</P>
+                          <P>如 花 ru hua 普通百姓（成都茶馆）700 1523 青绫裙 不足挂齿</P>
+                          <P>任 俊 ren jun 普通百姓（长安） 1236 2350 青布袍 技冠群雄</P>
+                          <P>柔 柔 rou rou 百姓（ 韩府 ） 794 2031 碧纹裙 毫不足虑</P></TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><FONT face="Arial Black"><I><A 
+                          name=S>S</A></I></FONT></TD></TR>
+                      <TR>
+                        <TD width="100%" height=2290>史 小 翠 shi xiaochui 
+                          百姓（侠客岛南野外）2000 770 黑纱裙 竹棒 心领神会 
+                          <P>石 破 天 shi potian 百姓（侠客岛） 2000 976 黑布衣 深不可测</P>
+                          <P>石 清 shi qing 普通百姓（北 方） 2206 2514 黑布袍 黑剑 了然于胸</P>
+                          <P>石 介 shi jie 双 龙 帮（洛阳） 2062 2087 黑布袍 钢刀 半生不熟</P>
+                          <P>宋 蒙 秋 song mengqiu 普通百姓（洛阳） 2042 2219 明光铠 了然于胸</P>
+                          <P>沈 浪 shen lang 百姓（侠客快活林）1242 1640 天蓝丝袍 神功盖世</P>
+                          <P>沙 天 南 sha tiannan 百姓（长安沙府） 1355 2203 黑棉袍 略知一二</P>
+                          <P>猛 小 蛇 snake meng 普通百姓（大理） 876 906 白金丝袍 一代宗师</P>
+                          <P>司 徒 玄 situ xian 普通百姓（大理） 667 860 青麻衣 驾轻就熟</P>
+                          <P>师 妃 宣 shi feixuan 百姓（洛阳寺庙） 1823 2068 白羽衣 色空剑 
+                          深不可测</P>
+                          <P>尚 秀 芳 shang xiufang 百姓（洛阳青楼） 1902 2083 白羽衣 初窥门径</P>
+                          <P>宋 鲁 song lu 百姓（洛阳客栈） 1944 2053 银龙衫 银龙杖 盖世奇才</P>
+                          <P>司空摘星 sikong zhaixing 普通百姓（英雄） 1561 2150 鹅黄丝袍 
+                          略有小成</P>
+                          <P>时 铭 shi ming 普通百姓（侠 客）1202 1698 武士服 普普通通</P>
+                          <P>宋 金 刚 song jingang 普通百姓（侠 客）1241 1731 武士服 了然于胸</P>
+                          <P>沈 三 娘 shen sanniang 百 姓 （侠客瓷）1169 1653 黑纱裙 不足挂齿</P>
+                          <P>沙 芷 嫦 sha zhie 百姓（长安沙府） 1357 2170 青棉裙 略知一二</P>
+                          <P>沙 芷 青 sha zhijing 百姓（长安沙府） 1360 2227 青棉裙 粗通皮毛</P>
+                          <P>沙 福 sha fu 百姓（长安沙府） 1369 2188 灰布衣 初学乍练</P>
+                          <P>沙 成 德 sha chengde 百姓（长安沙府） 1367 2202 文士服 初窥门径</P>
+                          <P>(沙)老夫人 sha laofuren 百姓（长安沙府） 1357 2203 青棉裙 毫不足虑</P>
+                          <P>史 成 山 shi chengshan 百姓（长安京兆联）1319 2359 黑布衣 大刀 
+                          心领神会</P>
+                          <P>史 万 宝 shi wanbao 百姓（长安天策府）1046 2301 银狮战袍 长矛 
+了然於胸</P>
+                          <P>沙 成 功 sha chenggong 百姓（长安风雅阁）1220 2030 湖青丝袍 
+普普通通</P>
+                          <P>沙 成 就 sha chengjiu 百姓（长安六福赌）1164 2038 草绿棉袍 粗通皮毛</P>
+                          <P>石 布 shi bu 百姓（长安渭水盟）1168 2100 麻布袍 略有大成</P>
+                          <P>沈 落 雁 shen luoyan 普通百姓 （长安）1074 2108 白羽衣 长剑(捕仙网) 
+                          略有小成</P>
+                          <P>沙 天 霸 sha tianba 沙家七雄（大理） 793 704 麻黄衫 短缨枪 半生不熟</P>
+                          <P>沙 老 二 sha laoer 沙家七雄（大理） 793 704 麻黄衫 短缨枪 半生不熟</P>
+                          <P>沙 老 三 sha laosan 沙家七雄（大理） 793 704 麻黄衫 短缨枪 半生不熟</P>
+                          <P>沙 老 四 sha laosi 沙家七雄（大理） 793 704 麻黄衫 短缨枪 半生不熟</P>
+                          <P>沙 老 五 sha laowu 沙家七雄（大理） 776 717 麻黄衫 短缨枪 半生不熟</P>
+                          <P>沙 老 六 sha laoliu 沙家七雄（大理） 776 717 麻黄衫 短缨枪 半生不熟</P>
+                          <P>沙 老 七 sha laoqi 沙家七雄（大理） 777 706 麻黄衫 短缨枪 半生不熟</P>
+                          <P>苏 易 su yi 普通百姓（大理） 847 631 武士服 长剑 马马虎虎</P>
+                          <P>沈 胜 衣 shen shengyi 普通百姓（大理） 900 745 白金丝袍 长剑 
+神乎其技</P>
+                          <P>宋 远 桥 song yuanqiao　 武当派（武当） 1578 1621 青道袍 青锋剑 
+                          旷世高手</P>
+                          <P>宋 青 书 song qingshu　 武当派（武当） 1590 1621 银袍 青锋剑 
+                          豁然贯通</P>
+                          <P>沈 乃 堂 shen naitang 百姓（杨州老格饭店）2245 1486 天蓝丝袍 
+略有大成</P>
+                          <P>沈 无 双 shen wushuang 百姓（杨州老格饭店）2250 1487 绯红丝裙 
+                          略有小成</P>
+                          <P>邵 康 节 shao kangjie 普通百姓（杨 州）2358 1497 白棉袍 马马虎虎</P>
+                          <P>宋 师 道 song shidao 普通百姓（杨州茶馆）2345 1436 文士服 钢刀 
+                          傲视群雄</P>
+                          <P>石 龙 shi long 百姓（杨州石龙武馆）2302 1478 天蓝丝袍 略有大成</P>
+                          <P>神 算 子 shen suanzi 普通百姓（大理） 817 724 灰道袍 马马虎虎</P>
+                          <P>沙 云 sha yun 普通百姓（成都傅宅）551 1801 文士服 心领神会</P>
+                          <P>沙 雷 sha lei 普通百姓（成都傅宅）550 1803 文士服 心领神会</P>
+                          <P>沙 电 sha dian 普通百姓（成都傅宅）547 1804 武士服 心领神会</P>
+                          <P>沙 风 sha feng 普通百姓（成都傅宅）546 1801 武士服 怒蛟帮（鄱阳）</P>
+                          <P>僧 人 seng ren 普通百姓（北 方） 2155 2624 灰布僧袍 粗通皮毛</P>
+                          <P>侍 卫 shi wei 王 府（洛阳） 1989 2235 武士服 略知一二</P>
+                          <P>商 孤 竹 shang guzhu 百姓（杨州双英镖局）2393 1511 黑麻布袍 飞环 
+                          略有大成</P>
+                          <P>史 松 shi song 普通百姓（杨 州）2363 1647 黑布袍 黑龙鞭 粗通皮毛</P>
+                          <P>沙 老 大 sha laoda 百 姓（成都乌江帮）793 1527 青缎丝袍 马马虎虎</P>
+                          <P>申 人 俊 shen renjun 普通百姓（成 都）745 1578 青麻衣 长剑 马马虎虎</P>
+                          <P>丝 娜 si na 普通百姓（成都四族）694 1589 绯红丝裙 略有大成</P>
+                          <P>孙 慧 珊 sun huishan 普通百姓（成都萧府）746 1649 雪白丝裙 长剑 
+                          出神入化</P>
+                          <P>石 青 璇 shi qingxuan 普通百姓（成都解府）711 1811 青羽衣 出神入化</P>
+                          <P>宋 玉 华 song yuhua 普通百姓（成都解府）689 1782 月白丝裙 钢刀 
+略有大成</P>
+                          <P>上 官 鹰 shangguan ying 怒蛟帮（鄱阳） 1934 1416 湖青丝袍 钢刀 
+                          一代宗师</P>
+                          <P>侍 女 shi nv 百姓（神仙庄） ......... 白布裙 毫不足虑</P>
+                          <P>僧璨大师 sengcan dashi 少 林 寺 2304 2206 鹅黄僧袍 出类拔萃</P>
+                          <P>神秀禅师 shenxiu chanshi 少 林 寺 2326 2071 红布袈裟 长枪 
+                          登峰造极</P>
+                          <P>僧那禅师 sengna chanshi 少 林 寺 2307 2088 红布袈裟 惊世骇俗</P>
+                          <P>色 空 se kong　 少 林 寺　 2270 2148 青布僧袍 刚刀 略有大成</P>
+                          <P>施 戴 子 shi daizi　 华 山 派（华 山） 1556 2410 草绿绵袍 长剑 
+                          豁然贯通</P>
+                          <P>石 之 轩 shi zhixuan 圣门(长安无漏寺) 1056 2027 鹅黄僧袍 深不可测 
+                          <BR>这是天下唯一会变身的NPC，会变成大德圣僧。给他石清漩的玉箫就会变回来</P>
+                          <P>宋 媚 song mei 百姓（ 韩府 ） 799 2028 白布裙 毫不足虑</P>
+                          <P>宋 天 南 song tiannan 普通百姓（成 都）800 1716 文士服 了然于胸</P>
+                          <P>上 官 龙 shangguan long 阴癸派（洛阳） 2078 2139 天蓝丝袍 龙头拐杖 
+                          神功盖世</P>
+                          <P>沙 千 灯 sha tiandeng 普通百姓（成都傅宅）523 1818 天蓝丝袍 大刀 
+                          出类拔萃</P></TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><FONT face="Arial Black"><I><A 
+                          name=T>T</A></I></FONT></TD></TR>
+                      <TR>
+                        <TD width="100%" height=1089>天虚道人 tian xu 百姓（侠客岛） 2067 
+                          974 布道袍 长剑 惊世骇俗 
+                          <P>铁口道人 tiekou daoren 普通百姓（北 方） 2087 2598 黄道袍 半生不熟</P>
+                          <P>唐 可 卿 tang keqing 普通百姓（北 方） 2070 2613 白布裙 普普通通</P>
+                          <P>拓 拔 玉tuoba yu 百姓（洛阳客栈） 1945 2035 文士服 飞挝 略有大成</P>
+                          <P>屠 叔 方 tu shufeng 普通百姓（洛阳） 2015 2051 灰布袍 豁然贯通</P>
+                          <P>屯 卫 tun wei 王 府（洛阳） 1961 2246 虎纹战袍 长枪 略有大成</P>
+                          <P>田 瓒 tian zan 普通百姓（洛阳） 2038 2324 朝服 马马虎虎</P>
+                          <P>屠 夫 tu fu 百 姓(侠客客栈)1147 1617 蓝布衣 半生不熟</P>
+                          <P>唐 猴 tang hou　 　 唐 门 592 1316 麻布衣 铁蒺藜 豁然贯通</P>
+                          <P>唐 花 tang hua 唐 门 579 1316 棉袍 铁蒺藜 傲视群雄</P>
+                          <P>唐 傲 tang ao　 唐 门 504 1323 银袍 铁蒺藜 旷世高手</P>
+                          <P>唐 猛 tang meng 唐 门 564 1316 青麻布衣 铁蒺藜 豁然贯通</P>
+                          <P>唐 缺 tang que　　 唐 门 520 1321 鹅黄丝袍 铁蒺藜 惊世骇俗</P>
+                          <P>唐 守 方 tang shoufang　 唐 门 508 1393 麻布衣 铁蒺藜 旷世高手</P>
+                          <P>唐 守 清 tang shouqing　 唐 门 503 1393 青麻布衣 铁蒺藜 旷世高手</P>
+                          <P>唐 无 双 tang wushuang　 唐 门 522 1359 鹅黄丝袍 铁蒺藜 深不可测</P>
+                          <P>唐 力 tang li 唐 门 550 1316 红布衣 铁蒺藜 技冠群雄</P>
+                          <P>唐家弟子 tangjia dizi 唐 门 ........ 灰布衣（男） 铁蒺藜 豁然贯通</P>
+                          <P>唐家弟子 tangjia dizi 唐 门 ........ 碧纹裙（女） 铁蒺藜 出类拔萃</P>
+                          <P>唐 珏 tang jue 唐 门 582 535 麻布衣 铁蒺藜 旷世高手</P>
+                          <P>铁 长 老 tie zhanglao 魔 教(优愁谷) 248 1247 黑棉袍 燕子刀 
+                          登峰造极</P>
+                          <P>铜驼长老 tongtuo zhanglao 魔 教(优愁谷) 250 1202 长袍 盖世奇才</P>
+                          <P>唐 老 汉 tang laohan 百姓（唐门） 659 1182 红布衣 铁蒺藜 神功盖世</P>
+                          <P>唐 大 tang da 普通百姓（成都萧府）746 1629 青布衣 神功盖世</P>
+                          <P>唐 柔 tang rou 普通百姓（成都萧府）746 1634 雪白丝袍 略有大成</P>
+                          <P>唐 方 tang fang 普通百姓（成都萧府）731 1645 夜行衣 登峰造极</P>
+                          <P>天 夏 tian xia　 　 神 仙 山 庄 2583 2147 星袍 天夏剑 一代天娇</P>
+                          <P>太 乙 道 taiyi dao 普通百姓（杨 州）2364 1581 灰道袍 略有小成</P>
+                          <P>他 拿 ta na 百姓 （长安客栈）1149 2156 胡服 了然於胸</P>
+                          <P>铁 手 tie shou 普通百姓（大理） 805 811 武士服 (发quest) 略有小成</P>
+                          <P>田 文 tian weng 普通百姓（杨 州 字）2388 1656 文士服 初窥门径</P>
+                          <P>昙 宗 tan zong　 少 林 寺　 2365 2148 麻黄僧袍 禅杖 一代天娇</P>
+                          <P>田 三 堂 tian santang 百姓（长安兴昌隆）1243 2204 草绿棉袍 
+                          驾轻就熟<BR></P></TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><FONT face="Arial Black"><I><A 
+                          name=W>W</A></I></FONT></TD></TR>
+                      <TR>
+                        <TD width="100%" height=1701>无 情 wu cing 普通百姓（洛阳） 1959 
+                          2140 武士服 马马虎虎 
+                          <P>无 名 wu ming 百姓（杨 州南野外）2228 1197 黑布衣 长剑 深不可测</P>
+                          <P>闻 万 夫 wen wanfu 普通百姓（北 方） 2100 2500 蓝布衣 长剑 初通皮毛</P>
+                          <P>王 万 仞 wang wanren 普通百姓（北 方） 2210 2670 蓝麻布袍 长剑 
+                          初通皮毛</P>
+                          <P>王 掌 柜 wang zhanggui 普通百姓（北 方） 2148 2614 棕布衣 
+初窥门径</P>
+                          <P>王 伯 当 wang bodang 普通百姓（洛阳） 1856 2030 红布袍 长矛 
+架轻就熟</P>
+                          <P>王 元 霸 wang yua, , nba 金 刀 门（洛阳） 1815 2025 天蓝丝袍 金刀 
+                          金胆 架轻就熟</P>
+                          <P>王 仲 强 wang zhongqiang 金 刀 门（洛阳） 1822 2026 蓝布袍 钢刀 
+                          马马虎虎</P>
+                          <P>王 仲 强 wang pofen 金 刀 门（洛阳） 1822 2035 青布袍 钢刀 
+马马虎虎</P>
+                          <P>王 道 伺 wang daosi 普通百姓（洛阳） 1853 2353 明光铠 钢刀 驾轻就熟</P>
+                          <P>王 世 充 wang shichong 普通百姓（洛阳） 2039 2251 朝服 傲视群雄</P>
+                          <P>王 道 徇 wang daoxun 普通百姓（洛阳） 1832 2336 蓝缎战甲 钢刀 
+                          驾轻就熟</P>
+                          <P>王 世 伟 wang shiwei 普通百姓（洛阳） 1857 2340 青缎锁子甲 钢刀 
+                          驾轻就熟</P>
+                          <P>王 世 恽 wang shiyun 普通百姓（洛阳） 1841 2340 明光铠 钢刀 
+驾轻就熟</P>
+                          <P>王 泰 wang tai 普通百姓（洛阳） 1872 2332 蓝缎战甲 钢刀 驾轻就熟</P>
+                          <P>王 泰 镇 wang taizhen 普通百姓（洛阳） 1873 2341 灿银连环甲 钢刀 
+                          驾轻就熟</P>
+                          <P>王 行 本 wang xingben 普通百姓（洛阳） 1817 2347 青缎锁子甲 钢刀 
+                          驾轻就熟</P>
+                          <P>王 玄 恕 wang xuanshu 普通百姓（洛阳） 2038 2250 文士服 心领神会</P>
+                          <P>王 玄 应 wang xuanying 普通百姓（洛阳） 2037 2250 灿银连环甲 
+                          略有小成</P>
+                          <P>王 弘 烈 wang honglie 普通百姓（洛阳） 1815 2340 灿银连环甲 钢 刀 
+                          略有小成</P>
+                          <P>温 艳 阳 wen yanyang 普通百姓（侠 客）1174 1654 文士服 学音乐 
+                          略有小成</P>
+                          <P>王 十 袋 wang shidai 丐 帮（侠 客）1292 1671 十袋布衣 寒玉棒 
+                          心领神会</P>
+                          <P>温 彦 博 wen yanbo 百姓(长安皇城) 1209 2506 朝服 朝鞋 略有大成</P>
+                          <P>吴 道 通 wu daotong（北 方） 2084 2630 百纳衣 判官笔 半生不熟</P>
+                          <P>王 薄 wang bo 普通百姓（洛阳） 2048 2254 鹅黄丝袍 定世鞭 技冠群雄</P>
+                          <P>武 卫 wu wei 王 府（洛阳） 1959 2274 鹰纹战袍 了然于胸</P>
+                          <P>魏 徵 wei zheng 百姓（长安京兆联）1377 2352 文士服 粗通皮毛</P>
+                          <P>王 桂 wang gui 百姓（长安京兆联）1364 2342 青布袍 略有大成</P>
+                          <P>卫 家 青 wei jiaqing 百姓（长安京兆联）1349 2303 银罗团花袍 长剑 
+                          略有大成</P>
+                          <P>吴 登 善 wu dengshan 百姓（长安兴昌隆）1245 2205 蓝布袍 半生不熟</P>
+                          <P>武馆馆主 wuguan guanzhu 百姓（长安武馆） 1283 2328 草绿棉袍 
+马马虎虎</P>
+                          <P>王 睦 wang nu 百姓（长安封府） 1125 2370 银罗团花战袍 神乎其技</P>
+                          <P>韦 正 兴 wei zhengxing 百姓（长安天策府）1090 2309 棉布袍 马马虎虎</P>
+                          <P>武馆馆主 wuguan guanzhu 百姓（大理武馆） 775 630 草绿棉袍 铁布衫 
+                          半生不熟</P>
+                          <P>吴 光 胜 wu guangshen 普通百姓（大理） 619 861 青麻布袍 长剑 
+普普通通</P>
+                          <P>吴 大 鹏 wu dapeng 普通百姓（杨州贾家）2471 1511 黑棉袍 略有小成</P>
+                          <P>王 潭 wang tan 普通百姓（杨州贾家）2473 1571 棕布衣 判官笔 半生不熟</P>
+                          <P>武馆馆主 wuguan guanzhu 百 姓（杨州武馆）2332 1550 草绿棉袍 铁布衫 
+                          半生不熟</P>
+                          <P>温 南 扬 wen nanyang 百 姓（杨州武馆）2316 1527 青布袍 略有小成</P>
+                          <P>温 方 禄 wen fanglu 普通百姓（杨州何宅）2473 1671 红丝袍 钢刀 
+了然於胸</P>
+                          <P>王大小姐 wang daxiaojie 镖 局（杨州镖局）2448 1638 百褶裙 霸王枪 
+                          豁然贯通</P>
+                          <P>韦 春 花 wei chunhua 普通百姓（杨州妓院）2331 1741 粉红罗裙 不足挂齿</P>
+                          <P>韦 小 宝 wi xiaobao 普通百姓（杨州妓院）2274 1746 青麻衣 不足挂齿</P>
+                          <P>吴 之 荣 wu ahirong 普通百姓（杨州官府）2276 1628 文士服 初学乍练</P>
+                          <P>尉 迟 胜 wei chisheng 普通百姓（杨州官府）2261 1661 青布袍 初窥门径</P>
+                          <P>王 天 民 wang tianming 普通百姓（成 都）789 1706 白布衣 大刀 
+                          驾轻就熟</P>
+                          <P>文 姑 wen gu 百 姓（成都散花楼）603 1639 粉红罗裙 不足挂齿</P>
+                          <P>未 空 wei kong 少 林 寺 2279 2127 青布僧袍 出神入化</P>
+                          <P>悟 空 wu kong　 少 林 寺　 2270 2127 青布僧袍 长鞭 了然于胸</P>
+                          <P>绾 绾 wan wan　 阴癸派（洛阳） 2044 2130 雪白丝裙 天魔斩 空前绝后</P>
+                          <P>无名老人 wu ming 　 魔 教(优愁谷) 283 1335 黑棉袍 圆月弯刀 深不可测</P>
+                          <P>温 玉 胜 wen yusheng 百姓（长安六福赌）1181 2048 青麻布袍 
+                        马马虎虎</P></TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><FONT face="Arial Black"><I><A 
+                          name=X>X</A></I></FONT></TD></TR>
+                      <TR>
+                        <TD width="100%" height=2128>小 玲 珑 xiao linglong (韩 府) 
+ 
+                          <P>小 孩 xiao hai 普通百姓（侠 客）1263 1668 蓝布衣 毫不足虑</P>
+                          <P>谢 烟 客 xie yanke 普通百姓（北 方） 2280 2632 湖青丝袍 略有大成</P>
+                          <P>虚 行 之 xu xingzhi 百姓（洛阳 茶） 2014 2016 文士服 初学乍练</P>
+                          <P>宣 永 xuan yong 普通百姓（洛阳） 2009 2056 草绿棉裙 鸟啄击 驾轻就熟</P>
+                          <P>向 霸 先 xiang baxian 百姓(洛阳上南门外)1765 2220 黑麻布袍 长枪 
+                          出神入化</P>
+                          <P>西 门 胜 ximen sheng 镖 局（洛阳） 2081 2346 黑棉袍 判官笔 
+心领神会</P>
+                          <P>邢 漠 飞 xing mofei 普通百姓（洛阳） 2056 2293 胡服 长枪 心领神会</P>
+                          <P>许 伯 xu bo 普通百姓（英雄） 1533 2090 麻布袍 初学乍练</P>
+                          <P>小 国 xiao guo 普通百姓（英雄） 1530 2085 灰布衣 不足挂齿</P>
+                          <P>徐 妈 xu ma 普通百姓（英雄） 1504 2014 白布裙 不足挂齿</P>
+                          <P>萧 别 离 xiao bieli 百 姓 （侠客茶）1112 1653 湖青丝袍 了然于胸</P>
+                          <P>小 虎 子 xiao huzi 普通百姓（侠 客）1191 1644 红布袍 不足挂齿</P>
+                          <P>夏 沅 沅 xia yuanyuan 普通百姓（侠 客）1209 1684 黑纱裙 手镯 
+                          普普通通</P>
+                          <P>瞎 子 xia zi 百 姓(侠客银钩赌) 1184 1733 棕布衣 普普通通</P>
+                          <P>小 兰 xiao lan 百姓（长安沙府） 1378 2219 碧纹裙 心领神会</P>
+                          <P>肖 修 明 xiao xiuming 百姓（长安兴昌隆）1230 2230 武士服 长剑 
+                          略有大成</P>
+                          <P>谢 家 荣 xie jiarong 百姓（长安兴昌隆）1228 2205 武士服 长剑 
+了然於胸</P>
+                          <P>香 玉 山 xiang yushan 百姓（长安外宾馆）1220 2289 锦袍 了然於胸</P>
+                          <P>小 凤 xiao feng 百姓（长安沙府） 1355 2171 粉红罗裙 粗通皮毛</P>
+                          <P>小 宁 xiao ning 百姓（长安沙府） 1379 2205 白布裙 不足挂齿</P>
+                          <P>心 谜 xin mi 　 天师符咒（天师） 244 1502 灰道袍 桃木刀 驾轻就熟</P>
+                          <P>心 慈 xin ci 　　 天师符咒（天师） 248 1625 黄道袍 法刀 神乎其技</P>
+                          <P>心 渡 xin du　 天师符咒（天师） 275 1575 绿道袍 桃木刀 略有小成</P>
+                          <P>心 寂 xin ji　　　　 天师符咒（天师） 251 1629 灰道袍 天雷刀 傲视群雄</P>
+                          <P>心 宽 xin kuan　 天师符咒（天师） 290 1578 灰道袍 桃木刀 略有大成</P>
+                          <P>心 励 xin li 　　 天师符咒（天师） 253 1625 青道袍 桃木刀 傲视群雄</P>
+                          <P>心 寞 xin mo 天师符咒（天师） 209 1562 黑道袍 桃木刀 出类拔萃</P>
+                          <P>心 泰 xin tai 　 天师符咒（天师） 249 1616 青道袍 金钱刀 心领神会</P>
+                          <P>心 溪 xin xi 　 天师符咒（天师） 258 1502 青道袍 桃木刀 略有小成</P>
+                          <P>心 闲 xin xian 　 天师符咒（天师） 276 1552 青道袍 桃木刀 技冠群雄</P>
+                          <P>心 悦 xin yue 　 天师符咒（天师） 221 1639 青道袍 桃木刀 略有大成</P>
+                          <P>萧 开 雁 xiao kaiyun 普通百姓（成都萧府）758 1646 灰布袍 长剑 
+出类拔萃</P>
+                          <P>萧 秋 水 xiao qiusui 普通百姓（成都萧府）732 1646 青麻衣 青锋剑 
+                          学不可测</P>
+                          <P>萧 雪 鱼 xiao xieyu 普通百姓（成都萧府）757 1658 降纱裙 心领神会</P>
+                          <P>萧 西 楼 xiao xilou 普通百姓（成都萧府）733 1658 天蓝丝袍 长歌剑 
+                          一代宗师</P>
+                          <P>萧 易 人 xiao yiren 普通百姓（成都萧府）732 1637 锦袍 一代宗师</P>
+                          <P>向 恶 xiang e 怒蛟帮（鄱阳） 1918 1349 红布袍 宣花大斧 心领神会</P>
+                          <P>解 晖 xie hui 普通百姓（成都解府）702 1473 灰布袍 盖世奇才</P>
+                          <P>解 文 龙 xie wenlong 普通百姓（成都解府）702 1780 银袍 出类拔萃</P>
+                          <P>薛 金 英 xue jinying 普通百姓（成 都）584 1777 麻布袍 宣花大斧 
+                          略有小成</P>
+                          <P>向 恶 xiang e 百 姓（鄱阳） 1919 1350 红布袍 宣花大斧 心领神会</P>
+                          <P>香 香 xiang xiang 天师符咒（天师） 293 1690 绯红丝裙 深不可测</P>
+                          <P>萧 东 楼 xiao donglou 百姓（唐门） 527 1252 月白丝袍 长剑 一代天娇</P>
+                          <P>夏 妙 莹 xia miaoying 普通百姓（成 都）817 1725 五彩云裳 豁然贯通</P>
+                          <P>虚 若 无 xu rouwu 百姓（ 韩府 ） 761 2124 白金丝袍 鬼王鞭 空前绝后</P>
+                          <P>小 雯 雯 xiao wenwen 百姓（ 韩府 ） 787 2061 红绸裙 毫不足虑</P>
+                          <P>虚 夜 月 xu yeyue 韩门（ 韩府 ） 802 2100 千褶裙 鬼王鞭 技冠群雄</P>
+                          <P>向 居 士 xiang jushi 　少 林 寺 2280 2047 灰布袍 一代天娇</P>
+                          <P>玄 空 xuan kong 少 林 寺 2279 2148 青布僧袍 刚刀 略有大成</P>
+                          <P>侠 客 xia ke 　　 神 仙 山 庄 2618 2100 云袍 侠客剑 傲视群雄</P>
+                          <P>店 小 二 xiao er 百 姓（鄱阳） 1920 1325 蓝布衣 毫不足虑</P>
+                          <P>谢 成 就 xie chengjiu　 怒蛟帮（鄱阳） 1931 1402 白布衣 略有大成</P>
+                          <P>席 应 xi ying 百 姓（成都散花楼）591 1652 青麻布袍 旷世高手</P>
+                          <P>徐 三 爷 xu sanye 镖 局（成都镖局）794 1767 鹅黄丝袍 蛇剑 出类拔萃</P>
+                          <P>夏 雪 宜 xia xueyi 普通百姓（杨州何宅）2509 1671 白金丝袍 金蛇剑 
+                          出类拔萃</P>
+                          <P>辛 双 清 xin suangqing 普通百姓（大理） 619 861 青道衣 长剑 
+略有小成</P>
+                          <P>喜 儿 xi er 百姓（长安风雅阁）1244 2075 百褶裙 初学乍练</P>
+                          <P>薛 万 彻 xue wanche 百姓（长安京兆联）1367 2352 麻布衣 铁棍 了然於胸</P>
+                          <P>谢 叔 方 xie shufang 百姓（长安京兆联）1378 2334 青麻布衣 略有大成</P>
+                          <P>巡 捕 xun bu 普通百姓（英雄） 1662 2120 武士服 钢刀 初窥门径</P>
+                          <P>小 鱼 儿 xiao yuer　 神 仙 山 庄 2621 2100 黄羽衣 赶月剑 
+                        登峰造极</P></TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><FONT face="Arial Black"><I><A 
+                          name=Y>Y</A></I></FONT></TD></TR>
+                      <TR>
+                        <TD width="100%" height=2097>愚茶道长 yu cha 百姓（侠客岛） 2023 
+                          996 灰道袍 长剑 空前绝后 
+                          <P>元澄道人 yuancheng daoren普通百姓（北 方） 2226 2521 蓝道袍 青锋剑 
+                          驾轻就熟</P>
+                          <P>鹰眼老七 yingyan laoqi 普通百姓（英雄） 1585 2182 武士服 略有小成</P>
+                          <P>渔家姑娘 yujia guniang 普通百姓（北 方） 2206 2674 白布裙 初学乍练</P>
+                          <P>杨 大 手 yang dashou 普通百姓（洛阳） 1824 2162 银袍 长剑 豁然贯通</P>
+                          <P>杨 公 卿 yang gongxing 普通百姓（洛阳） 1880 2215 文士服 钢刀 
+                          豁然贯通</P>
+                          <P>杨 庆 yang qing 普通百姓（洛阳） 2039 2324 朝服 长剑 驾轻就熟</P>
+                          <P>元 文 都 yuan wendu 王 府（洛阳） 1954 2265 朝服 不足挂齿</P>
+                          <P>杨 桐 yang tong 王 府（洛阳） 1954 2275 团龙黄袍 不足挂齿</P>
+                          <P>郁 元 真 yu yunzhen 普通百姓（洛阳） 2039 2246 斑斓战袍 钢 刀 
+                          驾轻就熟</P>
+                          <P>翊 卫 yi wei 王 府（洛阳） 1961 2263 白泽战袍 长剑 了然于胸</P>
+                          <P>御 卫 yu wei 王 府（洛阳） 1961 2219 端马战袍 长剑 豁然贯通</P>
+                          <P>阴 童 子 yin tongzi 普通百姓（英雄） 1579 2007 灰布袍 钢刀 粗通皮毛</P>
+                          <P>岳 洋 yue yang 普通百姓（英雄） 1643 2056 武士服 驾轻就熟</P>
+                          <P>尹 德 妃 yin defei 百姓(长安皇城) 1099 2623 五彩云裳 粗通皮毛</P>
+                          <P>杨 捕 头 yang butou 百 姓(侠客客栈)1195 1621 蓝布袍 粗通皮毛</P>
+                          <P>尹 祖 文 yin zhuwen 百姓(长安皇城) 1202 2540 青布衣 傲视群雄</P>
+                          <P>玉 荷 yu he 百姓（长安沙府） 1357 2182 青绫裙 了然於胸</P>
+                          <P>云 贵 yun gui 百姓（长安沙府） 1365 2161 灰布衣 驾轻就熟</P>
+                          <P>袁 天 罡 yuan tiangang 算命先生（长安） 1067 2129 文士服 马马虎虎</P>
+                          <P>殷 梨 亭 yin liting　　 武当派（武当） 1589 1604 青道袍 青锋剑 
+                          惊世骇俗</P>
+                          <P>俞 莲 舟 yu lianzhou　 武当派（武当） 1575 1587 灰道袍 青锋剑 
+                          空前绝后</P>
+                          <P>俞 岱 岩 yu daiyan 武当派（武当） 1516 1620 蓝道袍 毫不足虑</P>
+                          <P>渔 人 yu ren 普通百姓（北 方） 2150 2639 灰布衣 斗笠 普普通通</P>
+                          <P>渔 人 yu ren 普通百姓（北 方） 2152 2630 灰布衣 斗笠 略知一二</P>
+                          <P>杨 文 于 yang wengan 百姓（长安京兆联）1366 2322 天蓝棉袍 一代宗师</P>
+                          <P>尉迟敬德 yuchi jingde 百姓（长安天策府）1031 2284 瑞牛战袍 归藏鞭 
+                          神功盖世</P>
+                          <P>宇 文 宝 yuwen bao 百姓（长安京兆联）1348 2337 文士服 略有大成</P>
+                          <P>佘 沧 海 yu canghai 普通百姓（成 都）736 1566 青道袍 长剑 略有大成</P>
+                          <P>于 人 豪 yu renhao 普通百姓（成 都）732 1586 棕布衣 长剑 略有小成</P>
+                          <P>佘 人 彦 yu renyan 普通百姓（成 都）724 1566 灰布衣 长剑 半生不熟</P>
+                          <P>云 嫦 yun chang 　 天师内丹（天师） 263 1608 青道袍 出类拔萃</P>
+                          <P>云 凡 yun fan 天师内丹（天师） 287 1553 黄道袍 略有小成</P>
+                          <P>云 开 yun kai 　 天师内丹（天师） 231 1586 蓝道袍 驾轻就熟</P>
+                          <P>云 迷 yun mi 天师内丹（天师） 238 1552 白道袍 驾轻就熟</P>
+                          <P>云 明 yun ming 天师内丹（天师） 251 1607 白道袍 出类拔萃</P>
+                          <P>云 清 yun qing 　 天师内丹（天师） 209 1553 黄道袍 了然于胸</P>
+                          <P>云 仁 yun ren 　 天师内丹（天师） 248 1505 灰道袍 初通皮毛</P>
+                          <P>云 阳 yun yang 　 天师内丹（天师） 265 1616 青道袍 略有大成</P>
+                          <P>游方和尚 youfang heshang 普通百姓（北 方） 2251 2626 百纳衣 
+                          普普通通</P>
+                          <P>衙 役 ya yi 普通百姓（北 方） 2138 2641 衙役服 木棍 普普通通</P>
+                          <P>衙 役 ya yi 百姓（洛阳官府） .......... 衙役服 普普通通</P>
+                          <P>尤 楚 红 you chuhong 百姓（长安独孤府）1016 2203 宫袍 碧玉杖 
+一代天骄</P>
+                          <P>郁 光 标 yu guangbiao 普通百姓（大理） 619 861 青布衣 长剑 普普通通</P>
+                          <P>宇文化及 yuwen huaji 百姓（杨州石龙武馆）2274 1471 银狮战袍 傲视群雄</P>
+                          <P>玉 蕴 芳 yu yunfang 百姓（杨州双英镖局）2395 1549 绿棉裙 不足挂齿</P>
+                          <P>杨 基 yang ji 百 姓（成都散花楼）612 1639 黑布衣 半生不熟</P>
+                          <P>鹰组弟子 ying zu 普通百姓（成都萧府）734 1684 武士服 长剑 驾轻就熟</P>
+                          <P>杨 权 yang quan 怒蛟帮（鄱阳） 　 1895 1376 青布衣 心领神会</P>
+                          <P>袁 指 柔 yuan zhirou 百 姓（鄱阳） 1938 1343 夜行服 蛇形矛 
+略有大成</P>
+                          <P>英 雄 ying xiong　 神 仙 山 庄 2604 2075 风袍 英雄剑 技冠群雄</P>
+                          <P>岳 夫 人 yue furen 华 山 派（华 山） 1551 2456 青绵裙 长剑 
+举世无双</P>
+                          <P>岳 灵 珊 yue lingshan 华 山 派（华 山） 1537 2455 绛纱裙 碧水剑 
+                          出类拔萃</P>
+                          <P>岳 不 群 yue buqun　 华 山 派（华 山） 1549 2456 青布袍 长剑 
+                          盖世奇才</P>
+                          <P>燕 长 老 yan zhanglao 魔 教(优愁谷) 263 1246 黑丝裙 燕子刀 
+                          登峰造极</P>
+                          <P>银龙长老 yinlong zhanglao 魔 教(优愁谷) 274 1227 银龙衫 
+登峰造极</P>
+                          <P>俞 佩 玉 yu peiyu 百姓（唐门） 591 1224 天蓝棉袍 登峰造极</P>
+                          <P>杨 虚 彦 yang xuyan 　 圣门(成都圣门) 608 1577 夜行服 深不可测</P>
+                          <P>云 中 鹤 yun zhonghe 百姓（大理皇府） 674 734 灰布衣 钢抓 略有大成</P>
+                          <P>叶 二 娘 ye erniang 百姓（大理皇府） 978 734 青丝裙 钢刀 略有大成</P>
+                          <P>岳 老 三 yue laosan 百姓（大理皇府） 730 769 青布袍 鳄嘴剪 
+                        略有大成</P></TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE>
+                    <TABLE borderColorDark=#ffffff width="100%" 
+                    borderColorLight=#99cc00 border=1>
+                      <TBODY>
+                      <TR>
+                        <TD width="100%"><FONT face="Arial Black"><I><A 
+                          name=Z>Z</A></I></FONT></TD></TR>
+                      <TR>
+                        <TD width="100%" height=1772>张 三 zhang san 百姓（侠客岛） 
+                          2022 909 湖青丝袍 一代天骄 
+                          <P>周 牧 zhou mu 普通百姓（北 方） 2086 2618 灰布袍 驾轻就熟</P>
+                          <P>智慧大师 zi hui dashi百姓（洛阳寺庙） 1850 2077 鹅黄僧袍 空前绝后</P>
+                          <P>张 虎 候 zhang huhou 普通百姓（洛阳） 1824 2155 青布衣 略有大成</P>
+                          <P>泽 岳 ze yue 百姓（洛阳客栈） 1900 2043 棉袍 马马虎虎</P>
+                          <P>翟 娇 zhai jiao 普通百姓（洛阳） 2014 2049 红绸裙 了然于胸</P>
+                          <P>郑 淑 明 zheng shuming 普通百姓（洛阳） 2015 2048 白布裙 长剑 
+                          心领神会</P>
+                          <P>帐 房 zhang fang 百姓（洛阳官府） 1830 2254 文士服 初学乍练</P>
+                          <P>泽 天 文 ze tianwen 普通百姓（洛阳） 2078 2243 草绿棉袍 粗通皮毛</P>
+                          <P>张 镇 周 zhang zhenzhou 普通百姓（洛阳） 2038 2219 明光铠 钢刀 
+                          豁然贯通</P>
+                          <P>张 志 方 zhang zhifang 普通百姓（洛阳） 2037 2207 蓝缎战甲 钢刀 
+                          了然于胸</P>
+                          <P>周 天 富 zhou tianfu 百姓（侠客快活林）1226 1632 锦袍 初学乍练</P>
+                          <P>郑 兰 州 zhen lanzhou 百姓（侠客快活林）1234 1612 青缎丝袍 马马虎虎</P>
+                          <P>张 亮 zhang liang 百姓(长安皇城) 1197 2549 胡服 了然於胸</P>
+                          <P>郑 公 公 zheng gonggong 百姓(长安皇城) 1201 2627 太监服 
+惊世骇俗</P>
+                          <P>张 老 实 zhang laoshi 普通百姓（侠 客）1196 1597 灰布衣 不足挂齿</P>
+                          <P>赵 德 言 zhao deyan 百姓（长安外宾馆）1221 2277 雪白丝袍 百变菱枪 
+                          盖世奇才</P>
+                          <P>张 翠 山 zhang cuishan　 武当派（武当） 1573 1542 青道袍 青锋剑 
+                          盖世奇才</P>
+                          <P>张 松 溪 zhang songxi 武当派（武当） 1562 1586 青道袍 青锋剑 
+                          惊世骇俗</P>
+                          <P>周 平 zhou ping 普通百姓（杨州官府）2283 1614 青布袍 粗通皮毛</P>
+                          <P>查 四 zha si 普通百姓（杨州官府）2283 1605 蓝布袍 驾轻就熟</P>
+                          <P>张 力 zhang li 普通百姓（杨州官府）2275 1615 青布袍 粗通皮毛</P>
+                          <P>曾 述 予 zeng shuyu 怒 蛟（鄱阳） 2022 1380 麻黄衫 出类拔萃</P>
+                          <P>翟 秋 白 zhai qiubai 怒蛟帮（鄱阳） 1848 1329 麻布衣 粗通皮毛</P>
+                          <P>追 命 zhui ming 普通百姓（成 都）663 1669 武士服(发quest) 长剑 
+                          马马虎虎</P>
+                          <P>诸 葛 亮 zhuge liang 普通百姓（成 都）615 1673 云袍 马马虎虎</P>
+                          <P>战 其 力 zhan qili 普通百姓（成 都）584 1755 麻布袍 长枪 马马虎虎</P>
+                          <P>左 长 生 zuo changsheng 普通百姓（成都傅宅）517 1814 黑布袍 
+技冠群雄</P>
+                          <P>钟 万 仇 zhong wanchou 百姓（大理皇府） 693 794 黑布衣 钢刀 
+驾轻就熟</P>
+                          <P>朱 丹 臣 zhu danchen 段府（大理皇府） 746 779 明光铠 判官笔 马马虎虎</P>
+                          <P>左 诗 zou shi 百姓（ 韩府 ） 788 2060 粉红罗裙 毫不足虑</P>
+                          <P>朝 霞 zhao xia 百姓（ 韩府 ） 800 2061 绯红丝裙 毫不足虑</P>
+                          <P>朱 媚 zhu mei 百姓(成都圣门) 619 1565 千褶裙 驾轻就熟</P>
+                          <P>左 游 仙 zuo youxian 　　 圣门(成都圣门) 625 1577 灰布袍 壬丙剑 
+                          一代天娇</P>
+                          <P>赵 无 忌 zhao wuji 百姓（唐门） 606 1188 灰布袍 长剑 神功盖世</P>
+                          <P>郑 石 如 zheng shiru　 阴癸派（洛阳） 2068 2155 文士服 举世无双</P>
+                          <P>志 深 zhi shen　 少 林 寺 2374 2127 黄布僧袍 马马虎虎</P>
+                          <P>褚 期 zhu qi 百 姓（鄱阳） 1882 1358 灰布衣 心领神会</P>
+                          <P>朱 侠 武 zhu xiawu 普通百姓（成都萧府）737 1668 灰布衣 傲视群雄</P>
+                          <P>左丘超然 zuo qiuchaoran 普通百姓（成都萧府）743 1634 青缎丝袍 
+了然於胸</P>
+                          <P>张 妈 zhang ma 普通百姓（成都萧府）755 1697 白布裙 阴阳剑 略有大成</P>
+                          <P>张 长 弓 zhang changgong 普通百姓（成都萧府）743 1629 武士服 长剑 
+                          了然於胸</P>
+                          <P>真言大师 zhen yan 普通百姓（成 都）767 1551 鹅黄僧袍 空前绝后</P>
+                          <P>贞 嫂 zhen sao 普通百姓（杨 州）2405 1594 碧纹裙 毫不足虑</P>
+                          <P>张 士 和 zhang shihe 百姓（杨州石龙武馆）2277 1471 文士服 了然於胸</P>
+                          <P>左 子 穆 zuo zimu 普通百姓（大理） 619 861 湖青丝袍 长剑 驾轻就熟</P>
+                          <P>朱 立 zhu li 普通百姓（大理） 900 734 灰布衣 长枪 半生不熟</P>
+                          <P>查 杰 zha jie 百姓（长安同心社）1012 2120 黑布袍 长枪 出类拔萃</P>
+                          <P>左 金 龙 zou jinlong 百姓（长安京兆联）1363 2354 黑布衣 豁然贯通</P>
+                          <P>帐 房 zhang fang 王 府（洛阳） 1971 2222 文士服 不足挂齿</P>
+                          <P>祝 玉 妍 zhu yuyan　 阴癸派（洛阳） 2029,2133 雪白丝裙 天魔带 
+深不可测</P>
+                          <P>张 三 丰 zhang sanfeng 武当派（武当） 1575 1622 太极道袍 真武剑 
+                          深不可测</P>
+                          <P>翟 雨 时 zhai yushi 怒蛟帮（鄱阳） 　　 1935 1417 白棉袍 剑 剑 
+                          出神入化</P>
+                          <P>长孙无忌 zhangsun wuji 百姓（长安天策府）1040 2287 文士服 一代宗师 
+                          <BR></P></TD></TR>
+                      <TR>
+                        <TD width="100%"><A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#A">A</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#B">B</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#C">C</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#D">D</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#E">E</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#F">F</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#G">G</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#H">H</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#J">J</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#K">K</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#L">L</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#M">M</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#N">N</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#O">O</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#P">P</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Q">Q</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#R">R</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#S">S</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#T">T</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#W">W</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#X">X</A>&nbsp;&nbsp; 
+                          <A 
+                          href="http://www.foxmy.cn/showart.asp?id=36#Y">Y</A>&nbsp;&nbsp; 
+                          <A 
+                        href="http://www.foxmy.cn/showart.asp?id=36#Z">Z</A></TD></TR></TBODY></TABLE></DIV></DIV></DIV></DIV></BLOCKQUOTE></TD></TR></TBODY></TABLE>
+            <BLOCKQUOTE></BLOCKQUOTE>
+            <P class=show_title align=center>【<A 
+            href="javascript:copyText(document.all.size)">复制此文</A>】【<A 
+            href="javascript:window.print()">打印此文</A>】【<A 
+            href="javascript:window.close()">关闭窗口</A>】【字体：<A 
+            href="javascript:ContentSize(16)">大</A> <A 
+            href="javascript:ContentSize(14)">中</A> <A 
+            href="javascript:ContentSize(12)">小</A>】 </P>
+            <TABLE border=0>
+              <TBODY>
+              <TR>
+                <TD height=5></TD></TR></TBODY></TABLE>&nbsp;上一篇：<A 
+            href="http://www.foxmy.cn/showart.asp?id=35">游戏物品 查询</A>
+            <TABLE border=0>
+              <TBODY>
+              <TR>
+                <TD height=5></TD></TR></TBODY></TABLE>&nbsp;下一篇：<FONT 
+            color=red>没有下一条记录</FONT>
+            <TABLE border=0>
+              <TBODY>
+              <TR>
+                <TD height=5></TD></TR></TBODY></TABLE></DIV>
+          <TD class=666 noWrap></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD class=777 noWrap></TD>
+          <TD class=888 noWrap></TD>
+          <TD class=999 noWrap></TD></TR></TBODY></TABLE>
+      <TABLE border=0>
+        <TBODY>
+        <TR>
+          <TD height=5></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD class=111 noWrap></TD>
+          <TD class=222 
+            noWrap>&nbsp;发布评论&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A 
+            href="http://www.foxmy.cn/pl.asp?id=36&amp;pltab=art" 
+            target=_blank>全部评论</A>
+          <TD class=333 noWrap></TD></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD class=444 noWrap></TD>
+          <TD class=555 vAlign=top noWrap>
+            <DIV class=show_content>
+            <TABLE width=730 align=center border=0>
+              <FORM name=form action="" method=post>
+              <TBODY>
+              <TR>
+                <TD style="WIDTH: 370px">
+                  <TABLE border=0>
+                    <TBODY>
+                    <TR>
+                      <TD height=5></TD></TR></TBODY></TABLE><INPUT type=hidden 
+                  value=36 name=id><INPUT type=hidden value=art 
+                  name=pltab>&nbsp;姓名：<INPUT class=input style="WIDTH: 150px" 
+                  name=title>&#8195;验证码：<INPUT class=input maxLength=4 size=7 
+                  name=code>&nbsp;<IMG style="WIDTH: 40px; HEIGHT: 15px" 
+                  src="http://www.foxmy.cn/inc/code.asp" align=absMiddle 
+                  border=0>
+                  <TABLE border=0>
+                    <TBODY>
+                    <TR>
+                      <TD height=5></TD></TR></TBODY></TABLE>&nbsp;评论：<TEXTAREA class=input onkeydown=bookcount(this.form.content,this.form.total,this.form.used,this.form.remain); onkeyup=bookcount(this.form.content,this.form.total,this.form.used,this.form.remain); style="WIDTH: 310px; HEIGHT: 65px" name=content></TEXTAREA>
+                  <TABLE border=0>
+                    <TBODY>
+                    <TR>
+                      <TD height=5></TD></TR></TBODY></TABLE>
+                  <CENTER>&nbsp;最多：<INPUT class=input disabled maxLength=4 
+                  size=3 value=250 name=total>&nbsp;&nbsp;已用：<INPUT class=input 
+                  disabled maxLength=4 size=3 value=0 
+                  name=used>&nbsp;&nbsp;剩余：<INPUT class=input disabled 
+                  maxLength=4 size=3 value=250 name=remain>
+                  <TABLE border=0>
+                    <TBODY>
+                    <TR>
+                      <TD height=5></TD></TR></TBODY></TABLE><INPUT class=put onmouseover="this.className='overput'" onmouseout="this.className='put'" type=submit value="发 表" name=pl>&nbsp;<INPUT class=put onmouseover="this.className='overput'" onmouseout="this.className='put'" type=reset value="清 空" name=reset></CENTER>
+                  <TABLE border=0>
+                    <TBODY>
+                    <TR>
+                      <TD height=5></TD></TR></TBODY></TABLE></TD>
+                <TD></FORM>
+                  <UL style="LINE-HEIGHT: 180%; LIST-STYLE-TYPE: square">
+                    <LI>请使用[迅雷、网际快车]等等相应下载工具。
+                    <LI>如有问题请联系管理员，谢谢！
+                    <LI>管理员有权保留或删除评论中的内容。
+                    <LI>本站有权在网站内转载或引用您的评论。
+                    <LI>参与本评论即表明您已经接受上述条款。</LI></UL>&#8195;&#8195;注意：本站的评论功能已经启动文字过滤功能，请不要随意<BR>&#8195;&#8195;&#8195;&#8195;&#8195;发布恶意文字，若未遵守将封闭IP处理。</TD></TR></TBODY></TABLE></DIV>
+          <TD class=666 noWrap></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD class=777 noWrap></TD>
+          <TD class=888 noWrap></TD>
+          <TD class=999 noWrap></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE id=footmenu cellSpacing=0 cellPadding=0 border=0>
+  <TBODY>
+  <TR>
+    <TD class=fml noWrap></TD>
+    <TD class=fmc noWrap>&nbsp;┊<A href="http://www.foxmy.cn/link.asp" 
+      target=o>更多的连接</A>┊<A href="http://www.foxmy.cn/link.asp?action=join" 
+      target=o>申请连接</A></TD>
+    <TD class=fmr noWrap></TD></TR></TBODY></TABLE>
+<TABLE id=foot cellSpacing=0 cellPadding=0 border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top noWrap>◆内容搜集于互联网◆&nbsp;<A 
+      href="http://www.miibeian.gov.cn/" 
+      target=_blank>◆正在备案中..◆</A><BR>&nbsp;耗时：46.88&nbsp;秒&nbsp;<BR>copyright&nbsp;@&nbsp;www.foxmy.cn&nbsp;LEOS&nbsp;版权所有 
+      &nbsp;<BR>总量：41611人</A>&nbsp;昨日：205人</A>&nbsp;今日：275人</A>&nbsp;<A 
+      href="http://www.foxmy.cn/showonline.asp">在线：6人</A><BR><BR>
+      <SCRIPT language=JavaScript 
+      src="http://s132.cnzz.com/stat.php?id=253598&amp;web_id=253598" 
+      charset=gb2312></SCRIPT>
+      <BR></TD></TR>
+  <TR>
+    <TD height=30></TR></TBODY></TABLE></CENTER></BODY></HTML>
+
