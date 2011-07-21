@@ -1,0 +1,26 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+define:
+	HeroVO
+		guid:String;
+		name:String;
+		sex:String;		F:男		M:女
+		
+interface:
+	10000(请求登陆)
+		c->s
+			loginId
+		s->c
+			HeroList [HeroVO,...,HeroVO];
+	10001(进入游戏)
+		c->s
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
