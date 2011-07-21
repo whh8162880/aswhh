@@ -2,13 +2,13 @@
 
 = Introduction =
 
-define:
+ define:
 	HeroVO
 		guid:String;
 		name:String;
 		sex:String;		F:男		M:女
 		
-interface:
+ interface:
 	10000(请求登陆)
 		c->s
 			loginId
