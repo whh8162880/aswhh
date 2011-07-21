@@ -4,15 +4,24 @@ package rfcomponents.button
 	import flash.events.MouseEvent;
 	
 	import rfcomponents.text.Text;
+	import rfcomponents.zother.rendermachine.RenderMachine;
 	
 	public class Button extends Text
 	{
-		public function Button(skin:Sprite = null)
+		public function Button(skin:Sprite = null,machine:RenderMachine = null)
 		{
 			super();
 			if(skin){
 				this.skin = skin;
 			}
+			if(machine){
+				this._machine = machine;
+			}
+		}
+		
+		protected var _machine:RenderMachine;
+		public function set machine(machine:RenderMachine):void{
+			this._machine = machine;
 		}
 		
 		protected var _roll:Boolean;
@@ -40,7 +49,9 @@ package rfcomponents.button
 		}
 		
 		protected function renderFace():void{
-			
+			if(_machine){
+				_machine.render(this,_width,_height,_mouse,_roll,_enabled,_selected);
+			}
 		}
 		
 		override public function set enabled(value:Boolean):void{

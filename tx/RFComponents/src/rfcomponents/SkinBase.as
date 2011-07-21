@@ -113,6 +113,19 @@ package rfcomponents
 		}
 		
 		
+		protected var _selected:Boolean;
+		public function set selected(value:Boolean):void{
+			_selected = value;
+			doSelected();
+		}
+		public function get selected():Boolean{
+			return _selected;
+		}
+		protected function doSelected():void{
+			
+		}
+		
+		
 		//---------------------------------------------------------------------------------------------------------------
 		//
 		//Stage

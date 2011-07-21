@@ -3,12 +3,13 @@ package rfcomponents.list.itemrender
 	import flash.display.Sprite;
 	
 	import rfcomponents.button.Button;
+	import rfcomponents.zother.rendermachine.RenderMachine;
 	
 	public class ListItemRender extends Button
 	{
-		public function ListItemRender(skin:Sprite=null)
+		public function ListItemRender(skin:Sprite=null,machine:RenderMachine=null)
 		{
-			super(skin);
+			super(skin,machine);
 		}
 		
 		override protected function textResize():void{
