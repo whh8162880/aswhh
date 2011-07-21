@@ -9,12 +9,12 @@
 		sex:String;		F:男		M:女
 		
  interface:
-  10000(请求登陆)
+  a10000(请求登陆)
 		c->s
 			loginId
 		s->c
 			HeroList [HeroVO,...,HeroVO]; 
-  10001(进入游戏)
+  a10001(进入游戏)
 		c->s
 
 
