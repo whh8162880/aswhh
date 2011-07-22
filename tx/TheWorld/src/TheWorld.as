@@ -22,7 +22,7 @@ package
 			sm.setContainer(this);
 			sm.regScene(new SceneMain());
 			sm.regScene(new SceneLogin());
-			sm.regScene(new ScenePreload());
+			sm.regScene(new ScenePreload()); 
 			sm.showScene("ScenePreload");
 			
 			stage.align = StageAlign.TOP_LEFT;
