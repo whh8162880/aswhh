@@ -7,6 +7,9 @@
 					   >
 	<fx:Script>
 		<![CDATA[
+			import com.net.socket.SocketServer;
+			import com.socket.AirSocketServer;
+			import com.socket.ResourceSocket;
 			import com.socket.TXSocketServer;
 			import com.utils.Work;
 			
@@ -15,9 +18,23 @@
 			protected function windowedapplication1_creationCompleteHandler(event:FlexEvent):void
 			{
 				// TODO Auto-generated method stub
-				var socket:TXSocketServer 
+				
+				var socket:AirSocketServer;
+//				socket = new ServerSocket();
+//				socket.bind(1985);
+//				socket.addEventListener(ServerSocketConnectEvent.CONNECT,connectHandler);
+//				socket.addEventListener(Event.CLOSE,connectHandler);
+//				function connectHandler(event:Event):void{
+//					
+//				}
+//				socket.listen();
+				
 				socket = new TXSocketServer();
 				socket.bind(1986);
+				socket.listen();
+				
+				socket = new ResourceSocket(File.applicationDirectory.nativePath+"/txdata/");
+				socket.bind(1991);
 				socket.listen();
 				
 				
