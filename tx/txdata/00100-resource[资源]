@@ -8,3 +8,4 @@ interface:
 	s->c
 		成功 [1,url,data(ByteArray)]
 		失败 [0,url,error_code,...args]
+		
