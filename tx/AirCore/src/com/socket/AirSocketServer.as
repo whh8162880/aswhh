@@ -15,12 +15,16 @@ package com.socket
 	{
 		public function AirSocketServer()
 		{
-			addEventListener(ServerSocketConnectEvent.CONNECT,serverSocketConnectHandler);
-			addEventListener(Event.CLOSE,serverSocketCloseHandler);
 			clientDict = new Dictionary();
 			index = 0;
 			receiveFunction = receive;
 			groupDict = new Dictionary();
+		}
+		
+		override public function listen(backlog:int=0):void{
+			addEventListener(Event.CLOSE,serverSocketCloseHandler);
+			addEventListener(ServerSocketConnectEvent.CONNECT,serverSocketConnectHandler);
+			super.listen(backlog);
 		}
 		
 		public function receive(client:AirClient,byte:ByteArray):void{
@@ -43,6 +47,7 @@ package com.socket
 		}
 		
 		protected function serverSocketCloseHandler(event:Event):void{
+			removeEventListener(Event.CLOSE,serverSocketCloseHandler);
 			while(index>=0){
 				var client:AirClient = clientDict[index];
 				if(client){
@@ -52,7 +57,6 @@ package com.socket
 				}
 				index--;
 			}
-			close();
 		}
 		
 		protected function clientCloseHandler(event:Event):void{

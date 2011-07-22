@@ -86,6 +86,7 @@ package com.socket.client
 				readBuffer.position = 0;
 				socket.readBytes(readBuffer,0,msgLen);
 				receive(readBuffer);
+				msgLen = 0;
 				//读完一条命令后 缓冲区内可能又新的数据 继续读
 				socketDataHandler();
 			}
