@@ -17,8 +17,8 @@
 			import com.module.dataget.EmoteGet;
 			import com.module.map.MapResourceGeter;
 			import com.module.map.MapView;
-			import com.theworld.utils.UILocator;
 			import com.tool.NPCOnceTool;
+			import com.utils.UILocator;
 			
 			import mx.events.FlexEvent;
 			protected function windowedapplication1_nativeDragEnterHandler(event:NativeDragEvent):void
