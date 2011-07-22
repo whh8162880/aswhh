@@ -1,7 +1,7 @@
 package com.theworld.components.panel
 {
 	import com.components.TestButton;
-	import com.theworld.utils.UILocator;
+	import com.utils.UILocator;
 	import com.utils.key.KeyboardManager;
 	
 	import flash.display.DisplayObjectContainer;

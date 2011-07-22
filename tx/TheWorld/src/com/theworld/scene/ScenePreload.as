@@ -3,18 +3,16 @@ package com.theworld.scene
 	import com.net.request.RequestQueueLoader;
 	import com.net.request.StreamAsyncRequest;
 	import com.net.request.event.RemoteOperationEvent;
+	import com.net.socket.resourcerequest.SocketResourceRequest;
 	import com.scene.core.SceneBase;
 	import com.theworld.core.CoreGlobal;
 	import com.theworld.module.emote.vo.EmoteVO;
 	import com.theworld.module.game.city.CityVO;
 	import com.theworld.utils.TXHelp;
-	import com.theworld.utils.UILocator;
+	import com.theworld.vo.LoginVO;
 	
 	import flash.events.Event;
 	import flash.net.registerClassAlias;
-	import flash.utils.ByteArray;
-	
-	import mx.events.Request;
 	
 	public class ScenePreload extends SceneBase
 	{
@@ -27,12 +25,18 @@ package com.theworld.scene
 		}
 		
 		override public function initialize():void{
-			UILocator.bindContianer(CoreGlobal.stage,CoreGlobal.stage);
+			var loginvo:LoginVO = CoreGlobal.loginVO;
+			var socket:SocketResourceRequest = new SocketResourceRequest(loginvo.resip,loginvo.resport);
+			socket.streamAsyncRequest(CoreGlobal.configPath+"map.dat",socketResHandler);
+			socket.streamAsyncRequest(CoreGlobal.configPath+"emote.dat",socketResHandler);
 			super.initialize();
 		}
 		
 		
 		override protected function initStart():void{
+			
+			
+			return;
 			var queue:RequestQueueLoader = new RequestQueueLoader();
 			queue.push(new StreamAsyncRequest(CoreGlobal.configPath+"map.dat","mapdefine"),queueHandler,"地图列表");
 			queue.push(new StreamAsyncRequest(CoreGlobal.configPath+"emote.dat","emotedefine"),queueHandler,"emote");
@@ -55,12 +59,28 @@ package com.theworld.scene
 			}
 		}
 		
+		private function socketResHandler(id:String,arr:Array):void{
+			if(arr[0]==0){
+				trace(id+' error');
+				return;
+			}
+			trace(id);
+			switch(id){
+				case CoreGlobal.configPath+"map.dat":
+					TXHelp.cityModel.decoder(arr[2]);
+					break;
+				case CoreGlobal.configPath+"emote.dat":
+					TXHelp.emoteModel.decoder(arr[2]);
+					break;
+			}
+		}
+		
 		private function queueCompleteHandler(event:Event):void{
 			sleep();
 		}
 		
 		override protected function doStop():void{
-			nextScene = 'SceneLogin';
+			nextScene = 'SceneInit';
 		}
 	}
 }
