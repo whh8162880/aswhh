@@ -1,0 +1,10 @@
+define:
+	向服务器要配置数据资源
+	stream;
+interface:
+	100 请求资源
+	c->s
+		url
+	s->c
+		成功 [1,url,data(ByteArray)]
+		失败 [0,url,error_code,...args]
