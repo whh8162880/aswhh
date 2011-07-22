@@ -18,7 +18,9 @@ package rfcomponents.button
 				this._machine = machine;
 			}
 		}
-		
+		/**
+		 * 渲染器 
+		 */		
 		protected var _machine:RenderMachine;
 		public function set machine(machine:RenderMachine):void{
 			this._machine = machine;

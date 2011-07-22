@@ -11,7 +11,7 @@ package rfcomponents.zother.rendermachine
 		public function ColorRenderMachine()
 		{
 			super();
-			color = 0xEEEEEE;
+			color = 0xFFFFFF;
 		}
 		
 		protected var c_default:uint;
