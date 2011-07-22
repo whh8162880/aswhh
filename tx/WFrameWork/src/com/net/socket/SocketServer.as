@@ -88,7 +88,10 @@ package com.net.socket
 				readBytes(readBuffer,0,msgLen);
 				receiveFunction(readBuffer);
 				//读完一条命令后 缓冲区内可能又新的数据 继续读
-				socketDataHandler();
+				availableLen -= msgLen;
+				msgLen = 0;
+				if(connected && availableLen>0)
+					socketDataHandler();
 			}
 		}
 	}
