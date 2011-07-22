@@ -17,6 +17,10 @@ package rfcomponents.zother.rendermachine
 		}
 		
 		public function render(target:SkinBase,_width:int,_height:int,_mouse:Boolean,_roll:Boolean,_enabled:Boolean,_selected:Boolean):void{
+			var skin:Sprite = target.skin;
+			if(!skin){
+				return;
+			}
 			var c:int = 0xCCCCCC;
 			if(_enabled){
 				if(_mouse){
@@ -28,7 +32,7 @@ package rfcomponents.zother.rendermachine
 				c = 0xCCCCCC;
 			}
 			
-			var g:Graphics = target.skin.graphics;
+			var g:Graphics = skin.graphics;
 			g.clear();
 			g.beginFill(c);
 			g.drawRoundRect(0,0,_width,_height,5,5);

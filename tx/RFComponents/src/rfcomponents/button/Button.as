@@ -22,6 +22,14 @@ package rfcomponents.button
 		protected var _machine:RenderMachine;
 		public function set machine(machine:RenderMachine):void{
 			this._machine = machine;
+			renderHelp.addRender("renderFace",renderFace);
+			doMachine();
+		}
+		public function get machine():RenderMachine{
+			return _machine;
+		}
+		protected function doMachine():void{
+			
 		}
 		
 		protected var _roll:Boolean;
@@ -31,6 +39,7 @@ package rfcomponents.button
 			addEventListener(MouseEvent.ROLL_OVER,rollHandler);
 			addEventListener(MouseEvent.ROLL_OUT,rollHandler);
 			addEventListener(MouseEvent.MOUSE_DOWN,mouseHandler);
+			renderHelp.addRender("renderFace",renderFace);
 		}
 		
 		protected function mouseHandler(event:MouseEvent):void{
