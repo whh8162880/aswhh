@@ -5,21 +5,10 @@
 					   creationComplete="windowedapplication1_creationCompleteHandler(event)">
 	<fx:Script>
 		<![CDATA[
-			import com.socket.TestSocket;
-			
 			import mx.events.FlexEvent;
 			
 			protected function windowedapplication1_creationCompleteHandler(event:FlexEvent):void
 			{
-				// TODO Auto-generated method stub
-//				var socket:AirSocketServer = new AirSocketServer();
-//				socket.bind(1986);
-//				socket.listen();
-				//var socket:ServerSocket = new TestSocket().socket;
-				var socket:TestSocket = new TestSocket();
-				socket.addEventListener(ServerSocketConnectEvent.CONNECT,connectHandler);
-				socket.bind(1986);
-				socket.listen();
 			}
 			
 			private function connectHandler(event:Event):void{
