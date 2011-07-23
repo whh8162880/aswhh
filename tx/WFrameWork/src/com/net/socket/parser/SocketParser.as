@@ -19,11 +19,20 @@ package com.net.socket.parser
 			}
 		}
 		
+		/**
+		 * 主响应命令程序 第一个被执行 
+		 * @param command
+		 * @param func
+		 * 
+		 */		
 		public function regCmd(command:int,func:Function):void{
 			var vo:SocketParserVO = getParser(command,true);
 			vo.func = func;
 		}
 		
+		/**
+		 * insert 
+		 */		
 		public function regInsertCmd(command:int,func:Function):void{
 			var vo:SocketParserVO = getParser(command,true);
 			vo.addInsertFunc(func);
@@ -34,6 +43,25 @@ package com.net.socket.parser
 			vo.removeInsertFunc(func);
 		}
 		
+		
+		/**
+		 * callback 
+		 */		
+		public function regCallbackCmd(command:int,func:Function):void{
+			var vo:SocketParserVO = getParser(command,true);
+			vo.addCallbackFunc(func);
+		}
+		
+		public function removeCallbackCmd(command:int,func:Function):void{
+			var vo:SocketParserVO = getParser(command,true);
+			vo.removeCallbackFunc(func);
+		}
+		
+		/**
+		 * 获取parser
+		 * autoCreate
+		 * 		true:如果没有 就是自动创建
+		 */		
 		protected function getParser(command:int,autoCreate:Boolean = false):SocketParserVO{
 			var vo:SocketParserVO = parserDict[command];
 			if(!vo){
