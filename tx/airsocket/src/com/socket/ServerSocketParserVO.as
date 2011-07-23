@@ -11,13 +11,9 @@ package com.socket
 		}
 		
 		public function doFunction2(client:AirClient,data:*):void{
-			if(func != null){
-				func(client,data);
+			if(_func != null){
+				_func(client,data);
 			}
-		}
-		
-		override public function doFunction(data:*):void{
-			
 		}
 	}
 }
