@@ -1,5 +1,6 @@
-package com.utils
+package com.utils.work
 {
+	
 	import flash.display.Stage;
 	import flash.events.Event;
 	import flash.utils.Dictionary;
@@ -39,8 +40,12 @@ package com.utils
 		 * 			//todo
 		 * 		}
 		 */		
-		public static function addTask(id:String,datas:Array,handler:Function):void{
-			instance.addTask(id,datas,handler);
+		public static function addTask(id:String,datas:Array,handler:Function,doNow:Boolean = false):void{
+			instance.addTask(id,datas,handler,doNow);
+		}
+		
+		public static function addWorkSpace(workspace:IWork,doNow:Boolean):void{
+			instance.addWorkSpace(workspace,doNow);
 		}
 		
 		public static function removeTask(id:String):void{
@@ -104,8 +109,24 @@ package com.utils
 			if(doNow){
 				enterFrameHandler(null)
 			}
-			
-			
+			stage.addEventListener(Event.ENTER_FRAME,enterFrameHandler);
+		}
+		/**
+		 * 也支持放入一个IWork
+		 * @param workspace
+		 * @param doNow
+		 * 
+		 */		
+		public function addWorkSpace(workspace:IWork,doNow:Boolean = false):void{
+			var id:String = workspace.id;
+			if(!dict[id]){
+				taskCount++;
+				eachTime = (1000/stage.frameRate*calcTime)/taskCount;
+			}
+			dict[id] = workspace;
+			if(doNow){
+				enterFrameHandler(null);
+			}
 			stage.addEventListener(Event.ENTER_FRAME,enterFrameHandler);
 		}
 		
@@ -148,7 +169,7 @@ package com.utils
 		 */		
 		private function enterFrameHandler(event:Event):void{
 			var t:int;
-			for each(var task:WorkSpace in dict){
+			for each(var task:IWork in dict){
 				t = getTimer();
 				while((getTimer()-t)<eachTime){
 					if(task.doFunction()){
@@ -162,22 +183,5 @@ package com.utils
 			}
 		}
 		
-	}
-}
-
-class WorkSpace{
-	public function WorkSpace(id:String){
-		this.id = id;
-	}
-	
-	public var id:String;
-	public var datas:Array;
-	public var len:int;
-	public var index:int;
-	public var handler:Function;
-	
-	public function doFunction():Boolean{
-		handler(datas[index]);
-		return ++index>=len;
 	}
 }

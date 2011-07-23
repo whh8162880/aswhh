@@ -2,7 +2,7 @@ package com.net.socket.resourcerequest
 {
 	import com.net.request.vo.RequestVO;
 	import com.net.socket.SocketServer;
-	import com.utils.Work;
+	import com.utils.work.Work;
 	
 	import flash.events.Event;
 	import flash.utils.ByteArray;

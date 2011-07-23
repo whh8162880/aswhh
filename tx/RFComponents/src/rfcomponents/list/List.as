@@ -1,6 +1,6 @@
 package rfcomponents.list
 {
-	import com.utils.Work;
+	import com.utils.work.Work;
 	
 	import flash.display.Graphics;
 	import flash.geom.Rectangle;

@@ -7,7 +7,7 @@ package
 	import com.theworld.scene.SceneMain;
 	import com.theworld.scene.ScenePreload;
 	import com.utils.UILocator;
-	import com.utils.Work;
+	import com.utils.work.Work;
 	
 	import flash.display.Sprite;
 	import flash.display.StageAlign;
