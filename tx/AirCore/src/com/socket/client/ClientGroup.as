@@ -1,7 +1,7 @@
 package com.socket.client
 {
 	import com.socket.AirSocketServer;
-	import com.utils.work.Work;
+	import com.utils.Work;
 	
 	import flash.events.EventDispatcher;
 	import flash.utils.ByteArray;

@@ -3,7 +3,7 @@ package
 	import com.components.TestPanel;
 	import com.components.test.TestListItemRender;
 	import com.utils.UILocator;
-	import com.utils.work.Work;
+	import com.utils.Work;
 	
 	import flash.display.Sprite;
 	import flash.display.StageAlign;

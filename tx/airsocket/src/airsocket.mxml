@@ -7,11 +7,10 @@
 					   >
 	<fx:Script>
 		<![CDATA[
-			import com.net.socket.SocketServer;
 			import com.socket.AirSocketServer;
 			import com.socket.ResourceSocket;
 			import com.socket.TXSocketServer;
-			import com.utils.work.Work;
+			import com.utils.Work;
 			
 			import mx.events.FlexEvent;
 			
