@@ -30,6 +30,8 @@ package com.theworld.scene
 		
 		private function connectHandler(event:Event):void{
 			trace("连接服务器成功");
+			var vo:LoginVO = CoreGlobal.loginVO;
+			CoreGlobal.send(10000,vo.name);
 			nextScene = "SceneMain"
 			//sleep();
 		}

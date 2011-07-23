@@ -33,5 +33,14 @@ package com.theworld.core
 			currentRole.name = '天下'
 		}
 		
+		
+		public static function send(cmd:int,data:Object):void{
+			socket.sendCommand(cmd,data);
+		}
+		
+		public static function sendCallback(cmd:int,data:Object,func:Function):void{
+			
+		}
+		
 	}
 }
