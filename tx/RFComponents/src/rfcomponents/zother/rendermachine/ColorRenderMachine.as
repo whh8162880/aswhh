@@ -38,30 +38,32 @@ package rfcomponents.zother.rendermachine
 			c_e_default = c_e_roll = c_e_mouse = c_e_selected = 0xCCCCCC;
 		}
 		
-		override public function render(target:SkinBase, _width:int, _height:int, _mouse:Boolean, _roll:Boolean, _enabled:Boolean, _selected:Boolean):void{
-			var c:int;
+		protected function getColor(_mouse:Boolean, _roll:Boolean, _enabled:Boolean, _selected:Boolean):uint{
 			if(_enabled){
 				if(_mouse){
-					c = c_mouse;
+					return c_mouse;
 				}else if(_roll){
-					c = c_roll;
+					return c_roll;
 				}else if(_selected){
-					c = c_selected;
+					return c_selected;
 				}else{
-					c = c_default;
+					return c_default;
 				}
 			}else{
 				if(_mouse){
-					c = c_e_mouse;
+					return c_e_mouse;
 				}else if(_roll){
-					c = c_e_roll;
+					return c_e_roll;
 				}else if(_selected){
-					c = c_e_selected;
+					return c_e_selected;
 				}else{
-					c = c_e_default;
+					return c_e_default;
 				}
 			}
-			
+		}
+		
+		override public function render(target:SkinBase, _width:int, _height:int, _mouse:Boolean, _roll:Boolean, _enabled:Boolean, _selected:Boolean):void{
+			var c:int = getColor(_mouse,_roll,_enabled,_selected);
 			var g:Graphics = target.skin.graphics;
 			g.clear();
 			g.beginFill(c);

@@ -41,7 +41,11 @@ package rfcomponents.button
 			addEventListener(MouseEvent.ROLL_OVER,rollHandler);
 			addEventListener(MouseEvent.ROLL_OUT,rollHandler);
 			addEventListener(MouseEvent.MOUSE_DOWN,mouseHandler);
-			renderHelp.addRender("renderFace",renderFace);
+			renderFace();
+		}
+		
+		protected function renderFace():void{
+			renderHelp.addRender("renderFace",doRenderFace);
 		}
 		
 		protected function mouseHandler(event:MouseEvent):void{
@@ -51,15 +55,15 @@ package rfcomponents.button
 			}else{
 				stage.removeEventListener(MouseEvent.MOUSE_UP,mouseHandler);
 			}
-			renderFace();
+			doRenderFace();
 		}
 		
 		protected function rollHandler(event:MouseEvent):void{
 			_roll = event.type == MouseEvent.ROLL_OVER;
-			renderFace();
+			doRenderFace();
 		}
 		
-		protected function renderFace():void{
+		protected function doRenderFace():void{
 			if(_machine){
 				_machine.render(this,_width,_height,_mouse,_roll,_enabled,_selected);
 			}
@@ -68,6 +72,11 @@ package rfcomponents.button
 		override public function set enabled(value:Boolean):void{
 			super.enabled = value;
 			renderFace(); 
+		}
+		
+		override public function set selected(value:Boolean):void{
+			super.selected = value;
+			renderFace();
 		}
 		
 	}

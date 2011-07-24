@@ -72,6 +72,10 @@ package rfcomponents.text
 			doEditable()
 		}
 		
+		public function getTextField():TextField{
+			return textField;
+		}
+		
 		public function setOffsize(l:int,t:int,r:int,u:int):void{
 			offsize.l = l;
 			offsize.t = t;
