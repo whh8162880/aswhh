@@ -28,6 +28,11 @@
 			<locationURI>DOCUMENTS/AirCore/src</locationURI>
 		</link>
 		<link>
+			<name>[source path] TheWorld-src</name>
+			<type>2</type>
+			<locationURI>DOCUMENTS/TheWorld/src</locationURI>
+		</link>
+		<link>
 			<name>[source path] WFrameWork-src</name>
 			<type>2</type>
 			<locationURI>DOCUMENTS/WFrameWork/src</locationURI>

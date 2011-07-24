@@ -32,6 +32,7 @@
 				socket.bind(1986);
 				socket.listen();
 				
+				
 				socket = new ResourceSocket(File.applicationDirectory.nativePath+"/txdata/");
 				socket.bind(1991);
 				socket.listen();

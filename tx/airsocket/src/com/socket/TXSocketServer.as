@@ -2,6 +2,7 @@ package com.socket
 {
 	import com.net.socket.parser.SocketParser;
 	import com.socket.client.AirClient;
+	import com.utils.ModelHelp;
 	
 	import flash.net.Socket;
 	import flash.utils.ByteArray;
@@ -11,6 +12,7 @@ package com.socket
 		public var parser:ServerSocketParser;
 		public function TXSocketServer()
 		{
+			ModelHelp.initModel(this);
 			parser = new ServerSocketParser(this);
 			super();
 		}

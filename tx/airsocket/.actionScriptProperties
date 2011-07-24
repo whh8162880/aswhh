@@ -4,6 +4,7 @@
     <compilerSourcePath>
       <compilerSourcePathEntry kind="1" linkType="1" path="${DOCUMENTS}/AirCore/src"/>
       <compilerSourcePathEntry kind="1" linkType="1" path="${DOCUMENTS}/WFrameWork/src"/>
+      <compilerSourcePathEntry kind="1" linkType="1" path="${DOCUMENTS}/TheWorld/src"/>
     </compilerSourcePath>
     <libraryPath defaultLinkType="0">
       <libraryPathEntry kind="4" path="">
