@@ -12,7 +12,6 @@ package com.model.user
 	
 	import flash.events.TimerEvent;
 	import flash.filesystem.File;
-	import flash.net.registerClassAlias;
 	import flash.utils.ByteArray;
 	import flash.utils.Dictionary;
 	import flash.utils.Timer;
@@ -27,7 +26,6 @@ package com.model.user
 		private var timer:Timer;
 		public function UserModel(socketServer:TXSocketServer)
 		{
-			registerClassAlias("HeroVO",HeroVO);
 			super(socketServer);
 		}
 		override protected function init():void{
@@ -37,6 +35,7 @@ package com.model.user
 			configFilePath = str.slice(0,str.lastIndexOf("/")) +"/user/";
 			timer = new Timer(10*60*1000);
 			timer.addEventListener(TimerEvent.TIMER,timerHandler);
+			timer.start();
 		}
 		
 		/**

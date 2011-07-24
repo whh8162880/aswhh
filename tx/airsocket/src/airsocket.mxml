@@ -10,6 +10,7 @@
 			import com.socket.AirSocketServer;
 			import com.socket.ResourceSocket;
 			import com.socket.TXSocketServer;
+			import com.theworld.utils.RegClasses;
 			import com.utils.work.Work;
 			
 			import mx.events.FlexEvent;
@@ -27,6 +28,8 @@
 //					
 //				}
 //				socket.listen();
+				
+				RegClasses.init();
 				
 				socket = new TXSocketServer();
 				socket.bind(1986);
