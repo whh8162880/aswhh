@@ -5,6 +5,7 @@ package com.scene.core
     
     import flash.display.DisplayObjectContainer;
     import flash.display.Stage;
+    import flash.events.Event;
     import flash.utils.Dictionary;
 
     public class SceneManager extends RFEventDispatcher
@@ -113,6 +114,8 @@ package com.scene.core
                 _currentScene.sleep();
                 endEffect(_currentScene);
             }
+			
+			this.dispatchEvent(new Event(Event.CHANGE));
 
             startEffect(value);
 
