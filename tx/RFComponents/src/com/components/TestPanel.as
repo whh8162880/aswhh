@@ -7,12 +7,13 @@ package com.components
 	import flash.events.MouseEvent;
 	
 	import rfcomponents.button.Button;
+	import rfcomponents.checkbox.CheckBox;
 	import rfcomponents.panel.Panel;
+	import rfcomponents.radiobutton.RadioButton;
 	import rfcomponents.text.Text;
 	
 	public class TestPanel extends Panel
 	{
-		public var panelName:String;
 		public function TestPanel()
 		{
 			super();
@@ -42,6 +43,26 @@ package com.components
 			if(handler!=null){
 				button.addEventListener(MouseEvent.CLICK,handler);
 			}
+			addChild(button.skin);
+			return button;
+		}
+		
+		public function createRadioButton(x:int,y:int,w:int,h:int,group:String,defaultlabel:String='',data:Object = null):RadioButton{
+			var button:RadioButton = new TestRadioButton(w,h,group);
+			button.label = defaultlabel;
+			button.x = x;
+			button.y = y;
+			button.data = data;
+			addChild(button.skin);
+			return button;
+		}
+		
+		public function createCheckBox(x:int,y:int,w:int,h:int,defaultlabel:String='',data:Object = null):CheckBox{
+			var button:CheckBox = new TestCheckBox(w,h);
+			button.label = defaultlabel;
+			button.x = x;
+			button.y = y;
+			button.data = data;
 			addChild(button.skin);
 			return button;
 		}

@@ -9,9 +9,10 @@ package com.components
 	
 	public class TestCheckBox extends CheckBox
 	{
-		public function TestCheckBox()
+		public function TestCheckBox(w:int,h:int)
 		{
 			super(null, new TestCheckBoxRenderMachine());
+			create(w,h);
 		}
 		
 		override protected function textResize():void{

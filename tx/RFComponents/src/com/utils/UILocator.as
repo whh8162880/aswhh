@@ -28,5 +28,11 @@ package com.utils
 			target.x = (stage.stageWidth - target.width)/2;
 			target.y = (stage.stageHeight - target.height)/2;
 		}
+		
+		public static function clearpop():void{
+			while(pop.numChildren){
+				pop.removeChildAt(0);
+			}
+		}
 	}
 }

@@ -29,24 +29,19 @@ package
 			panel.create(300,200);
 			panel.show();
 
-			var r:RadioButton = new TestRadioButton();
-			r.create(100,20);
-			r.group = 'sex';
+			var r:RadioButton = new TestRadioButton(100,20,"sex");
 			r.label = 'whhwhhwhh';
 			r.x = r.y = 20;
 			panel.addChild(r.skin);
 			
-			r = new TestRadioButton();
-			r.create(100,20);
-			r.group = 'sex';
+			r = new TestRadioButton(100,20,"sex");
 			r.label = 'hcchcchcc';
 			r.x = 130 
 			r.y = 20;
 			panel.addChild(r.skin);
 			
 			
-			var c:CheckBox = new TestCheckBox();
-			c.create(100,20);
+			var c:CheckBox = new TestCheckBox(100,20);
 			c.label = 'whcwhc';
 			c.x = 20
 			c.y = 50;

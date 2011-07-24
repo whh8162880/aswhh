@@ -9,9 +9,13 @@ package com.components
 	
 	public class TestRadioButton extends RadioButton
 	{
-		public function TestRadioButton(group:String = null)
+		public function TestRadioButton(w:int,h:int,group:String = null)
 		{
-			super(null,group,new TestRadiobuttonRenderMachine());
+			super(null,null,new TestRadiobuttonRenderMachine());
+			create(w,h);
+			if(group){
+				this.group = group;
+			}
 		}
 		
 		override protected function textResize():void{
