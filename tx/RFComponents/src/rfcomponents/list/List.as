@@ -1,6 +1,6 @@
 package rfcomponents.list
 {
-	import com.utils.Work;
+	import com.utils.work.Work;
 	
 	import flash.display.Graphics;
 	import flash.geom.Rectangle;
@@ -10,7 +10,7 @@ package rfcomponents.list
 	public class List extends SkinBase
 	{
 		private static var count:int;
-		
+		 
 		protected var cls:Class;
 		protected var itemWidth:uint;
 		protected var itemHeight:uint;
