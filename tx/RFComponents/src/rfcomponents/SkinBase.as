@@ -116,6 +116,7 @@ package rfcomponents
 		protected var _selected:Boolean;
 		public function set selected(value:Boolean):void{
 			_selected = value;
+			this.dispatchEvent(new Event(Event.SELECT));
 			doSelected();
 		}
 		public function get selected():Boolean{
