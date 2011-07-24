@@ -81,6 +81,7 @@ package com.net.socket.resourcerequest
 		override public function receive(byte:ByteArray):void{
 			var arr:Array = byte.readObject();
 			var vo:RequestVO = workDict[arr[1]];
+			trace(vo.id)
 			vo.doHandler(arr);
 			doWork();
 		}
