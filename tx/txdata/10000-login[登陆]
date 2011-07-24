@@ -10,5 +10,15 @@ interface:
 			loginId
 		s->c
 			HeroList [HeroVO,...,HeroVO];
-	10001(进入游戏)
+	10001(创建角色)
 		c->s
+			[name,sex]
+		s->c
+			成功 : [1,HeroVO]
+			失败 : [0,error_code,...arg]
+	10002(进入游戏)
+		c->s
+			HeroId
+		s->c
+			成功 : [1,x,y]
+			失败 : [0,error_code,...arg]
