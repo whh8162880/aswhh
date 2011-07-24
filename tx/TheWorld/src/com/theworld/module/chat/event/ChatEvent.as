@@ -14,5 +14,7 @@ package com.theworld.module.chat.event
 		public static const ADD_MESSAGE:String = 'chat_add_message';
 		
 		public static const CLEAR:String = 'chat_clear';
+		
+		public static const SEND_MESSAGE:String = 'chat_send_message';
 	}
 }

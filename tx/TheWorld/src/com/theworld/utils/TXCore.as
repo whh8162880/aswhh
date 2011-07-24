@@ -1,6 +1,6 @@
 package com.theworld.utils
 {
-	import mx.utils.StringUtil;
+	import com.utils.StringUtils;
 
 	public class TXCore
 	{
@@ -9,7 +9,7 @@ package com.theworld.utils
 		}
 		
 		public static function renderUserName(name:String,color:String):String{
-			return StringUtil.substitute("<font color='{0}'> {1} </font>",color,name);
+			return StringUtils.substitute("<font color='{0}'> {1} </font>",color,name);
 		}
 	}
 }

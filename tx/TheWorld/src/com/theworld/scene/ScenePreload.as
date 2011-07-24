@@ -20,10 +20,6 @@ package com.theworld.scene
 		public function ScenePreload()
 		{
 			super("ScenePreload");
-			
-			registerClassAlias("CityVO",CityVO);
-			registerClassAlias("EmoteVO",EmoteVO);
-			registerClassAlias("HeroVO",HeroVO);
 		}
 		
 		override public function initialize():void{
@@ -67,7 +63,6 @@ package com.theworld.scene
 				trace(id+' error');
 				return;
 			}
-			trace(id);
 			switch(id){
 				case CoreGlobal.configPath+"map.dat":
 					TXHelp.cityModel.decoder(arr[2]);

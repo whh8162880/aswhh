@@ -3,6 +3,8 @@ package com.theworld.net.socket.parser
 	import com.net.socket.SocketServer;
 	import com.net.socket.parser.SocketParser;
 	import com.net.socket.parser.SocketParserBase;
+	import com.theworld.module.chat.ChatModel;
+	import com.theworld.utils.TXHelp;
 	
 	public class ChatSocketParser extends TxSocketParserBase
 	{
@@ -26,7 +28,7 @@ package com.theworld.net.socket.parser
 		}
 		
 		public function receiveNormalChat(data:*):void{
-			
+			chatModel.receiveMessageVO(data);
 		}
 	}
 }

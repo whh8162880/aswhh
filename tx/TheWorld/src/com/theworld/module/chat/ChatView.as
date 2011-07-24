@@ -2,6 +2,7 @@ package com.theworld.module.chat
 {
 	import com.theworld.command.Command;
 	import com.theworld.components.panel.TXPanel;
+	import com.theworld.module.chat.event.ChatEvent;
 	
 	import flash.events.KeyboardEvent;
 	import flash.text.TextField;
@@ -52,7 +53,8 @@ package com.theworld.module.chat
 			if(event.keyCode == Keyboard.ENTER){
 				var str:String = inputTF.text;
 				if(!Command.doCommand(str)){
-					addMessage(str);
+					this.dispatchEvent(new ChatEvent(ChatEvent.SEND_MESSAGE,str));
+					//addMessage(str);
 				}
 				inputTF.text = '';
 			}

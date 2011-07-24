@@ -8,6 +8,7 @@ package
 	import com.theworld.scene.SceneMain;
 	import com.theworld.scene.ScenePreload;
 	import com.theworld.scene.SceneRegPlayer;
+	import com.theworld.utils.RegClasses;
 	import com.utils.UILocator;
 	import com.utils.work.Work;
 	
@@ -25,6 +26,7 @@ package
 			CoreGlobal.stage = stage;
 			UILocator.bindContianer(stage,stage);
 			Work.bindStage(stage);
+			RegClasses.init();
 			
 			var sm:SceneManager = new SceneManager(stage);
 			sm.addEventListener(Event.CHANGE,sceneChangeHandler);

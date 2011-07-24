@@ -38,14 +38,16 @@ package com.theworld.module.emote
 		}
 		
 		public function doEmote(cmd:String,target:String,self:String):void{
-			showEmote(cmd,target,self);
+			var str:String = showEmote(cmd,target,self);
+			chatmodel.addMessage(str);
 		}
 		
 		
-		public function showEmote(cmd:String,target:String,self:String):void{
+		
+		public function showEmote(cmd:String,target:String,self:String):String{
 			var vo:EmoteVO = emoteDict[cmd];
 			if(!vo){
-				return;
+				return "";
 			}
 			var str:String = '';
 			if(self){
@@ -60,7 +62,7 @@ package com.theworld.module.emote
 			str = str.replace(/\$N/g,TXCore.renderUserName(username,"#00FF00"));
 			str = str.replace(/\$n/g,TXCore.renderUserName(target,"#FF0000"));
 			
-			chatmodel.addMessage(str);
+			return str;
 		}		
 	}
 }
