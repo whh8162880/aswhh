@@ -2,6 +2,7 @@ package com.theworld.scene
 {
 	import com.scene.core.SceneBase;
 	import com.theworld.core.CoreGlobal;
+	import com.theworld.module.game.avatar.player.HeroVO;
 	import com.theworld.net.socket.TxSocket;
 	import com.theworld.vo.LoginVO;
 	
@@ -31,13 +32,19 @@ package com.theworld.scene
 		private function connectHandler(event:Event):void{
 			trace("连接服务器成功");
 			var vo:LoginVO = CoreGlobal.loginVO;
-			CoreGlobal.send(10000,vo.name);
-			nextScene = "SceneMain"
+			CoreGlobal.sendCallback(10000,vo.name,loginCallback);
 			//sleep();
 		}
 		
-		override protected function initStart():void{
-			
+		private function loginCallback(data:*):void{
+			var vo:HeroVO = data;
+			CoreGlobal.currentRole = vo;
+			if(!vo.name){
+				nextScene = 'SceneRegPlayer';
+			}else{
+				nextScene = "SceneIntoGame";
+			}
+			sleep();
 		}
 	}
 }

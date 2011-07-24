@@ -7,6 +7,7 @@ package com.theworld.scene
 	import com.scene.core.SceneBase;
 	import com.theworld.core.CoreGlobal;
 	import com.theworld.module.emote.vo.EmoteVO;
+	import com.theworld.module.game.avatar.player.HeroVO;
 	import com.theworld.module.game.city.CityVO;
 	import com.theworld.utils.TXHelp;
 	import com.theworld.vo.LoginVO;
@@ -22,11 +23,13 @@ package com.theworld.scene
 			
 			registerClassAlias("CityVO",CityVO);
 			registerClassAlias("EmoteVO",EmoteVO);
+			registerClassAlias("HeroVO",HeroVO);
 		}
 		
 		override public function initialize():void{
 			var loginvo:LoginVO = CoreGlobal.loginVO;
 			var socket:SocketResourceRequest = new SocketResourceRequest(loginvo.resip,loginvo.resport);
+			CoreGlobal.resourceSocket = socket;
 			socket.streamAsyncRequest(CoreGlobal.configPath+"map.dat",socketResHandler);
 			socket.streamAsyncRequest(CoreGlobal.configPath+"emote.dat",socketResHandler);
 			super.initialize();
@@ -71,6 +74,7 @@ package com.theworld.scene
 					break;
 				case CoreGlobal.configPath+"emote.dat":
 					TXHelp.emoteModel.decoder(arr[2]);
+					sleep();
 					break;
 			}
 		}

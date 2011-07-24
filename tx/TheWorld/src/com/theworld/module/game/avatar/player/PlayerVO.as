@@ -8,5 +8,7 @@ package com.theworld.module.game.avatar.player
 		{
 			super();
 		}
+		
+		public var sex:String;
 	}
 }

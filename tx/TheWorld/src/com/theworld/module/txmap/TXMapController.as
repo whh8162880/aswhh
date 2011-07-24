@@ -32,10 +32,12 @@ package com.theworld.module.txmap
 		}
 		override protected function doSetModel(model:*):void{
 			this.model = model;
-			ResourceManager.requestAsyncResource("txmaprescfg",CoreGlobal.mappath+"maprescfg.dat",LoaderType.STREAM,maprescfgloaderHandler);
+			CoreGlobal.resourceSocket.streamAsyncRequest(CoreGlobal.mappath+"maprescfg.dat",maprescfgloaderHandler);
+			//ResourceManager.requestAsyncResource("txmaprescfg",CoreGlobal.mappath+"maprescfg.dat",LoaderType.STREAM,maprescfgloaderHandler);
 		}
 		
-		private function maprescfgloaderHandler(id:String,data:ByteArray):void{
+		private function maprescfgloaderHandler(id:String,data:Object):void{
+			data = data[2];
 			data.position = 0;
 			data.inflate();
 			model.setMapres(data.readObject());

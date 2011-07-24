@@ -39,7 +39,7 @@ package com.theworld.core
 		}
 		
 		public static function sendCallback(cmd:int,data:Object,func:Function):void{
-			
+			socket.sendCallback(cmd,data,func);
 		}
 		
 	}
