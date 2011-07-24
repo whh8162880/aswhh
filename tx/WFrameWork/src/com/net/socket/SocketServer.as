@@ -23,12 +23,17 @@ package com.net.socket
 			receiveFunction = receive;
 		}
 		
+		override public function close():void{
+			super.close();
+			socketCloseHandler();
+		}
+		
 		protected function socketConnectHandler(event:Event):void{
 			trace("socketConnect")
 			addEventListener(ProgressEvent.SOCKET_DATA,socketDataHandler);
 		}
 		
-		protected function socketCloseHandler(event:Event):void{
+		protected function socketCloseHandler(event:Event = null):void{
 			trace("socketClose")
 			removeEventListener(ProgressEvent.SOCKET_DATA,socketDataHandler);
 		}
