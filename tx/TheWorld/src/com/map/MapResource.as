@@ -15,21 +15,19 @@ package com.map
 	public class MapResource extends RFEventDispatcher
 	{
 		private var mapres:Array;
+		public var id:String;
 		public function MapResource(mapres:Array)
 		{
 			this.mapres = mapres;
 			renders = [];
 		}
 		
+		public var readly:Boolean
 		public var type:String;
 		public var renders:Array;
 		public var x:int;
 		public var y:int;
 		public var ez:int;
-		public function render(type:String,x:int,y:int,ez:int):void{
-			this.type = type;
-			getResource(x,y);
-		}
 		
 		public function addMapRender(irender:IMapRender):void{
 			if(renders.indexOf(irender) == -1){
@@ -47,24 +45,36 @@ package com.map
 			}
 		}
 		
-		protected function getResource(x:int,y:int):void{
-			var path:String = StringUtil.substitute("map{0}_{1}.dat",x,y);
-			ResourceManager.requestAsyncResource(path,CoreGlobal.mappath+path,LoaderType.STREAM,resourceGet);
+		public function getResource(path:String,x:int,y:int):void{
+			//ResourceManager.requestAsyncResource(path,CoreGlobal.mappath+path,LoaderType.STREAM,resourceGet);
 			
 //			new StreamAsyncRequest(StringUtils.substitute(CoreGlobal.mappath+path),path).invoke(resourceGet);
+			readly = false;
+			this.x = x;
+			this.y = y;
+			CoreGlobal.resourceSocket.streamAsyncRequest(CoreGlobal.mappath+path,resourceGet);
 		}
 		
-		protected function resourceGet(id:String,data:ByteArray):void{
-			if(!data){
+		private var data:ByteArray;
+		protected function resourceGet(id:String,data:Array):void{
+			this.data = data[2];
+			if(!this.data){
 				return;
 			}
-			for each(var irender:IMapRender in renders){
-				
-			}
+			this.data.inflate();
+			readly = true;
+			complete();
 		}
 		
 		protected function complete():void{
 			dispatchEvent(new Event(Event.COMPLETE));
+		}
+		
+		public function getColor(x:int,y:int):uint{
+			if(!data){
+				return 0x00FF00;
+			}
+			return mapres[data[y*100+x]];
 		}
 		
 	}

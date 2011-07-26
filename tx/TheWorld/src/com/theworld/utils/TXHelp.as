@@ -89,8 +89,8 @@ package com.theworld.utils
 			var cotroller:TXMapController = facade.getController(name) as TXMapController;
 			if(!cotroller){
 				cotroller = new TXMapController();
-				cotroller.setModel(mapModel);
 				cotroller.setView(new TXMapView());
+				cotroller.setModel(mapModel);
 				facade.regController(name,cotroller);
 			}
 			return cotroller;

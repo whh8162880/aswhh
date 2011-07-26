@@ -54,7 +54,7 @@ package com.theworld.module.txmap.view
 			for(j=0;j<h;j++){
 				for(i=0;i<w;i++){
 					var skin:TXMapItemRender = new TXMapItemRender();
-					skin.create(sizew,sizeh,Math.random()*0xFFFFFF,false);
+					skin.create(sizew,sizeh,0xFFFFFF,false);
 					skin.dx = i;
 					skin.dy = j;
 					skin.x = i*sizew;
@@ -97,7 +97,7 @@ package com.theworld.module.txmap.view
 				delete itemrenderDict[type];
 				item.dispose();
 				itemrenders.push(item);
-				removes.push([item.offsetx,item.offsety,item]);
+				removes.push(item);
 			}
 		}
 		
@@ -210,7 +210,7 @@ package com.theworld.module.txmap.view
 					skin.dy = ylen;
 					itemrenderDict[type] = skin;
 					skin.updata();
-					edits.push([skin.offsetx,skin.offsety,skin]);
+					edits.push(skin);
 				}
 				t += sizeh;
 				u += sizeh;
