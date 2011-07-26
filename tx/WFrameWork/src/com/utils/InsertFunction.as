@@ -37,7 +37,10 @@ package com.utils
 			if(!vo){
 				return;
 			}
-			vo.removeFunction(func);
+			if(!vo.removeFunction(func)){
+				insertFunctionDict[id] = null;
+				delete insertFunctionDict[id];
+			}
 		}
 		
 		/**
@@ -100,11 +103,12 @@ class InsertVO{
 	 * @param func
 	 * 
 	 */	
-	public function removeFunction(func:Function):void{
+	public function removeFunction(func:Function):Boolean{
 		var i:int = funcs.indexOf(func);
 		if(i>=0){
 			funcs.splice(i,1);
 		}
+		return funcs.length>0;
 	}
 	/**
 	 * 执行！ 
