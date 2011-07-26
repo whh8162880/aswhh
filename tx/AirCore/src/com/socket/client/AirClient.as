@@ -88,12 +88,18 @@ package com.socket.client
 				receive(readBuffer);
 				msgLen = 0;
 				//读完一条命令后 缓冲区内可能又新的数据 继续读
-				socketDataHandler();
+				if(socket.connected){
+					socketDataHandler();
+				}
 			}
 		}
 		
 		protected function socketCloseHandler(event:Event):void{
 			close(event);
+		}
+		
+		protected function onClose():void{
+			
 		}
 		
 		public function close(event:Event=null):void{
@@ -104,6 +110,8 @@ package com.socket.client
 			}else{
 				socket.close();
 			}
+			
+			onClose();
 			
 			while(groupList.length){
 				(groupList[0] as ClientGroup).removeClient(this);
