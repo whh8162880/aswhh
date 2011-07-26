@@ -76,6 +76,7 @@ package com.socket.client
 		}
 		
 		protected function doSend(socket:AirClient):void{
+			currentSendByte.position = 0;
 			socket.send(currentSendByte);
 		}
 	}
