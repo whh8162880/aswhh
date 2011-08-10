@@ -1,0 +1,285 @@
+package {
+    import flash.display.*;
+    import flash.events.*;
+    import flash.net.URLRequest;
+    import flash.geom.*;
+    import flash.filters.*;
+    import flash.net.URLVariables;
+
+    public class Main extends Sprite {
+        private var _imageBitmapData : BitmapData;
+        private var _imageHotAreaData:BitmapData;
+        private var _imageBitmap : Bitmap;
+        
+        private var _mouseRectContainer:Sprite;
+        
+        private var startX:Number;
+        private var startY:Number;
+        
+        private var _currentDragClip:Sprite;
+        
+        [Embed(source = "../assets/image.jpg")]
+        private var img:Class;
+        
+        public function Main() {
+            addEventListener(Event.ADDED_TO_STAGE, onInit);
+        }
+        
+        private function onInit(evt:Event):void {
+            removeEventListener(Event.ADDED_TO_STAGE, onInit);
+            addEventListener(Event.REMOVED_FROM_STAGE, onDestroy);
+            
+            var image:Bitmap = Bitmap(new img());
+            image.visible = false;
+            
+            _mouseRectContainer = new Sprite;
+            
+            
+            _imageBitmapData = new BitmapData(image.width,image.height,true,0);
+            _imageBitmapData.draw(image);
+            
+            var bitMap:Bitmap = new Bitmap(_imageBitmapData);
+            addChild(bitMap);
+            
+            _imageBitmap = Bitmap(bitMap);
+            
+            configMouseEvent();
+            
+            //----------hitTestArea------------------------
+            var c:ColorTransform=new ColorTransform;
+            c.color=0xff0000;
+            _imageHotAreaData = _imageBitmapData.clone();
+            _imageHotAreaData.draw(_imageHotAreaData, null, c);
+        }
+        
+        private function onDestroy(evt:Event):void {
+            removeEventListener(Event.REMOVED_FROM_STAGE, onDestroy);
+            stage.removeEventListener(MouseEvent.MOUSE_DOWN, mouseDownHandler);
+            stage.removeEventListener(MouseEvent.MOUSE_UP ,mouseUpHandler);
+        }
+        
+        private function configMouseEvent():void {
+            stage.addEventListener(MouseEvent.MOUSE_DOWN, mouseDownHandler);
+            stage.addEventListener(MouseEvent.MOUSE_UP ,mouseUpHandler);
+        }
+        
+        /**************************drawRect handler*******************************/
+        private function mouseDownHandler(evt:MouseEvent):void {//mouse_down
+            addChild(_mouseRectContainer);
+            _mouseRectContainer.graphics.clear();
+            startX = evt.stageX;
+            startY = evt.stageY;
+            stage.addEventListener(MouseEvent.MOUSE_MOVE,mouseMoveHandler);
+        }
+        
+        private function mouseUpHandler(evt:MouseEvent):void {//mouse_up
+            cutImage(checkIntersection());
+            _mouseRectContainer.graphics.clear();
+            stage.removeEventListener(MouseEvent.MOUSE_MOVE, mouseMoveHandler);
+        }
+        
+        private function mouseMoveHandler(evt:MouseEvent):void {//mouse_move
+            evt.updateAfterEvent();
+            
+            var minX:Number = Math.min(evt.stageX,startX)
+            var minY:Number = Math.min(evt.stageY,startY)
+            var maxX:Number = Math.max(evt.stageX,startX)
+            var maxY:Number = Math.max(evt.stageY,startY)
+
+            with(_mouseRectContainer.graphics){
+                clear();
+                lineStyle(0);
+                beginFill(0xFFFF00, 0.5);
+                drawRect(0, 0, maxX - minX, maxY - minY);
+            }
+            _mouseRectContainer.x = minX;
+            _mouseRectContainer.y = minY;
+        }
+    
+        private function checkIntersection():Rectangle {
+            var re:Rectangle = new Rectangle(_mouseRectContainer.x -_imageBitmap.x, _mouseRectContainer.y - _imageBitmap.y, _mouseRectContainer.width, _mouseRectContainer.height);
+            var intersectRect:Rectangle=_imageBitmapData.rect.intersection(re);
+            trace("与源图BitmapData相交范围:"+intersectRect);
+            if (intersectRect.width == 0 || intersectRect.height == 0) {
+                return null;
+            }
+            var bitmapData:BitmapData = new BitmapData(intersectRect.width, intersectRect.height, true, 0);
+            bitmapData.draw(_imageHotAreaData, new Matrix(1, 0, 0, 1, -intersectRect.x, -intersectRect.y), null, null, new Rectangle(0, 0, intersectRect.width, intersectRect.height));
+            var intersectHotAreaRect:Rectangle = bitmapData.getColorBoundsRect(0xFFFF0000, 0xFFFF0000, true);
+            trace("最终切图块的范围:" + intersectHotAreaRect);
+            if (intersectHotAreaRect.width==0 || intersectHotAreaRect.height==0) {
+                
+                
+                return null;
+            }
+            //扩展范围避免误差
+            intersectHotAreaRect.x-=1
+            intersectHotAreaRect.y-=1
+            intersectHotAreaRect.width+=2
+            intersectHotAreaRect.height+=2
+            return intersectHotAreaRect;
+        }
+        private function cutImage(rect:Rectangle):void {
+            if (!rect) {
+                return;
+            }
+            var clipBitmapData:BitmapData = new BitmapData(rect.width, rect.height, true, 0);
+            var cliptX:Number = (_mouseRectContainer.x = _mouseRectContainer.x < _imageBitmap.x?0:_mouseRectContainer.x - _imageBitmap.x) + rect.x;
+            var cliptY:Number = (_mouseRectContainer.y = _mouseRectContainer.y < _imageBitmap.y?0:_mouseRectContainer.y - _imageBitmap.y) + rect.y;
+            var mt:Matrix = new Matrix(1, 0, 0, 1, -cliptX, -cliptY);
+            var clipRect:Rectangle = new Rectangle(0, 0, rect.width, rect.height);
+            clipBitmapData.draw(_imageBitmapData, mt, null, null, clipRect);
+            
+            var clipBitmap:Bitmap = new Bitmap(clipBitmapData);
+            clipBitmap.filters = [new GlowFilter(0, 1, 2, 2, 10, 1)];
+            var sprite:Sprite = new Sprite();
+            
+            with(sprite.graphics){
+                lineStyle(0);
+                lineTo(rect.width, 0);
+                lineTo(rect.width, rect.height);
+                lineTo(0, rect.height);
+                lineTo(0, 0);
+            }
+            sprite.x = _mouseRectContainer.x + rect.x + _imageBitmap.x;
+            sprite.y = _mouseRectContainer.y + rect.y + _imageBitmap.y;
+            Sprite(addChild(sprite)).addChild(clipBitmap);
+            var fillRect:Rectangle = new Rectangle(sprite.x - _imageBitmap.x, sprite.y - _imageBitmap.y, rect.width, rect.height);
+            _imageBitmapData.fillRect(fillRect, 0);
+            _imageHotAreaData.fillRect(fillRect, 0);
+            
+            var record:URLVariables = new URLVariables();
+            record.width = clipBitmapData.width;
+            record.height = clipBitmapData.height;
+            record.data   = "";
+            
+            for (var row:int = 0; row < clipBitmapData.width; row++) {
+                record.data += "[";
+                for (var col:int = 0; col < clipBitmapData.height; col++) {
+                    var pixelValue:uint = clipBitmapData.getPixel(row, col);
+                    var str_pixel:String = pixelValue.toString(16);
+                    record.data += str_pixel + "<>";
+                }
+                record.data += "]";
+            }        
+            new DataService(record);
+        }
+    }
+}
+
+package 
+{
+    import flash.display.Sprite;
+    import flash.events.*;
+    import flash.net.*;
+
+    public class DataService {
+        
+        public function DataService(record: URLVariables) {
+            var loader:URLLoader = new URLLoader();
+            configureListeners(loader);
+            var request:URLRequest = new URLRequest("saveImage.php");
+            request.data = record;
+            request.method = URLRequestMethod.POST;
+            try {
+                loader.load(request);
+            } catch (error:Error) {
+                trace("Unable to load requested document.");
+            }
+        }
+
+        private function configureListeners(dispatcher:IEventDispatcher):void {
+            dispatcher.addEventListener(Event.COMPLETE, completeHandler);
+            dispatcher.addEventListener(Event.OPEN, openHandler);
+            dispatcher.addEventListener(ProgressEvent.PROGRESS, progressHandler);
+            dispatcher.addEventListener(SecurityErrorEvent.SECURITY_ERROR, securityErrorHandler);
+            dispatcher.addEventListener(HTTPStatusEvent.HTTP_STATUS, httpStatusHandler);
+            dispatcher.addEventListener(IOErrorEvent.IO_ERROR, ioErrorHandler);
+        }
+
+        private function completeHandler(event:Event):void {
+            var loader:URLLoader = URLLoader(event.target);
+            trace("completeHandler: " + loader.data);
+    
+            var vars:URLVariables = new URLVariables(loader.data);
+            trace("The answer is " + vars.answer);
+        }
+
+        private function openHandler(event:Event):void {
+            trace("openHandler: " + event);
+        }
+
+        private function progressHandler(event:ProgressEvent):void {
+            trace("progressHandler loaded:" + event.bytesLoaded + " total: " + event.bytesTotal);
+        }
+
+        private function securityErrorHandler(event:SecurityErrorEvent):void {
+            trace("securityErrorHandler: " + event);
+        }
+
+        private function httpStatusHandler(event:HTTPStatusEvent):void {
+            trace("httpStatusHandler: " + event);
+        }
+
+        private function ioErrorHandler(event:IOErrorEvent):void {
+            trace("ioErrorHandler: " + event);
+        }
+    }
+}
+
+PHP端代码：saveImage.php
+<?php
+error_reporting(0);
+/**
+* Get the width and height of the destination image
+* from the POST variables and convert them into
+* integer values
+*/
+$w = (int)$_POST['width'];
+$h = (int)$_POST['height'];
+// create the image with desired width and height
+
+$data = $_POST['data'];
+$data = substr($data, 1);
+$data = substr($data, 0,strlen($data) - 1);
+$piex = explode("][", $data);
+$img = imagecreatetruecolor($w, $h);
+// now fill the image with blank color
+// do you remember i wont pass the 0xFFFFFF pixels 
+// from flash?
+imagefill($img, 0, 0, 0xFFFFFF);
+
+$rows = 0;
+$cols = 0;
+
+foreach ($piex as $val){
+    $fag = explode("<>", $val);
+    foreach ($fag as $c){
+        $hex = $c;
+        while(strlen($hex) < 6){
+            $hex = "0" . $hex;
+        }
+        // convert value from HEX to RGB
+        $r = hexdec(substr($hex, 0, 2));
+        $g = hexdec(substr($hex, 2, 2));
+        $b = hexdec(substr($hex, 4, 2));
+        // allocate the new color
+        // N.B. teorically if a color was already allocated 
+        // we dont need to allocate another time
+        // but this is only an example
+        $test = imagecolorallocate($img, $r, $g, $b);
+        // and paste that color into the image
+        // at the correct position
+        imagesetpixel($img, $rows, $cols, $test);
+        $cols++;
+    }
+    $rows++;
+    $cols = 0;
+}
+
+// print out the correct header to the browser
+header("Content-type:image/jpeg");
+// display the image
+imagejpeg($img, "image.jpeg", 90);
+
+?>

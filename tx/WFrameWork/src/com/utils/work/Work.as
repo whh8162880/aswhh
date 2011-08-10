@@ -3,7 +3,9 @@ package com.utils.work
 	
 	import flash.display.Stage;
 	import flash.events.Event;
+	import flash.events.TimerEvent;
 	import flash.utils.Dictionary;
+	import flash.utils.Timer;
 	import flash.utils.getTimer;
 
 	/**
@@ -18,7 +20,7 @@ package com.utils.work
 	 */
 	public class Work
 	{
-		public static var instance:Work = new Work();
+		public static var instance:Work = new Work(30);
 		
 		/**
 		 * 看这里看这里 这个程序执行 依赖stage 所以先执行bindStage方法 再做其他操作 只需要执行一次 
@@ -63,9 +65,15 @@ package com.utils.work
 		
 		private var taskCount:int;
 		
-		public function Work()
+		private var mainTime:int;
+		
+		private var timer:Timer;
+		public function Work(mainTime:int)
 		{
+			this.mainTime = mainTime;
 			dict = new Dictionary();
+			timer = new Timer(mainTime);
+			timer.addEventListener(TimerEvent.TIMER,enterFrameHandler);
 		}
 		
 		/**
@@ -73,6 +81,7 @@ package com.utils.work
 		 * 
 		 */		
 		public function bindStage(stage:Stage):void{
+			timer.delay = 1000/stage.frameRate;
 			this.stage = stage;
 		}
 		
@@ -98,7 +107,7 @@ package com.utils.work
 				task = new WorkSpace(id);
 				dict[id] = task;
 				taskCount++;
-				eachTime = (1000/stage.frameRate*calcTime)/taskCount;
+				eachTime = (mainTime*calcTime)/taskCount;
 			}
 			
 			task.datas = datas;
@@ -121,13 +130,14 @@ package com.utils.work
 			var id:String = workspace.id;
 			if(!dict[id]){
 				taskCount++;
-				eachTime = (1000/stage.frameRate*calcTime)/taskCount;
+				eachTime = mainTime*calcTime/taskCount;
 			}
 			dict[id] = workspace;
 			if(doNow){
 				enterFrameHandler(null);
 			}
-			stage.addEventListener(Event.ENTER_FRAME,enterFrameHandler);
+			timer.start();
+		//	stage.addEventListener(Event.ENTER_FRAME,enterFrameHandler);
 		}
 		
 		/**
@@ -152,7 +162,8 @@ package com.utils.work
 			
 			if(taskCount<=0){
 				taskCount = 0;
-				stage.removeEventListener(Event.ENTER_FRAME,enterFrameHandler);
+				timer.stop();
+//				stage.removeEventListener(Event.ENTER_FRAME,enterFrameHandler);
 			}else{
 				eachTime = (1000/stage.frameRate*calcTime)/taskCount;
 			}

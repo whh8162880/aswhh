@@ -2,6 +2,7 @@ package
 {
 	import com.net.socket.SocketServer;
 	import com.utils.InsertFunction;
+	import com.utils.StageUtils;
 	
 	import flash.display.Sprite;
 	
@@ -9,8 +10,7 @@ package
 	{
 		public function WFrameWork()
 		{
-			var socket:SocketServer = new SocketServer();
-			socket.connect("127.0.0.1",1986);
+			
 		}
 	}
 }
