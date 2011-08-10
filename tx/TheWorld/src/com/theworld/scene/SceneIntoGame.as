@@ -7,6 +7,7 @@ package com.theworld.scene
 	import com.theworld.utils.TXHelp;
 	
 	import flash.events.Event;
+	import flash.events.IEventDispatcher;
 	import flash.net.sendToURL;
 	
 	public class SceneIntoGame extends SceneBase
@@ -29,7 +30,7 @@ package com.theworld.scene
 			data.inflate();
 			var hero:HeroVO = CoreGlobal.currentRole;
 			mapmodel.setMapres(data.readObject());
-			mapmodel.initHero(hero.x,hero.y).addEventListener(Event.COMPLETE,mapCompleteHandler);;
+			mapmodel.initHero(hero.x,hero.y).addEventListener(Event.COMPLETE,mapCompleteHandler);
 		}
 		
 		private function intoHandler(data:*):void{
@@ -39,6 +40,7 @@ package com.theworld.scene
 		}
 		
 		private function mapCompleteHandler(event:Event):void{
+			IEventDispatcher(event.currentTarget).removeEventListener(Event.COMPLETE,mapCompleteHandler);
 			TXHelp.mapController.initSceneSize(4,4);
 			CoreGlobal.sendCallback(10002,CoreGlobal.currentRole.guid,intoHandler);
 		}

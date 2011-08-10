@@ -16,6 +16,7 @@ package
 	import flash.display.StageAlign;
 	import flash.display.StageScaleMode;
 	import flash.events.Event;
+	import flash.utils.getTimer;
 	
 	[SWF(frameRate='30', backgroundColor='0xDDDDDD', width=1000,height=600)]
 	
@@ -47,5 +48,6 @@ package
 		private function sceneChangeHandler(event:Event):void{
 			UILocator.clearpop();
 		}
+		
 	}
 }

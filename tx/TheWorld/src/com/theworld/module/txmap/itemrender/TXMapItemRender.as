@@ -76,7 +76,7 @@ package com.theworld.module.txmap.itemrender
 				for(j=y;j<h;j++){
 					var c:uint = model.getXYItemRenderColor(i,j);
 					g.beginFill(c);
-					trace((i-x)*eachw,(j-y)*eachh);
+				//	trace((i-x)*eachw,(j-y)*eachh);
 					g.drawRect((i-x)*eachw,(j-y)*eachh,eachw,eachh);
 					g.endFill();
 				}

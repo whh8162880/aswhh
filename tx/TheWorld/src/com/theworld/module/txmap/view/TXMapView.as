@@ -176,11 +176,12 @@ package com.theworld.module.txmap.view
 					type = 0+"_"+j;
 					skin = itemrenders.pop();
 					skin.x = -sizew+l-ml;
-					skin.offsetx = mapx*sizew;
+					skin.offsetx = (mapx-1)*sizew;
 					skin.dx = 0;
 					skin.dy = j;
 					itemrenderDict[type] = skin;
 					skin.updata();
+					edits.push(skin);
 				}
 				r -= sizew;
 				l -= sizew;
@@ -229,11 +230,12 @@ package com.theworld.module.txmap.view
 					type = i+"_"+0;
 					skin = itemrenders.pop();
 					skin.y = -sizeh+t-mt;
-					skin.offsety = mapy*sizeh;
+					skin.offsety = (mapy-1)*sizeh;
 					skin.dx = i;
 					skin.dy = 0;
 					itemrenderDict[type] = skin;
 					skin.updata();
+					edits.push(skin)
 				}
 				t -= sizeh;
 				u -= sizeh;
