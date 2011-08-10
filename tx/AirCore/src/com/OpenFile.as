@@ -5,34 +5,86 @@ package com
 	import flash.filesystem.File;
 	import flash.filesystem.FileMode;
 	import flash.filesystem.FileStream;
-	import flash.html.script.Package;
-	import flash.net.FileFilter;
 	import flash.utils.ByteArray;
-	
-	import mx.controls.Alert;
-
+	/**
+	 * 文件读写类 
+	 * @author wang
+	 * 
+	 */
 	public class OpenFile extends EventDispatcher
 	{
 		public function OpenFile()
 		{
 		}
-		
+		/**
+		 * 打开文件夹 
+		 * @param browseHandler
+		 * @param title
+		 * 
+		 */		
 		public static function browseForDirectory(browseHandler:Function,title:String=""):void{
 			new BrowseForDirectory(title,browseHandler);
 		}
 		
+		/**
+		 * 打开文件 
+		 * @param browseHandler
+		 * @param title
+		 * @param fileTypes
+		 * 
+		 */
 		public static function browseForOpen(browseHandler:Function,title:String="",fileTypes:Array = null):void{
 			new BrowseForOpen(fileTypes,title,browseHandler);
 		}
 		
+		/**
+		 * 
+		 * @param browseHandler
+		 * @param title
+		 * @param fileTypes
+		 * 
+		 */		
 		public static function browseForOpenMultiple(browseHandler:Function,title:String="",fileTypes:Array = null):void{
 			new BrowseForOpenMultiple(fileTypes,title,browseHandler);
 	    }
 		
+		/**
+		 * 保存文件 
+		 * @param browseHandler
+		 * @param title
+		 * 
+		 */		
 		public static function browseForSave(browseHandler:Function,title:String=""):void{
 			new BrowseForSave(title,browseHandler);
 		}
+		
+		/**
+		 * 获得文件夹所有文件 
+		 * @param path
+		 * @param func   func为空 那就直接返回结果  func不为空 就异步返回结果
+		 * 			func -> function(path:String,value:Array)
+		 * @return 
+		 * 
+		 */		
+		public static function openDirectory(path:String,func:Function = null):Array{
+			var file:File = new File(path);
+			if(!file.exists || !file.isDirectory){
+				return null;
+			}
+			if(func == null){
+				return file.getDirectoryListing();
+			}
+			
+			new GetDirectory(file,path,func);
+			return [];
+		}
 	    
+		/**
+		 * 打开文件 
+		 * @param file
+		 * @return 
+		 * 
+		 */		
 		public static function open(file:File):ByteArray{
 			if(!file || !file.exists){
 				return null;
@@ -45,6 +97,13 @@ package com
 			return fileDate;
 		}
 		
+		/**
+		 * 文本方式打开文件 
+		 * @param file
+		 * @param type
+		 * @return 
+		 * 
+		 */		
 		public static function openAsTxt(file:File,type:String=null):String{
 			var b:ByteArray = open(file);
 			if(!b){
@@ -56,6 +115,13 @@ package com
 			return b.readMultiByte(b.bytesAvailable,type);
 		}
 		
+		/**
+		 * object方式打开文件 数据可以保存为amf格式 
+		 * @param file
+		 * @param inflate
+		 * @return 
+		 * 
+		 */		
 		public static function openAsObj(file:File,inflate:Boolean = false):*{
 			var b:ByteArray = open(file);
 			if(!b){
@@ -85,6 +151,13 @@ package com
 			
 		}
 		
+		/**
+		 * 写文件 
+		 * @param data
+		 * @param path
+		 * @return 
+		 * 
+		 */		
 		public static function write(data:*,path:String):File{
 			var stream:FileStream;
 			var byte:ByteArray
@@ -118,8 +191,8 @@ package com
 }
 import flash.events.Event;
 import flash.events.FileListEvent;
+import flash.events.IEventDispatcher;
 import flash.filesystem.File;
-import flash.net.FileFilter;
 
 class BrowseForDirectory{
 	protected var openHandler:Function
@@ -199,5 +272,24 @@ class BrowseForSave extends BrowseForDirectory{
 	
 	override protected function doOpen():void{
 		file.browseForSave(title);
+	}
+}
+
+class GetDirectory{
+	public var func:Function;
+	public var path:String;
+	public function GetDirectory(file:File,path:String,func:Function){
+		this.path = path;
+		this.func = func;
+		if(func!=null){
+			file.addEventListener(FileListEvent.DIRECTORY_LISTING, directoryListingHandler);
+			file.getDirectoryListingAsync();
+		}
+	}
+	private function directoryListingHandler(event:FileListEvent):void{
+		IEventDispatcher(event.currentTarget).removeEventListener(FileListEvent.DIRECTORY_LISTING,directoryListingHandler);
+		if(func!=null){
+			func(path,event.files);
+		}
 	}
 }
