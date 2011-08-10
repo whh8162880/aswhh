@@ -68,19 +68,22 @@ package rfcomponents.zother
 		public var dx:int;
 		public var dy:int;
 		protected function moveHandler(event:MouseEvent):void{
-			dx = target.x + (target.mouseX-prex);
+			var rect:Rectangle = target.getBounds(target);
+			var left:Number = rect.left;
+			var top:Number = rect.top
+			dx = target.x + (target.mouseX-prex); 
 			dy = target.y + (target.mouseY-prey);
 			if(dragRect){
-				if((dx + target.width)>dragRect.width){
-					dx = dragRect.width - target.width;
-				}else if(dx < dragRect.x){
-					dx = dragRect.x
+				if((dx + target.width + left)>dragRect.width){
+					dx = dragRect.width - target.width - left;
+				}else if(dx+left < dragRect.x){
+					dx = dragRect.x-left
 				}
 				
-				if((dy + target.height)>dragRect.height){
-					dy = dragRect.height - target.height;
-				}else if(dy < dragRect.y){
-					dy = dragRect.y
+				if((dy + target.height + top)>dragRect.height){
+					dy = dragRect.height - target.height - top;
+				}else if(dy+top < dragRect.y){
+					dy = dragRect.y-top
 				}
 			}
 			

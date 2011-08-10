@@ -36,7 +36,7 @@ package rfcomponents.panel
 		
 		override protected function setStage(stage:Stage):void{
 			super.setStage(stage);
-			if(!dragHelp){
+			if(!dragHelp && dragEnabled){
 				dragHelp = new DragHelp(_skin,new Rectangle(0,0,stage.stageWidth,stage.stageHeight));
 				setDrag();
 			}
@@ -50,6 +50,14 @@ package rfcomponents.panel
 		override protected function doResize(width:int, height:int):void{
 			if(dragHelp){
 				dragHelp.setDragRect(new Rectangle(0,0,width,height));
+			}
+		}
+		
+		protected var dragEnabled:Boolean = true;
+		public function setDragEnabled(value:Boolean):void{
+			dragEnabled = value;
+			if(dragHelp){
+				dragHelp.enabled = value;
 			}
 		}
 	}

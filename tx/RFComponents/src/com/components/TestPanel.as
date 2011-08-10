@@ -3,6 +3,7 @@ package com.components
 	import com.utils.UILocator;
 	import com.utils.key.KeyboardManager;
 	
+	import flash.display.DisplayObject;
 	import flash.display.DisplayObjectContainer;
 	import flash.events.MouseEvent;
 	
@@ -65,6 +66,12 @@ package com.components
 			button.data = data;
 			addChild(button.skin);
 			return button;
+		}
+		
+		public function addChildByPoint(child:DisplayObject,x:int,y:int):void{
+			child.x = x;
+			child.y = y;
+			addChild(child);
 		}
 		
 	}
