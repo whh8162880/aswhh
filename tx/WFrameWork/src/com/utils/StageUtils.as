@@ -1,5 +1,6 @@
 package com.utils
 {
+	import com.tween.Tween;
 	import com.utils.work.Work;
 	
 	import flash.display.Stage;
@@ -20,7 +21,8 @@ package com.utils
 			stage =  sg;
 			stage.align = StageAlign.TOP_LEFT;
 			stage.scaleMode = StageScaleMode.NO_SCALE;
-			Work.bindStage(stage);
+			Work.bindStage(sg);
+			Tween.bindStage(sg);
 		}
 		
 		public static function check(b:Boolean):void{
