@@ -47,6 +47,11 @@ package com.tween
 			}
 		}
 		
+		/**
+		 * 嗯 心跳啊心跳 
+		 * @param event
+		 * 
+		 */
 		private static function tweenEnterRameHandler(event:TimerEvent):void{
 			var t:int = getTimer();
 			for each(var tweener:Tweener in tweeners){
@@ -61,6 +66,7 @@ package com.tween
 				removeTween(completes.pop());
 			}
 			
+			//阿弥陀佛 不要怪我
 			event.updateAfterEvent();
 		}
 		
