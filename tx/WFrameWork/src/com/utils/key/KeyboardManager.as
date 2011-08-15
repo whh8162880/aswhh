@@ -13,7 +13,7 @@ package com.utils.key
 		public static var state:IEventDispatcher;
 		private static var _stage:Stage;
 		private static var _loop:Boolean = false
-		public static var defaultFocus:IEventDispatcher
+		public static var defaultFocus:KeyboardManager
 		public static function setStage(stage:Stage):void{
 			if(_stage) return;
 			_stage = stage;
@@ -21,6 +21,7 @@ package com.utils.key
 		
 		public static function setFocus(target:IEventDispatcher):void{
 			state = target;
+			startListener();
 		}
 		
 		private static function addTarget(target:IEventDispatcher):void{

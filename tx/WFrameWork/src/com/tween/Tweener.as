@@ -1,8 +1,12 @@
 package com.tween
 {
+	import com.utils.timer.ITimer;
+	import com.utils.timer.TimerCore;
+	
+	import flash.utils.Timer;
 	import flash.utils.getTimer;
 
-	public class Tweener
+	public class Tweener extends ITimer
 	{
 		public function Tweener()
 		{
@@ -29,11 +33,6 @@ package com.tween
 		 * 当前运算结果 
 		 */		
 		public var resultValues:Array = [];
-		
-		/**
-		 * 开始时间 
-		 */		
-		public var startTime:int;
 		
 		/**
 		 * 持续时间 
@@ -74,25 +73,25 @@ package com.tween
 				this.updata(endValues);
 				return;
 			}
-			startTime = getTimer();
-			Tween.addTween(this);
+			TimerCore.insetance.addTimerItem(this);
+			//Tween.addTween(this);
 			isPlaying = true;
 		}
 		
 		/**
 		 * 停止 
 		 */		
-		public function stop():void{
+		override public function stop():void{
 			if(onComplete != null){
 				onComplete();
 			}
-			end();
+			end(false);
 		}
 		
 		/**
 		 * 手动结束
 		 */		
-		public function end():void{
+		public function end(remove:Boolean = true):void{
 			n = 0;
 			startValues.length = 0;
 			endValues.length = 0;
@@ -100,13 +99,16 @@ package com.tween
 			ease = defaultEasingFunction;
 			onUpdata = updata;
 			onComplete = null;
+			isPlaying = false;
+			TimerCore.insetance.removeTimerItem(this);
+			//Tween.removeTween(this);
 		}
 		
 		/**
 		 * 刷新数据
 		 * @param currentTime
 		 */		
-		public function refreshCurrentValue(currentTime:int):Boolean{
+		override public function refreshCurrentValue(currentTime:int):Boolean{
 			currentTime = currentTime>duration ? duration : currentTime;
 			var i:int = n;
 			while(--i>-1){

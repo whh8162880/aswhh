@@ -1,6 +1,6 @@
 package com.utils
 {
-	import com.tween.Tween;
+	import com.utils.key.KeyboardManager;
 	import com.utils.work.Work;
 	
 	import flash.display.Stage;
@@ -22,7 +22,7 @@ package com.utils
 			stage.align = StageAlign.TOP_LEFT;
 			stage.scaleMode = StageScaleMode.NO_SCALE;
 			Work.bindStage(sg);
-			Tween.bindStage(sg);
+			KeyboardManager.setStage(stage);
 		}
 		
 		public static function check(b:Boolean):void{
