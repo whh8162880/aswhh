@@ -36,10 +36,8 @@ package com.effect
 			}
 			//计算时间
 			len = arr.length;
-			var timeee:int;
 			for(i=0;i<len;i++){
 				arr[i] = arr[i]/tLen * duration;
-				timeee += arr[i];
 			}
 			times = arr;
 			var point:IntPoint = points.shift();
