@@ -11,5 +11,11 @@ package com.utils.math
 		public var x:int;
 		
 		public var y:int;
+		
+		public function getLength(dx:int,dy:int):int{
+			dx -= x;
+			dy -= y;
+			return Math.sqrt(dx*dx + dy*dy);
+		}
 	}
 }

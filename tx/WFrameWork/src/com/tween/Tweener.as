@@ -18,6 +18,7 @@ package com.tween
 		public var ease:Function;
 		public var onUpdata:Function;
 		public var onComplete:Function;
+		public var onNext:Function
 		
 		/**
 		 * 初始值 
@@ -73,8 +74,7 @@ package com.tween
 				this.updata(endValues);
 				return;
 			}
-			TimerCore.insetance.addTimerItem(this);
-			//Tween.addTween(this);
+			timercore.addTimerItem(this);
 			isPlaying = true;
 		}
 		
@@ -86,6 +86,9 @@ package com.tween
 				onComplete();
 			}
 			end(false);
+			if(onNext != null){
+				onNext();
+			}
 		}
 		
 		/**
@@ -100,8 +103,8 @@ package com.tween
 			onUpdata = updata;
 			onComplete = null;
 			isPlaying = false;
-			TimerCore.insetance.removeTimerItem(this);
-			//Tween.removeTween(this);
+			if(remove)
+				timercore.removeTimerItem(this);
 		}
 		
 		/**

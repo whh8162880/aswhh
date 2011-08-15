@@ -25,18 +25,20 @@ package com.utils.timer
 		 */		
 		protected function timerHandler(event:TimerEvent):void{
 			var t:int = getTimer();
-			for each(var item:ITimer in timers){
+			var item:ITimer
+			for each(item in timers){
 				var b:Boolean = item.refreshCurrentValue(item.currentTime += (item.scale*(t - item.preCelcTime)*scale));
 				if(b){
 					completes.push(item);
-					item.stop();
 				}else{
 					item.preCelcTime  = t;
 				}
 			}
 			
 			while(completes.length){
-				removeTimerItem(completes.pop());
+				item = completes.pop()
+				removeTimerItem(item);
+				item.stop();
 			}
 			
 			//阿弥陀佛 不要怪我

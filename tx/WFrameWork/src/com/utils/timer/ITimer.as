@@ -17,6 +17,12 @@ package com.utils.timer
 		 */		
 		public var currentTime:int;
 		
+		protected var timercore:TimerCore;
+		
+		public function ITimer(){
+			timercore = TimerCore.insetance
+		}
+		
 		public function refreshCurrentValue(value:int):Boolean{
 			return true;
 		}
