@@ -7,8 +7,11 @@
 		<![CDATA[
 			import mx.events.FlexEvent;
 			
+			import update.AirUpdate;
+			
 			protected function windowedapplication1_creationCompleteHandler(event:FlexEvent):void
 			{
+				new AirUpdate().checkUpdate();
 			}
 			
 			private function connectHandler(event:Event):void{
