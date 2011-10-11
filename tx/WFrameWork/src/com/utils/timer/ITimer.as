@@ -27,7 +27,7 @@ package com.utils.timer
 			return true;
 		}
 		
-		public function stop():void{
+		public function stop(render:Boolean = false):void{
 			
 		}
 	}

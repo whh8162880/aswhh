@@ -21,7 +21,6 @@ package com.net.request
 	{
 		private var loader:URLStream;
 		private var urlRequest:URLRequest;
-		public var swfHandler:Function;
 		private var swfFlag:Boolean
 		public function StreamAsyncRequest(url:String,id:String = null,value:URLVariables=null,useService:Boolean = false,swfFlag:Boolean=false)
 		{
@@ -32,6 +31,7 @@ package com.net.request
 			urlRequest = new URLRequest(url)
 			urlRequest.data = value
 			loader = new URLStream();
+			this.swfFlag = swfFlag;
 			if(!id){
 				id = url;
 			}
@@ -78,13 +78,16 @@ package com.net.request
 					loader.readBytes(sa)
 					sa.position = 0;
 				}
-				if(handler!=null){	
-					handler(id,sa)
-				}
+				
 				
 				sa.position = 0;
-				if(swfFlag || swfHandler != null ){
+				result = sa;
+				if(swfFlag){
 					getSwf(sa);
+				}else{
+					if(handler!=null){	
+						handler(id,sa)
+					}
 				}
 				dispatchSuccess(sa);
 			}
@@ -93,6 +96,8 @@ package com.net.request
 			
 			disponse()
 		}
+		
+		public var result:ByteArray;
 		
 		private function ioHandler(event:IOErrorEvent):void{
 			dispatchIOError(event);
@@ -138,8 +143,8 @@ package com.net.request
 			var li:LoaderInfo = LoaderInfo(event.currentTarget);
 			li.removeEventListener(Event.COMPLETE,dispatchSuccessd);
 			this.dispatchEvent(new RemoteOperationEvent(RemoteOperationEvent.REMOTE_STEAM_LOADER_COMPLETE,id,li.loader));
-			if(swfHandler!=null)
-				swfHandler(id,li.loader);
+			if(handler!=null)
+				handler(id,result,li.loader);
 		}
 		
 		

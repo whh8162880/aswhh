@@ -7,6 +7,7 @@ package com.utils
 	import flash.display.StageAlign;
 	import flash.display.StageScaleMode;
 	import flash.events.Event;
+	import flash.geom.Rectangle;
 	import flash.utils.getTimer;
 
 	public class StageUtils
@@ -23,6 +24,10 @@ package com.utils
 			stage.scaleMode = StageScaleMode.NO_SCALE;
 			Work.bindStage(sg);
 			KeyboardManager.setStage(stage);
+		}
+		
+		public static function getStageRect():Rectangle{
+			return new Rectangle(0,0,stage.stageWidth,stage.stageHeight);
 		}
 		
 		public static function check(b:Boolean):void{

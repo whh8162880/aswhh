@@ -14,7 +14,6 @@ package com.tween
 			onUpdata = updata;
 		}
 		
-		
 		public var ease:Function;
 		public var onUpdata:Function;
 		public var onComplete:Function;
@@ -81,7 +80,11 @@ package com.tween
 		/**
 		 * 停止 
 		 */		
-		override public function stop():void{
+		override public function stop(render:Boolean = false):void{
+			if(render){
+				refreshCurrentValue(duration);
+			}
+			
 			if(onComplete != null){
 				onComplete();
 			}
@@ -105,6 +108,7 @@ package com.tween
 			isPlaying = false;
 			if(remove)
 				timercore.removeTimerItem(this);
+			dispose();
 		}
 		
 		/**
@@ -130,6 +134,10 @@ package com.tween
 		 * @param value
 		 */		
 		public function updata(value:Array):void{
+			
+		}
+		
+		public function dispose():void{
 			
 		}
 		
