@@ -48,16 +48,15 @@ package rfcomponents.slide
 		}
 		
 		private function chageHandler(event:Event):void{
-			ceilPercent(slider.x);
+			ceilPercent(slider.x,true);
 		}
 		
-		protected function ceilPercent(dx:Number):void{
+		protected function ceilPercent(dx:Number,moveFlag:Boolean = false):void{
 			dx = dx < 0 ? 0 : dx;
 			dx = dx > (bg.width - hSlider*2) ? (bg.width - hSlider*2) : dx;
 			currentPercent =  dx /(bg.width-hSlider*2);
-			trace(currentPercent);
-			slider.x = currentPercent * (bg.width - hSlider*2)
-			this.dispatchEvent(new Event(MouseEvent.CLICK + Event.CHANGE));
+			slider.x = currentPercent * (bg.width - hSlider*2);
+			this.dispatchEvent(new Event(moveFlag ? Event.CHANGE : (MouseEvent.CLICK + Event.CHANGE)));
 		}
 		
 		protected var currentPercent:Number;
@@ -65,8 +64,7 @@ package rfcomponents.slide
 			value = value < 0 ? 0 : value;
 			value = value > 1 ? 1 : value;
 			currentPercent = value;
-			trace(currentPercent);
-			slider.x = currentPercent * (bg.width - hSlider*2)
+			slider.x = currentPercent * (bg.width - hSlider*2);
 			if(dispatch){
 				this.dispatchEvent(new Event(Event.CHANGE));
 			}

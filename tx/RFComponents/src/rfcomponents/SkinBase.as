@@ -64,9 +64,9 @@ package rfcomponents
 		//   Create
 		//
 		//---------------------------------------------------------------------------------------------------------------
-		public function create(width:int,height:int,color:int = 0xFFFFFF,line:Boolean = true):void{
+		public function create(width:int,height:int,color:int = 0xFFFFFF,line:Boolean = true,alpha:Number = 0):void{
 			var s:Sprite = new Sprite();
-			s.graphics.beginFill(color);
+			s.graphics.beginFill(color,alpha);
 			s.graphics.drawRect(0,0,width,height);
 			s.graphics.endFill();
 			
@@ -116,8 +116,11 @@ package rfcomponents
 		protected var _selected:Boolean;
 		public function set selected(value:Boolean):void{
 			_selected = value;
-			this.dispatchEvent(new Event(Event.SELECT));
+			if(_selected){
+				this.dispatchEvent(new Event(Event.SELECT));
+			}
 			doSelected();
+			this.dispatchEvent(new Event(Event.CHANGE));
 		}
 		public function get selected():Boolean{
 			return _selected;

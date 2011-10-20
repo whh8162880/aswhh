@@ -3,14 +3,18 @@ package rfcomponents.zother
 	import flash.display.Sprite;
 	import flash.display.Stage;
 	import flash.events.Event;
+	import flash.events.EventDispatcher;
 	import flash.events.MouseEvent;
 	import flash.geom.Rectangle;
 	import flash.utils.Dictionary;
 	
 	import rfcomponents.DataBase;
+	import rfcomponents.event.DragEvent;
 
 	public class DragHelp extends DataBase
 	{
+		public static var disaptcher:EventDispatcher = new EventDispatcher()
+		
 		protected var target:Sprite;
 		protected var dragRect:Rectangle;
 		protected var dict:Dictionary;
@@ -63,6 +67,9 @@ package rfcomponents.zother
 			stage.addEventListener(MouseEvent.MOUSE_UP,mouseUpHandler);
 			prex = target.mouseX;
 			prey = target.mouseY;
+			
+			
+			disaptcher.dispatchEvent(new DragEvent(DragEvent.DRAG_START,target));
 		}
 		
 		public var dx:int;
@@ -104,7 +111,7 @@ package rfcomponents.zother
 		protected function mouseUpHandler(event:MouseEvent):void{
 			this.stage.removeEventListener(MouseEvent.MOUSE_MOVE,moveHandler);
 			this.stage.removeEventListener(MouseEvent.MOUSE_UP,mouseUpHandler);
-			
+			disaptcher.dispatchEvent(new DragEvent(DragEvent.DRAG_STOP,target));
 		}
 	}
 }

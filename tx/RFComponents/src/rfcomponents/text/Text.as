@@ -2,6 +2,7 @@ package rfcomponents.text
 {
 	import flash.display.Graphics;
 	import flash.filters.GlowFilter;
+	import flash.geom.Rectangle;
 	import flash.text.TextField;
 	import flash.text.TextFieldAutoSize;
 	import flash.text.TextFieldType;
@@ -12,17 +13,20 @@ package rfcomponents.text
 	
 	public class Text extends SkinBase
 	{
-		public static function createText():TextField{
+		public static function createText(tcolor:int = 0xF8F8F8,filter:Array = null,size:int = 13):TextField{
 			var text:TextField = new TextField();
 			var textFormat:TextFormat = text.defaultTextFormat;
 			textFormat.font = 'Tahoma';
-			textFormat.size = 12;
-			textFormat.color = 0;
+			textFormat.size = size;
+			textFormat.color = tcolor;
 			text.defaultTextFormat = textFormat;
 			text.mouseEnabled = false;
 			text.selectable = false;
-			text.filters = [new GlowFilter(0xFFFFFF,100,2,2,3,1,false,false)];
-			text.width = 100;
+			if(filter){
+				text.filters = filter;
+			}
+			//text.filters = [new GlowFilter(0xFFFFFF,100,2,2,3,1,false,false)];
+			text.width = 20;
 			text.height = 20;
 			return text;
 		}
@@ -64,10 +68,10 @@ package rfcomponents.text
 			super();
 		}
 		
-		override public function create(width:int, height:int, color:int=0xFFFFFF, line:Boolean=false):void{
+		override public function create(width:int, height:int, color:int=0xFFFFFF, line:Boolean=false,alpha:Number = 0):void{
 			offsize = new OffsizeVO();
 			textField = createText();
-			super.create(width,height,color,line);
+			super.create(width,height,color,line,alpha);
 			addChild(textField);
 			doEditable()
 		}
@@ -85,8 +89,11 @@ package rfcomponents.text
 		}
 		
 		override protected function doSizeRender():void{
-			_skin.width = _width;
-			_skin.height = _height;
+			_skin.graphics.clear();
+			_skin.graphics.beginFill(0xFFFFFF,0);
+			_skin.graphics.drawRect(0,0,_width,_height);
+			_skin.graphics.endFill();
+			_skin.scrollRect = new Rectangle(0,0,width+1,height+1);
 			textResize();
 		}
 		
@@ -104,6 +111,7 @@ package rfcomponents.text
 		
 		protected function doLabel():void{
 			textField.htmlText = _label;
+			textField.width = textField.textWidth+10;
 			textResize();
 		}
 		

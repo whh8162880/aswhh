@@ -1,5 +1,6 @@
 package com.components
 {
+	import com.components.test.TestSlide;
 	import com.utils.UILocator;
 	import com.utils.key.KeyboardManager;
 	
@@ -11,6 +12,7 @@ package com.components
 	import rfcomponents.checkbox.CheckBox;
 	import rfcomponents.panel.Panel;
 	import rfcomponents.radiobutton.RadioButton;
+	import rfcomponents.slide.Slide;
 	import rfcomponents.text.Text;
 	
 	public class TestPanel extends Panel
@@ -25,11 +27,12 @@ package com.components
 			UILocator.center(_skin);
 		}
 		
-		public function createTextFiled(x:int,y:int,w:int,h:int,input:Boolean = false,defaultlable:String = ''):Text{
+		public function createTextFiled(x:int,y:int,w:int,h:int,input:Boolean = false,defaultlable:String = '',color:int=0xF8F8F8,bgcolor:int = 0xFFFFFF,alpha:Number = 0):Text{
 			var text:Text = new Text();
-			text.create(w,h);
+			text.create(w,h,bgcolor,false,alpha);
 			text.x = x;
 			text.y = y;
+			text.getTextField().textColor = color;
 			text.label = defaultlable;
 			text.editable = input;
 			addChild(text.skin);
@@ -68,11 +71,21 @@ package com.components
 			return button;
 		}
 		
+		public function createSlide(x:int,y:int,w:int,h:int,color:int = 0xFF5D00):Slide{
+			var slide:Slide = new TestSlide();
+			slide.create(w,h,color);
+			slide.x = x;
+			slide.y = y;
+			addChild(slide.skin);
+			return slide;
+		}
+		
 		public function addChildByPoint(child:DisplayObject,x:int,y:int):void{
 			child.x = x;
 			child.y = y;
 			addChild(child);
 		}
+		
 		
 	}
 }

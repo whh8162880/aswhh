@@ -1,6 +1,7 @@
 package rfcomponents.radiobutton
 {
 	import flash.display.Sprite;
+	import flash.events.Event;
 	import flash.events.MouseEvent;
 	
 	import rfcomponents.checkbox.CheckBox;
@@ -42,6 +43,10 @@ package rfcomponents.radiobutton
 		}
 		public function get group():String{
 			return _group;
+		}
+		
+		public function selectHandler(func:Function):void{
+			addEventListener(Event.SELECT,func);
 		}
 	}
 }

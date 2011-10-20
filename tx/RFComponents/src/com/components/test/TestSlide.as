@@ -14,7 +14,7 @@ package com.components.test
 		}
 		
 		private var color:int;
-		override public function create(width:int, height:int, color:int=0xFFFFFF, line:Boolean=true):void{
+		override public function create(width:int, height:int, color:int=0xFFFFFF, line:Boolean=true,alpha:Number = 0):void{
 			this.color = color;
 			var bg:Sprite = new Sprite();
 			var g:Graphics = bg.graphics;

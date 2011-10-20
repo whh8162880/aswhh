@@ -1,6 +1,7 @@
 package rfcomponents.button
 {
 	import flash.display.Sprite;
+	import flash.events.Event;
 	import flash.events.MouseEvent;
 	
 	import rfcomponents.text.Text;
@@ -77,6 +78,10 @@ package rfcomponents.button
 		override public function set selected(value:Boolean):void{
 			super.selected = value;
 			renderFace();
+		}
+		
+		public function bindClick(func:Function):void{
+			addEventListener(MouseEvent.CLICK,func);
 		}
 		
 	}

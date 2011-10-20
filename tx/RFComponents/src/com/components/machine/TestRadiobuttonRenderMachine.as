@@ -24,7 +24,7 @@ package com.components.machine
 			var c:int = getColor(_mouse,_roll,_enabled,_selected);
 			var g:Graphics = target.skin.graphics;
 			g.clear();
-			g.beginFill(c);
+			g.beginFill(c,0);
 			g.drawRect(0,0,_width,_height);
 			g.endFill();
 			

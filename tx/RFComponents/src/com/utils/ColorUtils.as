@@ -1,5 +1,8 @@
 package com.utils
 {
+	import flash.display.DisplayObject;
+	import flash.filters.ColorMatrixFilter;
+
 	public class ColorUtils
 	{
 		public function ColorUtils()
@@ -27,5 +30,14 @@ package com.utils
 			
 			return (r << 16) | (g << 8) | b;
 		} 
+		
+		public static function blackFilter(target:DisplayObject,flag:Boolean):void{
+			if(flag){
+				target.filters = [new ColorMatrixFilter([0.3086, 0.6094, 0.0820, 0, 0, 0.3086, 0.6094, 0.0820, 0,
+					0, 0.3086, 0.6094, 0.0820, 0, 0, 0, 0, 0, 1, 0])];
+			}else{
+				target.filters = null;
+			}
+		}
 	}
 }
