@@ -3,11 +3,12 @@ package rfcomponents.zother
 	import flash.utils.Dictionary;
 	import flash.utils.clearTimeout;
 	import flash.utils.setTimeout;
-
+	
 	public class RenderHelp
 	{
 		private var types:Array;
 		private var typeDict:Dictionary;
+		private var index:int;
 		private var time:int;
 		public function RenderHelp(time:int)
 		{
@@ -24,7 +25,7 @@ package rfcomponents.zother
 			}
 			vo.func = func;
 			vo.args = args;
-			vo.index = setTimeout(render,time);
+			index = setTimeout(render,time);
 		}
 		
 		private function render():void{
@@ -38,11 +39,11 @@ package rfcomponents.zother
 			var vo:RenderVO
 			if(!type){
 				for each(vo in types){
-					clearTimeout(vo.index);
 					typeDict[vo.type] = null;
 					delete typeDict[vo.type];
 				}
 				types.length = 0;
+				clearTimeout(index);
 				return;
 			}
 			vo = typeDict[type];
@@ -52,7 +53,7 @@ package rfcomponents.zother
 			var i:int = types.indexOf(vo);
 			types.splice(i,1);
 			if(!types.length){
-				clearTimeout(vo.index);
+				clearTimeout(index);
 			}
 		}
 	}
@@ -68,6 +69,4 @@ class RenderVO{
 	public var func:Function;
 	
 	public var args:Array;
-	
-	public var index:int;
 }
