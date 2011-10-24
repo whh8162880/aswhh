@@ -15,6 +15,8 @@ package
 	import flash.events.MouseEvent;
 	import flash.utils.getTimer;
 	import flash.utils.setTimeout;
+	
+	import test.plugin.PluginTest;
 
 	[SWF(frameRate='30',width='800',height='600',backgroundColor='0x111111')]
 	public class WFrameWork extends Sprite
@@ -36,7 +38,9 @@ package
 				
 			}
 			
-			stage.addEventListener(MouseEvent.CLICK,clickHandler);
+			new PluginTest()
+			
+			//stage.addEventListener(MouseEvent.CLICK,clickHandler);
 		}
 		
 		private function clickHandler(event:MouseEvent):void{
