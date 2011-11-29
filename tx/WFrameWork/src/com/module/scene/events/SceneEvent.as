@@ -1,4 +1,4 @@
-package com.scene.events
+package com.module.scene.events
 {
 	import flash.events.Event;
 

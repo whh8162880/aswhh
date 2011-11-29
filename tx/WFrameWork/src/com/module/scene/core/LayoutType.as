@@ -1,4 +1,4 @@
-package com.scene.core
+package com.module.scene.core
 {
 	public class LayoutType
 	{

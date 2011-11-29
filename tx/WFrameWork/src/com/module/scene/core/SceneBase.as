@@ -1,7 +1,7 @@
-package com.scene.core
+package com.module.scene.core
 {
 
-    import com.scene.events.SceneEvent;
+    import com.module.scene.events.SceneEvent;
     
     import flash.display.DisplayObject;
     import flash.display.Sprite;

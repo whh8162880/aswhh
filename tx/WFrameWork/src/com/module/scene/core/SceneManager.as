@@ -1,7 +1,7 @@
-package com.scene.core
+package com.module.scene.core
 {
     import com.event.RFEventDispatcher;
-    import com.scene.events.SceneEvent;
+    import com.module.scene.events.SceneEvent;
     
     import flash.display.DisplayObjectContainer;
     import flash.display.Stage;

@@ -42,7 +42,7 @@ package com.tween
 		/**
 		 * 计算个数 
 		 */		
-		protected var n:int;
+		public var n:int;
 		
 		/**
 		 * 是否在播放 
