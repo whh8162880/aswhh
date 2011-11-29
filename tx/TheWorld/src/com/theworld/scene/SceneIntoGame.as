@@ -1,7 +1,7 @@
 package com.theworld.scene
 {
 	import com.map.MapModel;
-	import com.scene.core.SceneBase;
+	import com.module.scene.core.SceneBase;
 	import com.theworld.core.CoreGlobal;
 	import com.theworld.module.game.avatar.player.HeroVO;
 	import com.theworld.utils.TXHelp;

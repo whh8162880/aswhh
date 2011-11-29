@@ -1,6 +1,6 @@
 package
 {
-	import com.scene.core.SceneManager;
+	import com.module.scene.core.SceneManager;
 	import com.theworld.core.CoreGlobal;
 	import com.theworld.scene.SceneInit;
 	import com.theworld.scene.SceneIntoGame;

@@ -1,6 +1,6 @@
 package com.theworld.scene
 {
-	import com.scene.core.SceneBase;
+	import com.module.scene.core.SceneBase;
 	import com.theworld.components.panel.TXPanel;
 	import com.theworld.core.CoreGlobal;
 	

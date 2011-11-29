@@ -1,6 +1,6 @@
 package com.theworld.scene
 {
-	import com.scene.core.SceneBase;
+	import com.module.scene.core.SceneBase;
 	import com.theworld.core.CoreGlobal;
 	import com.theworld.module.game.avatar.player.HeroVO;
 	import com.theworld.net.socket.TxSocket;

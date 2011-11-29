@@ -4,7 +4,7 @@ package com.theworld.scene
 	import com.net.request.StreamAsyncRequest;
 	import com.net.request.event.RemoteOperationEvent;
 	import com.net.socket.resourcerequest.SocketResourceRequest;
-	import com.scene.core.SceneBase;
+	import com.module.scene.core.SceneBase;
 	import com.theworld.core.CoreGlobal;
 	import com.theworld.module.emote.vo.EmoteVO;
 	import com.theworld.module.game.avatar.player.HeroVO;
