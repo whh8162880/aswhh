@@ -1,27 +1,37 @@
 package com.components
 {
+	import avmplus.USE_ITRAITS;
+	
 	import flash.display.Graphics;
 	import flash.display.Sprite;
+	import flash.events.Event;
 	
 	import rfcomponents.button.Button;
 	
 	public class TestButton extends Button
 	{
-		public function TestButton(w:int,h:int)
+		private var colors:Array;
+		public function TestButton(w:int,h:int,colors:Array = null)
 		{
-			create(w,h,0xCCCCCC,false);
+			if(!colors){
+				colors = [0xCCCCCC,0x888888,0xDDDDDD];
+			}
+			this.colors = colors;
+			create(w,h,colors[0],false);
+			textField.textColor = 0;
+			textField.mouseEnabled = false;
+			_skin.useHandCursor = true;
+			_skin.buttonMode = true;
 		}
 		
-		override protected function renderFace():void{
-			var c:int = 0xCCCCCC;
+		override protected function doRenderFace():void{
+			var c:int = colors[0];
 			if(_enabled){
 				if(_mouse){
-					c = 0x888888;
+					c = colors[1];
 				}else if(_roll){
-					c = 0xDDDDDD;
+					c = colors[2];
 				}
-			}else{
-				c = 0xCCCCCC;
 			}
 			
 			var g:Graphics = _skin.graphics;

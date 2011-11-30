@@ -25,7 +25,7 @@ package rfcomponents.text
 			if(filter){
 				text.filters = filter;
 			}
-			//text.filters = [new GlowFilter(0xFFFFFF,100,2,2,3,1,false,false)];
+			//text.filters = [new GlowFilter(0,100,2,2,3,1,false,false)];
 			text.width = 20;
 			text.height = 20;
 			return text;
@@ -70,7 +70,7 @@ package rfcomponents.text
 		
 		override public function create(width:int, height:int, color:int=0xFFFFFF, line:Boolean=false,alpha:Number = 0):void{
 			offsize = new OffsizeVO();
-			textField = createText();
+			textField = createText(color);
 			super.create(width,height,color,line,alpha);
 			addChild(textField);
 			doEditable()
@@ -101,7 +101,7 @@ package rfcomponents.text
 			var _textHeight:int;
 			if(!_editable){
 				_textHeight = textField.textHeight;
-				textField.x = (_width - textField.textWidth-4)/2;
+				//textField.x = (_width - textField.textWidth-4)/2;
 			}else{
 				_textHeight = int(textField.defaultTextFormat.size)+2;
 				textField.x = 0;
@@ -111,7 +111,7 @@ package rfcomponents.text
 		
 		protected function doLabel():void{
 			textField.htmlText = _label;
-			textField.width = textField.textWidth+10;
+			//textField.width = textField.textWidth+10;
 			textResize();
 		}
 		
@@ -128,7 +128,7 @@ package rfcomponents.text
 				textField.mouseEnabled = false;
 				textField.selectable = false;
 				textField.type = TextFieldType.DYNAMIC;
-				label = textField.text;
+				_label = textField.text;
 			}
 			textResize();
 		}

@@ -54,15 +54,17 @@ package rfcomponents.list
 				item = new cls();
 			}
 			item.data = o;
+			displayItemList.push(item);
 			arrange(item,index++);
-			addChild(item.skin);
 		}
 		
 		protected function arrange(item:SkinBase,i:uint):void{
 			if(train){
-				item.moveTo((i%columnCount) * itemWidth,(i/columnCount) * itemHeight);
+				item.x = (i%columnCount) * itemWidth;
+				item.y = (i/columnCount) * itemHeight; 
 			}else{
-				item.moveTo((i/columnCount) * itemWidth,(i%columnCount) * itemHeight);
+				item.x = (i/columnCount) * itemWidth;
+				item.y = (i%columnCount) * itemHeight
 			}
 		}
 		
@@ -84,6 +86,10 @@ package rfcomponents.list
 				bufferList.push(item);
 			}
 			index = 0;
+		}
+		
+		public function getDisplayItems():Array{
+			return displayItemList;
 		}
 	}
 }

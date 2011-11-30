@@ -25,8 +25,8 @@ package com.utils
 		}
 		
 		public static function center(target:Sprite):void{
-			target.x = (stage.stageWidth - target.width)/2;
-			target.y = (stage.stageHeight - target.height)/2;
+			target.x = int((stage.stageWidth - target.width)/2);
+			target.y = int((stage.stageHeight - target.height)/2);
 		}
 		
 		public static function clearpop():void{

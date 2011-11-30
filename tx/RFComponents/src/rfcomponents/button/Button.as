@@ -84,5 +84,12 @@ package rfcomponents.button
 			addEventListener(MouseEvent.CLICK,func);
 		}
 		
+		override protected function textResize():void{
+			var _textHeight:int;
+			_textHeight = textField.textHeight;
+			textField.x = (_width - textField.textWidth-4)/2;
+			textField.y = (_height - _textHeight-6)/2;
+		}
+		
 	}
 }

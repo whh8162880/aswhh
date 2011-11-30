@@ -12,7 +12,7 @@ package com.components
 		public function TestCheckBox(w:int,h:int)
 		{
 			super(null, new TestCheckBoxRenderMachine());
-			create(w,h);
+			create(w,h,0);
 		}
 		
 		override protected function textResize():void{
