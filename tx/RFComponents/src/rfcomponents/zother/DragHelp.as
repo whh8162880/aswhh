@@ -105,7 +105,7 @@ package rfcomponents.zother
 			prey = target.mouseY;
 			
 			this.dispatchEvent(new Event(Event.CHANGE));
-			event.updateAfterEvent();
+		//	event.updateAfterEvent();
 		}
 		
 		protected function mouseUpHandler(event:MouseEvent):void{

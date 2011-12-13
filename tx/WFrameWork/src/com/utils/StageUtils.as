@@ -9,7 +9,7 @@ package com.utils
 	import flash.events.Event;
 	import flash.geom.Rectangle;
 	import flash.utils.getTimer;
-
+	
 	public class StageUtils
 	{
 		public function StageUtils()

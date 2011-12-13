@@ -1,10 +1,6 @@
 package com.components
 {
-	import avmplus.USE_ITRAITS;
-	
 	import flash.display.Graphics;
-	import flash.display.Sprite;
-	import flash.events.Event;
 	
 	import rfcomponents.button.Button;
 	
