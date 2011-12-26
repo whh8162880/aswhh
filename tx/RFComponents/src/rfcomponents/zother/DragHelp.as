@@ -13,11 +13,10 @@ package rfcomponents.zother
 
 	public class DragHelp extends DataBase
 	{
-		public static var disaptcher:EventDispatcher = new EventDispatcher()
-		
 		protected var target:Sprite;
 		protected var dragRect:Rectangle;
 		protected var dict:Dictionary;
+		public var stopDownEvent:Boolean;
 		public function DragHelp(target:Sprite,rect:Rectangle = null)
 		{
 			this.target = target;
@@ -54,6 +53,11 @@ package rfcomponents.zother
 			if(!_enabled){
 				return;
 			}
+			
+			if(stopDownEvent){
+				event.stopImmediatePropagation();
+			}
+			
 			var d:Sprite = event.currentTarget as Sprite;
 			this.stage = d.stage;
 			var rect:Rectangle = dict[d];
@@ -69,17 +73,18 @@ package rfcomponents.zother
 			prey = target.mouseY;
 			
 			
-			disaptcher.dispatchEvent(new DragEvent(DragEvent.DRAG_START,target));
+			dispatchEvent(new DragEvent(DragEvent.DRAG_START,target));
 		}
 		
 		public var dx:int;
 		public var dy:int;
+		protected var changeFlag:Boolean;
 		protected function moveHandler(event:MouseEvent):void{
 			var rect:Rectangle = target.getBounds(target);
 			var left:Number = rect.left;
 			var top:Number = rect.top
-			dx = target.x + (target.mouseX-prex); 
-			dy = target.y + (target.mouseY-prey);
+			dx = target.x + (target.mouseX-prex)*target.scaleX; 
+			dy = target.y + (target.mouseY-prey) * target.scaleY;
 			if(dragRect){
 				if((dx + target.width + left)>dragRect.width){
 					dx = dragRect.width - target.width - left;
@@ -104,6 +109,8 @@ package rfcomponents.zother
 			prex = target.mouseX;
 			prey = target.mouseY;
 			
+			changeFlag = true;
+			
 			this.dispatchEvent(new Event(Event.CHANGE));
 		//	event.updateAfterEvent();
 		}
@@ -111,7 +118,10 @@ package rfcomponents.zother
 		protected function mouseUpHandler(event:MouseEvent):void{
 			this.stage.removeEventListener(MouseEvent.MOUSE_MOVE,moveHandler);
 			this.stage.removeEventListener(MouseEvent.MOUSE_UP,mouseUpHandler);
-			disaptcher.dispatchEvent(new DragEvent(DragEvent.DRAG_STOP,target));
+			if(changeFlag){
+				dispatchEvent(new DragEvent(DragEvent.DRAG_STOP,target));
+			}
+			changeFlag = false;
 		}
 	}
 }

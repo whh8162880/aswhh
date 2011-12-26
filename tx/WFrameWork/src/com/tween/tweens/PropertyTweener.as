@@ -15,6 +15,9 @@ package com.tween.tweens
 		private var propertys:Array;
 		
 		public function form(obj:Object,duration:int):void{
+			if(isPlaying){
+				stop();
+			}
 			propertys.length = 0;
 			for (var p:String in obj){
 				if(target.hasOwnProperty(p) && (target[p] is Number) && target[p] != obj[p]){
@@ -26,6 +29,9 @@ package com.tween.tweens
 		}
 		
 		public function to(obj:Object,duration:int):void{
+			if(isPlaying){
+				stop();
+			}
 			propertys.length = 0;
 			for (var p:String in obj){
 				if(target.hasOwnProperty(p) && (target[p] is Number) && target[p] != obj[p]){

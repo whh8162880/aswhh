@@ -10,6 +10,7 @@ package rfcomponents.zother
 		private var typeDict:Dictionary;
 		private var index:int;
 		private var time:int;
+		private var isRender:Boolean;
 		public function RenderHelp(time:int)
 		{
 			typeDict = new Dictionary();
@@ -25,6 +26,10 @@ package rfcomponents.zother
 			}
 			vo.func = func;
 			vo.args = args;
+			if(isRender){
+				return;
+			}
+			isRender = true;
 			index = setTimeout(render,time);
 		}
 		
@@ -36,7 +41,8 @@ package rfcomponents.zother
 		}
 		
 		public function clearRender(type:String=null):void{
-			var vo:RenderVO
+			var vo:RenderVO;
+			isRender = false;
 			if(!type){
 				for each(vo in types){
 					typeDict[vo.type] = null;

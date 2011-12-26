@@ -55,7 +55,7 @@ package com.module.scene.core
         {
             _width = width;
             _height = height;
-            this.scrollRect = new Rectangle(0, 0, _width, _height)
+//            this.scrollRect = new Rectangle(0, 0, _width, _height)
             fullSceneFlag = false;
         }
 		

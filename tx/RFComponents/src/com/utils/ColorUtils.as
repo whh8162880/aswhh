@@ -39,5 +39,55 @@ package com.utils
 				target.filters = null;
 			}
 		}
+		
+		
+		private function RGB2HSL(r:Number, g:Number, b:Number):Array
+		{
+			var H:Number;
+			var S:Number;
+			var B:Number;
+			
+			var cmax:Number = (r > g) ? r : g;
+			if (b > cmax) {
+				cmax = b;
+			}
+			var cmin:Number = (r < g) ? r : g;
+			if (b < cmin) {
+				cmin = b;
+			}
+			B = cmax;
+			if (cmax != 0) {
+				S = (cmax - cmin)/cmax;
+			} else {
+				S = 0;
+			}
+			if (S == 0) {
+				H = 0;
+			} else {
+				var redc:Number   = (cmax - r)/(cmax - cmin);
+				var greenc:Number = (cmax - g)/(cmax - cmin);
+				var bluec:Number  = (cmax - b)/(cmax - cmin);
+				if (r == cmax) {
+					H = bluec - greenc;
+				} else if (g == cmax) {
+					H = 2.0 + redc - bluec;
+				} else {
+					H = 4.0 + greenc - redc;
+				}
+				H = H / 6.0;
+				if (H < 0) {
+					H = H + 1.0;
+				}
+			}
+			return [ H, S, B ];
+		}
+		
+		public static function getStringColor(color:int):String{
+			var str:String = color.toString(16);
+			while(str.length<6){
+				str = "0"+str;
+			}
+			return "#"+str;
+		}
 	}
 }

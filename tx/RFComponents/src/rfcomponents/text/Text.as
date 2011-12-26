@@ -13,12 +13,22 @@ package rfcomponents.text
 	
 	public class Text extends SkinBase
 	{
+		public static var blackFilter:Array = [new GlowFilter(0,100,2,2,3,1,false,false)];
+		
+		public static var whateFilter:Array = [new GlowFilter(0xFFFFFF,100,2,2,3,1,false,false)];
+		
+		public static function normalText(t:TextField):void{
+			t.width = t.textWidth + 5;
+			t.height = t.textHeight + 5;
+		}
+		
 		public static function createText(tcolor:int = 0xF8F8F8,filter:Array = null,size:int = 13):TextField{
 			var text:TextField = new TextField();
 			var textFormat:TextFormat = text.defaultTextFormat;
 			textFormat.font = 'Tahoma';
 			textFormat.size = size;
 			textFormat.color = tcolor;
+			textFormat.letterSpacing=size/5;
 			text.defaultTextFormat = textFormat;
 			text.mouseEnabled = false;
 			text.selectable = false;
@@ -110,9 +120,14 @@ package rfcomponents.text
 		}
 		
 		protected function doLabel():void{
-			textField.htmlText = _label;
-			//textField.width = textField.textWidth+10;
-			textResize();
+			if(textField){
+				textField.htmlText = _label;
+				if(!_editable){
+					textField.width = textField.textWidth+5;
+					textField.height = textField.textHeight+5;
+				}
+				textResize();
+			}
 		}
 		
 		protected function doEditable():void{
