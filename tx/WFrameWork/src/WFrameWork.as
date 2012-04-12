@@ -22,7 +22,8 @@ package
 	public class WFrameWork extends Sprite
 	{
 		public function WFrameWork()
-		{
+		{ 
+			//NZ8Vs4BJ6sc8
 			StageUtils.initStage(stage);
 			var s:Sprite = new Sprite();
 			s.graphics.beginFill(0xFF0000);
